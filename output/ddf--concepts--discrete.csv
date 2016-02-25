@@ -1,0 +1,55 @@
+concept,name,type
+country_code,Country Code,string
+short_name,Short Name,string
+table_name,Table Name,string
+long_name,Long Name,string
+2_alpha_code,2-alpha code,string
+currency_unit,Currency Unit,entity domain
+special_notes,Special Notes,string
+region,Region,entity domain
+income_group,Income Group,entity domain
+wb_2_code,WB-2 code,string
+national_accounts_base_year,National accounts base year,string
+national_accounts_reference_year,National accounts reference year,string
+sna_price_valuation,SNA price valuation,entity domain
+lending_category,Lending category,entity domain
+other_groups,Other groups,string
+system_of_national_accounts,System of National Accounts,entity domain
+alternative_conversion_factor,Alternative conversion factor,string
+ppp_survey_year,PPP survey year,string
+balance_of_payments_manual_in_use,Balance of Payments Manual in use,string
+external_debt_reporting_status,External debt Reporting status,entity domain
+system_of_trade,System of trade,entity domain
+government_accounting_concept,Government Accounting concept,entity domain
+imf_data_dissemination_standard,IMF data dissemination standard,entity domain
+latest_population_census,Latest population census,string
+latest_household_survey,Latest household survey,string
+source_of_most_recent_income_and_expenditure_data,Source of most recent Income and expenditure data,string
+vital_registration_complete,Vital registration complete,string
+latest_agricultural_census,Latest agricultural census,string
+latest_industrial_data,Latest industrial data,string
+latest_trade_data,Latest trade data,string
+latest_water_withdrawal_data,Latest water withdrawal data,string
+country,country,entity domain
+series_code,Series Code,string
+topic,Topic,string
+indicator_name,Indicator Name,string
+short_definition,Short definition,string
+long_definition,Long definition,string
+unit_of_measure,Unit of measure,string
+periodicity,Periodicity,string
+base_period,Base Period,string
+other_notes,Other notes,string
+aggregation_method,Aggregation method,entity domain
+limitations_and_exceptions,Limitations and exceptions,string
+notes_from_original_source,Notes from original source,string
+general_comments,General comments,string
+source,Source,string
+statistical_concept_and_methodology,Statistical concept and methodology,string
+development_relevance,Development relevance,string
+related_source_links,Related source links,string
+other_web_links,Other web links,string
+related_indicators,Related indicators,string
+license_type,License Type,entity domain
+series,series,entity domain
+year,Year,time
