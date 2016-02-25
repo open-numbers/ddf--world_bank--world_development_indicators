@@ -4,24 +4,24 @@ short_name,Short Name,string
 table_name,Table Name,string
 long_name,Long Name,string
 2_alpha_code,2-alpha code,string
-currency_unit,Currency Unit,entity domain
+currency_unit,Currency Unit,string
 special_notes,Special Notes,string
-region,Region,entity domain
-income_group,Income Group,entity domain
+region,Region,string
+income_group,Income Group,string
 wb_2_code,WB-2 code,string
 national_accounts_base_year,National accounts base year,string
 national_accounts_reference_year,National accounts reference year,string
-sna_price_valuation,SNA price valuation,entity domain
-lending_category,Lending category,entity domain
+sna_price_valuation,SNA price valuation,string
+lending_category,Lending category,string
 other_groups,Other groups,string
-system_of_national_accounts,System of National Accounts,entity domain
+system_of_national_accounts,System of National Accounts,string
 alternative_conversion_factor,Alternative conversion factor,string
 ppp_survey_year,PPP survey year,string
 balance_of_payments_manual_in_use,Balance of Payments Manual in use,string
-external_debt_reporting_status,External debt Reporting status,entity domain
-system_of_trade,System of trade,entity domain
-government_accounting_concept,Government Accounting concept,entity domain
-imf_data_dissemination_standard,IMF data dissemination standard,entity domain
+external_debt_reporting_status,External debt Reporting status,string
+system_of_trade,System of trade,string
+government_accounting_concept,Government Accounting concept,string
+imf_data_dissemination_standard,IMF data dissemination standard,string
 latest_population_census,Latest population census,string
 latest_household_survey,Latest household survey,string
 source_of_most_recent_income_and_expenditure_data,Source of most recent Income and expenditure data,string
@@ -40,7 +40,7 @@ unit_of_measure,Unit of measure,string
 periodicity,Periodicity,string
 base_period,Base Period,string
 other_notes,Other notes,string
-aggregation_method,Aggregation method,entity domain
+aggregation_method,Aggregation method,string
 limitations_and_exceptions,Limitations and exceptions,string
 notes_from_original_source,Notes from original source,string
 general_comments,General comments,string
@@ -50,6 +50,5 @@ development_relevance,Development relevance,string
 related_source_links,Related source links,string
 other_web_links,Other web links,string
 related_indicators,Related indicators,string
-license_type,License Type,entity domain
-series,series,entity domain
+license_type,License Type,string
 year,Year,time

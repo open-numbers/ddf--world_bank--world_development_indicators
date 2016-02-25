@@ -1,7 +1,0 @@
-aggregation_method,name
-0,Sum
-1,Weighted average
-2,Gap-filled total
-3,Median
-4,Unweighted average
-5,Linear mixed-effect model estimates
