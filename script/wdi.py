@@ -39,12 +39,11 @@ def extract_concept_discrete(country, series):
     # assign all concepts' type to string, then change the non string concepts
     # to their correct type.
     concepts_discrete['type'] = 'string'
-    ix_change = [31]  # the index of 'country' concept.
-    concepts_discrete['type'].iloc[ix_change] = 'entity domain'
 
-    # adding a year concept
+    # adding 'year' and 'country' concept
     concepts_discrete = concepts_discrete.append(
-        pd.DataFrame([['year', 'Year', 'time']], index=[53],
+        pd.DataFrame([['country', 'Country', 'entity_domain'],
+                      ['year', 'Year', 'time']], index=[0, 53],
                      columns=concepts_discrete.columns))
 
     return concepts_discrete
