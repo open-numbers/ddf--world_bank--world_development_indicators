@@ -30,8 +30,7 @@ latest_agricultural_census,Latest agricultural census,string
 latest_industrial_data,Latest industrial data,string
 latest_trade_data,Latest trade data,string
 latest_water_withdrawal_data,Latest water withdrawal data,string
-country,country,entity domain
-series_code,Series Code,string
+series_code,Series Code,entity domain
 topic,Topic,string
 indicator_name,Indicator Name,string
 short_definition,Short definition,string
