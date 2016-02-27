@@ -57,7 +57,7 @@ def extract_concept_continuous(country, series):
     concepts_continuous = series.copy()
 
     # adding some columns for DDF model
-    concepts_continuous['series'] = series['Series Code'].apply(to_concept_id)
+    concepts_continuous['concept'] = series['Series Code'].apply(to_concept_id)
     concepts_continuous['type'] = 'measure'
 
     # rename the columns into lower case alphanumeric and rearrange them
