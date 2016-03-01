@@ -111,8 +111,8 @@ def extract_datapoints_country_year(data):
 if __name__ == '__main__':
     print('reading source files...')
     data = pd.read_csv(data_csv)
-    country = pd.read_csv(country_csv, encoding='latin')
-    series = pd.read_csv(series_csv, encoding='latin')
+    country = pd.read_csv(country_csv, encoding='latin', dtype=str)
+    series = pd.read_csv(series_csv, encoding='latin', dtype=str)
 
     print('creating concepts files...')
     concept_continuous = extract_concept_continuous(country, series)
