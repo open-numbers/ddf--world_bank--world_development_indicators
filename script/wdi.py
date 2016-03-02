@@ -28,7 +28,7 @@ def to_concept_id(s):
 def extract_concept_discrete(country, series):
     """extract all discrete concepts, base on country and series data."""
     # headers for dataframe and csv file
-    header_discrete = ['concept', 'name', 'type']
+    header_discrete = ['concept', 'name', 'concept_type']
 
     # create the dataframe
     concepts_discrete = pd.DataFrame([], columns=header_discrete)
@@ -38,7 +38,7 @@ def extract_concept_discrete(country, series):
 
     # assign all concepts' type to string, then change the non string concepts
     # to their correct type.
-    concepts_discrete['type'] = 'string'
+    concepts_discrete['concept_type'] = 'string'
 
     # adding 'year' and 'country' concept
     concepts_discrete = concepts_discrete.append(
@@ -58,7 +58,7 @@ def extract_concept_continuous(country, series):
 
     # adding some columns for DDF model
     concepts_continuous['concept'] = series['Series Code'].apply(to_concept_id)
-    concepts_continuous['type'] = 'measure'
+    concepts_continuous['concept_type'] = 'measure'
 
     # rename the columns into lower case alphanumeric and rearrange them
     idxs = np.r_[concepts_continuous.columns[-2:], concepts_continuous.columns[:-2]]

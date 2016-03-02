@@ -1,4 +1,4 @@
-concept,name,type
+concept,name,concept_type
 country_code,Country Code,string
 short_name,Short Name,string
 table_name,Table Name,string
