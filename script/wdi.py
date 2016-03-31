@@ -135,6 +135,5 @@ if __name__ == '__main__':
     datapoints = extract_datapoints_country_year(data)
     for k, v in datapoints.items():
         v.to_csv(
-            os.path.join(output_dir, 'datapoints',
-                         'ddf--datapoints--'+k+'--by--country--year.csv'),
+            os.path.join(output_dir, 'ddf--datapoints--'+k+'--by--country--year.csv'),
             index=False, encoding='utf8')
