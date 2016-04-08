@@ -9,6 +9,7 @@ import pandas as pd
 import numpy as np
 import re
 import os
+from index import create_index_file
 
 # configuration of file path.
 source_dir = '../source/WDI_csv/'
@@ -137,3 +138,6 @@ if __name__ == '__main__':
         v.to_csv(
             os.path.join(output_dir, 'ddf--datapoints--'+k+'--by--country--year.csv'),
             index=False, encoding='utf8')
+
+    print('generating index file...')
+    create_index_file(output_dir, os.path.join(output_dir, 'ddf--index.csv'))
