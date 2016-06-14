@@ -13,7 +13,7 @@ from index import create_index_file
 
 # configuration of file path.
 source_dir = '../source/WDI_csv/'
-output_dir = '../output/'
+output_dir = '../../'
 
 data_csv = os.path.join(source_dir, 'WDI_Data.csv')
 country_csv = os.path.join(source_dir, 'WDI_Country.csv')
