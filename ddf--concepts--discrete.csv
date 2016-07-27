@@ -52,3 +52,4 @@ related_indicators,Related indicators,string
 license_type,License Type,string
 country,Country,entity_domain
 year,Year,time
+name,Name,string

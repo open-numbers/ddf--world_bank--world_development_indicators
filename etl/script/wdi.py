@@ -137,6 +137,7 @@ if __name__ == '__main__':
     print('creating datapoints...')
     datapoints = extract_datapoints_country_year(data)
     for k, v in datapoints.items():
+        v[k] = pd.to_numeric(v[k])
         v.to_csv(
             os.path.join(output_dir,
                          'ddf--datapoints--'+k+'--by--country--year.csv'),
