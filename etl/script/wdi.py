@@ -44,7 +44,9 @@ def extract_concept_discrete(country, series):
     # adding 'year' and 'country' concept
     concepts_discrete = concepts_discrete.append(
         pd.DataFrame([['country', 'Country', 'entity_domain'],
-                      ['year', 'Year', 'time']], index=[0, 53],
+                      ['year', 'Year', 'time'],
+                      ['name', 'Name', 'string'],
+                      ], index=[0, 53, 54],
                      columns=concepts_discrete.columns))
 
     return concepts_discrete
@@ -136,8 +138,16 @@ if __name__ == '__main__':
     datapoints = extract_datapoints_country_year(data)
     for k, v in datapoints.items():
         v.to_csv(
-            os.path.join(output_dir, 'ddf--datapoints--'+k+'--by--country--year.csv'),
-            index=False, encoding='utf8')
+            os.path.join(output_dir,
+                         'ddf--datapoints--'+k+'--by--country--year.csv'),
+            index=False,
+            encoding='utf8',
+            # keep 10 digits. this is to avoid pandas
+            # use scientific notation in the datapoints
+            # and also keep precision. There are really
+            # small/big numbers in this datset.
+            float_format='%.10f'
+        )
 
     print('generating index file...')
     create_index_file(output_dir, os.path.join(output_dir, 'ddf--index.csv'))
