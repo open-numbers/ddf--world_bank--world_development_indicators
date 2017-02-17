@@ -113,43 +113,44 @@ def extract_datapoints_country_year(data):
 
 
 if __name__ == '__main__':
-#    print('reading source files...')
-#    data = pd.read_csv(data_csv, encoding='latin', dtype=str)
-#    country = pd.read_csv(country_csv, encoding='latin', dtype=str)
-#    series = pd.read_csv(series_csv, encoding='latin', dtype=str)
-#
-#    print('creating concepts files...')
-#    concept_continuous = extract_concept_continuous(country, series)
-#    concept_continuous.to_csv(
-#        os.path.join(output_dir, 'ddf--concepts--continuous.csv'),
-#        index=False, encoding='utf8')
-#
-#    concept_discrete = extract_concept_discrete(country, series)
-#    concept_discrete.to_csv(
-#        os.path.join(output_dir, 'ddf--concepts--discrete.csv'),
-#        index=False, encoding='utf8')
-#
-#    print('creating entities files...')
-#    entities_country = extract_entities_country(country, series)
-#    entities_country.to_csv(
-#        os.path.join(output_dir, 'ddf--entities--country.csv'),
-#        index=False, encoding='utf8')
-#
-#    print('creating datapoints...')
-#    datapoints = extract_datapoints_country_year(data)
-#    for k, v in datapoints.items():
-#        v[k] = pd.to_numeric(v[k])
-#        v.to_csv(
-#            os.path.join(output_dir,
-#                         'ddf--datapoints--'+k+'--by--country--year.csv'),
-#            index=False,
-#            encoding='utf8',
-#            # keep 10 digits. this is to avoid pandas
-#            # use scientific notation in the datapoints
-#            # and also keep precision. There are really
-#            # small/big numbers in this datset.
-#            float_format='%.10f'
-#        )
+
+    print('reading source files...')
+    data = pd.read_csv(data_csv, encoding='latin', dtype=str)
+    country = pd.read_csv(country_csv, encoding='latin', dtype=str)
+    series = pd.read_csv(series_csv, encoding='latin', dtype=str)
+
+    print('creating concepts files...')
+    concept_continuous = extract_concept_continuous(country, series)
+    concept_continuous.to_csv(
+        os.path.join(output_dir, 'ddf--concepts--continuous.csv'),
+        index=False, encoding='utf8')
+
+    concept_discrete = extract_concept_discrete(country, series)
+    concept_discrete.to_csv(
+        os.path.join(output_dir, 'ddf--concepts--discrete.csv'),
+        index=False, encoding='utf8')
+
+    print('creating entities files...')
+    entities_country = extract_entities_country(country, series)
+    entities_country.to_csv(
+        os.path.join(output_dir, 'ddf--entities--country.csv'),
+        index=False, encoding='utf8')
+
+    print('creating datapoints...')
+    datapoints = extract_datapoints_country_year(data)
+    for k, v in datapoints.items():
+        v[k] = pd.to_numeric(v[k])
+        v.to_csv(
+            os.path.join(output_dir,
+                         'ddf--datapoints--'+k+'--by--country--year.csv'),
+            index=False,
+            encoding='utf8',
+            # keep 10 digits. this is to avoid pandas
+            # use scientific notation in the datapoints
+            # and also keep precision. There are really
+            # small/big numbers in this datset.
+            float_format='%.10f'
+        )
 
     print('generating datapackage file...')
     datapackage = get_datapackage(output_dir, to_disk=True)
