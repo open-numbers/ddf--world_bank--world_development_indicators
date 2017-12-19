@@ -9,7 +9,6 @@ import pandas as pd
 import numpy as np
 import re
 import os
-from index import create_index_file
 
 # configuration of file path.
 source_dir = '../source/WDI_csv/'
@@ -149,6 +148,3 @@ if __name__ == '__main__':
             # small/big numbers in this datset.
             float_format='%.10f'
         )
-
-    print('generating index file...')
-    create_index_file(output_dir, os.path.join(output_dir, 'ddf--index.csv'))
