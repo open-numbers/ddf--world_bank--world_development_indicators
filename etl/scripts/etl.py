@@ -10,6 +10,8 @@ import numpy as np
 import re
 import os
 
+from ddf_utils.str import to_concept_id
+
 # configuration of file path.
 source_dir = '../source/'
 output_dir = '../../'
@@ -17,12 +19,6 @@ output_dir = '../../'
 data_csv = os.path.join(source_dir, 'WDIData.csv')
 country_csv = os.path.join(source_dir, 'WDICountry.csv')
 series_csv = os.path.join(source_dir, 'WDISeries.csv')
-
-
-# functions for creating DDF files.
-def to_concept_id(s):
-    '''convert a string to lowercase alphanumeric + underscore id for concepts'''
-    return re.sub(r'[/ -\.]+', '_', s).lower()
 
 
 def extract_concept_discrete(country, series):
@@ -113,9 +109,9 @@ def extract_datapoints_country_year(data):
 if __name__ == '__main__':
 
     print('reading source files...')
-    data = pd.read_csv(data_csv, encoding='latin', dtype=str)
-    country = pd.read_csv(country_csv, encoding='latin', dtype=str)
-    series = pd.read_csv(series_csv, encoding='latin', dtype=str)
+    data = pd.read_csv(data_csv, encoding='latin', dtype=str).dropna(how='all', axis=1)
+    country = pd.read_csv(country_csv, encoding='latin', dtype=str).dropna(how='all', axis=1)
+    series = pd.read_csv(series_csv, encoding='latin', dtype=str).dropna(how='all', axis=1)
 
     print('creating concepts files...')
     concept_continuous = extract_concept_continuous(country, series)
