@@ -47,8 +47,6 @@ source,Source,string
 statistical_concept_and_methodology,Statistical concept and methodology,string
 development_relevance,Development relevance,string
 related_source_links,Related source links,string
-other_web_links,Other web links,string
-related_indicators,Related indicators,string
 license_type,License Type,string
 country,Country,entity_domain
 year,Year,time
