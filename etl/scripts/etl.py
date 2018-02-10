@@ -11,12 +11,12 @@ import re
 import os
 
 # configuration of file path.
-source_dir = '../source/WDI_csv/'
+source_dir = '../source/'
 output_dir = '../../'
 
-data_csv = os.path.join(source_dir, 'WDI_Data.csv')
-country_csv = os.path.join(source_dir, 'WDI_Country.csv')
-series_csv = os.path.join(source_dir, 'WDI_Series.csv')
+data_csv = os.path.join(source_dir, 'WDIData.csv')
+country_csv = os.path.join(source_dir, 'WDICountry.csv')
+series_csv = os.path.join(source_dir, 'WDISeries.csv')
 
 
 # functions for creating DDF files.
