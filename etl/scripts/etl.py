@@ -117,18 +117,18 @@ if __name__ == '__main__':
     concept_continuous = extract_concept_continuous(country, series)
     concept_continuous.to_csv(
         os.path.join(output_dir, 'ddf--concepts--continuous.csv'),
-        index=False, encoding='utf8')
+        index=False, encoding='latin')
 
     concept_discrete = extract_concept_discrete(country, series)
     concept_discrete.to_csv(
         os.path.join(output_dir, 'ddf--concepts--discrete.csv'),
-        index=False, encoding='utf8')
+        index=False, encoding='latin')
 
     print('creating entities files...')
     entities_country = extract_entities_country(country, series)
     entities_country.to_csv(
         os.path.join(output_dir, 'ddf--entities--country.csv'),
-        index=False, encoding='utf8')
+        index=False, encoding='latin')
 
     print('creating datapoints...')
     datapoints = extract_datapoints_country_year(data)
@@ -138,7 +138,7 @@ if __name__ == '__main__':
             os.path.join(output_dir,
                          'ddf--datapoints--'+k+'--by--country--year.csv'),
             index=False,
-            encoding='utf8',
+            encoding='latin',
             # keep 10 digits. this is to avoid pandas
             # use scientific notation in the datapoints
             # and also keep precision. There are really
