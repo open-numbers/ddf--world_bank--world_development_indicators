@@ -106,6 +106,19 @@ def extract_datapoints_country_year(data):
     return res
 
 
+def remove_cr(df):
+    """escape all carrier returns in each cell"""
+
+    def process(s):
+        if not pd.isnull(s):
+            if isinstance(s, str):
+                return s.replace('\n', '\\n')
+        return s
+
+    for c in df.columns:
+        df[c] = df[c].map(process)
+
+
 if __name__ == '__main__':
 
     print('reading source files...')
@@ -115,17 +128,20 @@ if __name__ == '__main__':
 
     print('creating concepts files...')
     concept_continuous = extract_concept_continuous(country, series)
+    remove_cr(concept_continuous)
     concept_continuous.to_csv(
         os.path.join(output_dir, 'ddf--concepts--continuous.csv'),
         index=False, encoding='latin')
 
     concept_discrete = extract_concept_discrete(country, series)
+    remove_cr(concept_discrete)
     concept_discrete.to_csv(
         os.path.join(output_dir, 'ddf--concepts--discrete.csv'),
         index=False, encoding='latin')
 
     print('creating entities files...')
     entities_country = extract_entities_country(country, series)
+    remove_cr(entities_country)
     entities_country.to_csv(
         os.path.join(output_dir, 'ddf--entities--country.csv'),
         index=False, encoding='latin')
