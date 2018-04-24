@@ -25889,7 +25889,7 @@
                         "name": "country_code"
                     },
                     {
-                        "name": "short_name"
+                        "name": "name"
                     },
                     {
                         "name": "table_name"
@@ -26294,7 +26294,7 @@
                         "name": "topic"
                     },
                     {
-                        "name": "indicator_name"
+                        "name": "name"
                     },
                     {
                         "name": "short_definition"
@@ -33304,7 +33304,7 @@
                 "primaryKey": [
                     "concept"
                 ],
-                "value": "indicator_name",
+                "value": "name",
                 "resources": [
                     "ddf--concepts--continuous"
                 ]
@@ -33693,7 +33693,7 @@
                 "primaryKey": [
                     "country"
                 ],
-                "value": "short_name",
+                "value": "name",
                 "resources": [
                     "ddf--entities--country"
                 ]
