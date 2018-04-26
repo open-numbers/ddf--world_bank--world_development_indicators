@@ -38,7 +38,6 @@ long_definition,Long definition,string
 unit_of_measure,Unit of measure,string
 periodicity,Periodicity,string
 base_period,Base Period,string
-other_notes,Other notes,string
 aggregation_method,Aggregation method,string
 limitations_and_exceptions,Limitations and exceptions,string
 notes_from_original_source,Notes from original source,string
