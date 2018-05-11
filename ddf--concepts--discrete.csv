@@ -1,6 +1,5 @@
 concept,name,concept_type
 country_code,Country Code,string
-short_name,Short Name,string
 table_name,Table Name,string
 long_name,Long Name,string
 2_alpha_code,2-alpha code,string
@@ -32,7 +31,6 @@ latest_trade_data,Latest trade data,string
 latest_water_withdrawal_data,Latest water withdrawal data,string
 series_code,Series Code,string
 topic,Topic,string
-indicator_name,Indicator Name,string
 short_definition,Short definition,string
 long_definition,Long definition,string
 unit_of_measure,Unit of measure,string
