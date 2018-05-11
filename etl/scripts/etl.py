@@ -11,6 +11,7 @@ import re
 import os
 
 from ddf_utils.str import to_concept_id
+from ddf_utils.datapackage import dump_json, get_datapackage
 
 # configuration of file path.
 source_dir = '../source/'
@@ -31,6 +32,9 @@ def extract_concept_discrete(country, series):
     # all columns in country data and series data are treated as discrete concepts.
     concepts_discrete['name'] = np.concatenate([country.columns, series.columns])
     concepts_discrete['concept'] = concepts_discrete['name'].apply(to_concept_id)
+
+    # remove concepts which are renamed 
+    concepts_discrete = concepts_discrete[~concepts_discrete.concept.isin(["short_name","indicator_name"])]
 
     # assign all concepts' type to string, then change the non string concepts
     # to their correct type.
@@ -62,6 +66,7 @@ def extract_concept_continuous(country, series):
     idxs = np.r_[concepts_continuous.columns[-2:], concepts_continuous.columns[:-2]]
     concepts_continuous = concepts_continuous.loc[:, idxs]
     concepts_continuous.columns = list(map(to_concept_id, concepts_continuous.columns))
+    concepts_continuous.rename(index=str, columns={"indicator_name": "name"}, inplace=True)
 
     return concepts_continuous
 
@@ -74,6 +79,7 @@ def extract_entities_country(country, series):
     entities_country['country'] = entities_country['Country Code'].apply(to_concept_id)
 
     entities_country.columns = list(map(to_concept_id, entities_country.columns))
+    entities_country.rename(index=str, columns={"short_name": "name"}, inplace=True)
     # rearrange the columns
     cols = np.r_[entities_country.columns[-1:], entities_country.columns[:-1]]
 
@@ -161,3 +167,7 @@ if __name__ == '__main__':
             # small/big numbers in this datset.
             float_format='%.10f'
         )
+
+    # datapackage    
+    dump_json(os.path.join(output_dir, 'datapackage.json'), get_datapackage(output_dir, update=True))
+
