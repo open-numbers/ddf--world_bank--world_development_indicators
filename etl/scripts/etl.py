@@ -33,7 +33,7 @@ def extract_concept_discrete(country, series):
     concepts_discrete['name'] = np.concatenate([country.columns, series.columns])
     concepts_discrete['concept'] = concepts_discrete['name'].apply(to_concept_id)
 
-    # remove concepts which are renamed 
+    # remove concepts which are renamed
     concepts_discrete = concepts_discrete[~concepts_discrete.concept.isin(["short_name","indicator_name"])]
 
     # assign all concepts' type to string, then change the non string concepts
@@ -156,18 +156,18 @@ if __name__ == '__main__':
     datapoints = extract_datapoints_country_year(data)
     for k, v in datapoints.items():
         v[k] = pd.to_numeric(v[k])
-        v.to_csv(
-            os.path.join(output_dir,
-                         'ddf--datapoints--'+k+'--by--country--year.csv'),
-            index=False,
-            encoding='latin',
-            # keep 10 digits. this is to avoid pandas
-            # use scientific notation in the datapoints
-            # and also keep precision. There are really
-            # small/big numbers in this datset.
-            float_format='%.10f'
-        )
+        if not v.empty:
+            v.to_csv(
+                os.path.join(output_dir,
+                             'ddf--datapoints--'+k+'--by--country--year.csv'),
+                index=False,
+                encoding='latin',
+                # keep 10 digits. this is to avoid pandas
+                # use scientific notation in the datapoints
+                # and also keep precision. There are really
+                # small/big numbers in this datset.
+                float_format='%.10f'
+            )
 
-    # datapackage    
+    # datapackage
     dump_json(os.path.join(output_dir, 'datapackage.json'), get_datapackage(output_dir, update=True))
-
