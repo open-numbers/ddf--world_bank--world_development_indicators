@@ -3,7 +3,7 @@
     "language": {
         "id": "en"
     },
-    "created": "2018-05-27T01:29:11.483826+00:00",
+    "created": "2018-07-15T01:22:15.820211+00:00",
     "resources": [
         {
             "path": "ddf--concepts--continuous.csv",
@@ -13026,27 +13026,6 @@
             }
         },
         {
-            "path": "ddf--datapoints--ie_ppi_tele_cd--by--country--year.csv",
-            "name": "ddf--datapoints--ie_ppi_tele_cd--by--country--year",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "ie_ppi_tele_cd"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
             "path": "ddf--datapoints--ie_ppi_tran_cd--by--country--year.csv",
             "name": "ddf--datapoints--ie_ppi_tran_cd--by--country--year",
             "schema": {
@@ -13122,27 +13101,6 @@
                     },
                     {
                         "name": "ie_ppn_icti_cd"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
-            "path": "ddf--datapoints--ie_ppn_tele_cd--by--country--year.csv",
-            "name": "ddf--datapoints--ie_ppn_tele_cd--by--country--year",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "ie_ppn_tele_cd"
                     }
                 ],
                 "primaryKey": [
@@ -14790,132 +14748,6 @@
             }
         },
         {
-            "path": "ddf--datapoints--ne_con_petc_cd--by--country--year.csv",
-            "name": "ddf--datapoints--ne_con_petc_cd--by--country--year",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "ne_con_petc_cd"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
-            "path": "ddf--datapoints--ne_con_petc_cn--by--country--year.csv",
-            "name": "ddf--datapoints--ne_con_petc_cn--by--country--year",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "ne_con_petc_cn"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
-            "path": "ddf--datapoints--ne_con_petc_kd--by--country--year.csv",
-            "name": "ddf--datapoints--ne_con_petc_kd--by--country--year",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "ne_con_petc_kd"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
-            "path": "ddf--datapoints--ne_con_petc_kd_zg--by--country--year.csv",
-            "name": "ddf--datapoints--ne_con_petc_kd_zg--by--country--year",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "ne_con_petc_kd_zg"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
-            "path": "ddf--datapoints--ne_con_petc_kn--by--country--year.csv",
-            "name": "ddf--datapoints--ne_con_petc_kn--by--country--year",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "ne_con_petc_kn"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
-            "path": "ddf--datapoints--ne_con_petc_zs--by--country--year.csv",
-            "name": "ddf--datapoints--ne_con_petc_zs--by--country--year",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "ne_con_petc_zs"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
             "path": "ddf--datapoints--ne_con_prvt_cd--by--country--year.csv",
             "name": "ddf--datapoints--ne_con_prvt_cd--by--country--year",
             "schema": {
@@ -15105,8 +14937,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--ne_con_tetc_cd--by--country--year.csv",
-            "name": "ddf--datapoints--ne_con_tetc_cd--by--country--year",
+            "path": "ddf--datapoints--ne_con_prvt_zs--by--country--year.csv",
+            "name": "ddf--datapoints--ne_con_prvt_zs--by--country--year",
             "schema": {
                 "fields": [
                     {
@@ -15116,112 +14948,7 @@
                         "name": "year"
                     },
                     {
-                        "name": "ne_con_tetc_cd"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
-            "path": "ddf--datapoints--ne_con_tetc_cn--by--country--year.csv",
-            "name": "ddf--datapoints--ne_con_tetc_cn--by--country--year",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "ne_con_tetc_cn"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
-            "path": "ddf--datapoints--ne_con_tetc_kd--by--country--year.csv",
-            "name": "ddf--datapoints--ne_con_tetc_kd--by--country--year",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "ne_con_tetc_kd"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
-            "path": "ddf--datapoints--ne_con_tetc_kd_zg--by--country--year.csv",
-            "name": "ddf--datapoints--ne_con_tetc_kd_zg--by--country--year",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "ne_con_tetc_kd_zg"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
-            "path": "ddf--datapoints--ne_con_tetc_kn--by--country--year.csv",
-            "name": "ddf--datapoints--ne_con_tetc_kn--by--country--year",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "ne_con_tetc_kn"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
-            "path": "ddf--datapoints--ne_con_tetc_zs--by--country--year.csv",
-            "name": "ddf--datapoints--ne_con_tetc_zs--by--country--year",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "ne_con_tetc_zs"
+                        "name": "ne_con_prvt_zs"
                     }
                 ],
                 "primaryKey": [
@@ -15306,6 +15033,27 @@
                     },
                     {
                         "name": "ne_con_totl_kn"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--ne_con_totl_zs--by--country--year.csv",
+            "name": "ddf--datapoints--ne_con_totl_zs--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "ne_con_totl_zs"
                     }
                 ],
                 "primaryKey": [
@@ -16302,6 +16050,48 @@
             }
         },
         {
+            "path": "ddf--datapoints--nv_fsm_totl_cn--by--country--year.csv",
+            "name": "ddf--datapoints--nv_fsm_totl_cn--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "nv_fsm_totl_cn"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--nv_fsm_totl_kn--by--country--year.csv",
+            "name": "ddf--datapoints--nv_fsm_totl_kn--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "nv_fsm_totl_kn"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
             "path": "ddf--datapoints--nv_ind_empl_kd--by--country--year.csv",
             "name": "ddf--datapoints--nv_ind_empl_kd--by--country--year",
             "schema": {
@@ -16722,8 +16512,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--nv_srv_tetc_cd--by--country--year.csv",
-            "name": "ddf--datapoints--nv_srv_tetc_cd--by--country--year",
+            "path": "ddf--datapoints--nv_srv_totl_kd--by--country--year.csv",
+            "name": "ddf--datapoints--nv_srv_totl_kd--by--country--year",
             "schema": {
                 "fields": [
                     {
@@ -16733,7 +16523,7 @@
                         "name": "year"
                     },
                     {
-                        "name": "nv_srv_tetc_cd"
+                        "name": "nv_srv_totl_kd"
                     }
                 ],
                 "primaryKey": [
@@ -16743,8 +16533,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--nv_srv_tetc_cn--by--country--year.csv",
-            "name": "ddf--datapoints--nv_srv_tetc_cn--by--country--year",
+            "path": "ddf--datapoints--nv_srv_totl_kd_zg--by--country--year.csv",
+            "name": "ddf--datapoints--nv_srv_totl_kd_zg--by--country--year",
             "schema": {
                 "fields": [
                     {
@@ -16754,7 +16544,7 @@
                         "name": "year"
                     },
                     {
-                        "name": "nv_srv_tetc_cn"
+                        "name": "nv_srv_totl_kd_zg"
                     }
                 ],
                 "primaryKey": [
@@ -16764,8 +16554,8 @@
             }
         },
         {
-            "path": "ddf--datapoints--nv_srv_tetc_kd--by--country--year.csv",
-            "name": "ddf--datapoints--nv_srv_tetc_kd--by--country--year",
+            "path": "ddf--datapoints--nv_srv_totl_zs--by--country--year.csv",
+            "name": "ddf--datapoints--nv_srv_totl_zs--by--country--year",
             "schema": {
                 "fields": [
                     {
@@ -16775,70 +16565,7 @@
                         "name": "year"
                     },
                     {
-                        "name": "nv_srv_tetc_kd"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
-            "path": "ddf--datapoints--nv_srv_tetc_kd_zg--by--country--year.csv",
-            "name": "ddf--datapoints--nv_srv_tetc_kd_zg--by--country--year",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "nv_srv_tetc_kd_zg"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
-            "path": "ddf--datapoints--nv_srv_tetc_kn--by--country--year.csv",
-            "name": "ddf--datapoints--nv_srv_tetc_kn--by--country--year",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "nv_srv_tetc_kn"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
-            "path": "ddf--datapoints--nv_srv_tetc_zs--by--country--year.csv",
-            "name": "ddf--datapoints--nv_srv_tetc_zs--by--country--year",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "nv_srv_tetc_zs"
+                        "name": "nv_srv_totl_zs"
                     }
                 ],
                 "primaryKey": [
@@ -24210,6 +23937,27 @@
                     },
                     {
                         "name": "sh_prg_anem"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--sh_prv_smok--by--country--year.csv",
+            "name": "ddf--datapoints--sh_prv_smok--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "sh_prv_smok"
                     }
                 ],
                 "primaryKey": [
@@ -40220,16 +39968,6 @@
                     "country",
                     "year"
                 ],
-                "value": "ie_ppi_tele_cd",
-                "resources": [
-                    "ddf--datapoints--ie_ppi_tele_cd--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
                 "value": "ie_ppi_tran_cd",
                 "resources": [
                     "ddf--datapoints--ie_ppi_tran_cd--by--country--year"
@@ -40263,16 +40001,6 @@
                 "value": "ie_ppn_icti_cd",
                 "resources": [
                     "ddf--datapoints--ie_ppn_icti_cd--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "ie_ppn_tele_cd",
-                "resources": [
-                    "ddf--datapoints--ie_ppn_tele_cd--by--country--year"
                 ]
             },
             {
@@ -41060,66 +40788,6 @@
                     "country",
                     "year"
                 ],
-                "value": "ne_con_petc_cd",
-                "resources": [
-                    "ddf--datapoints--ne_con_petc_cd--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "ne_con_petc_cn",
-                "resources": [
-                    "ddf--datapoints--ne_con_petc_cn--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "ne_con_petc_kd",
-                "resources": [
-                    "ddf--datapoints--ne_con_petc_kd--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "ne_con_petc_kd_zg",
-                "resources": [
-                    "ddf--datapoints--ne_con_petc_kd_zg--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "ne_con_petc_kn",
-                "resources": [
-                    "ddf--datapoints--ne_con_petc_kn--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "ne_con_petc_zs",
-                "resources": [
-                    "ddf--datapoints--ne_con_petc_zs--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
                 "value": "ne_con_prvt_cd",
                 "resources": [
                     "ddf--datapoints--ne_con_prvt_cd--by--country--year"
@@ -41210,59 +40878,9 @@
                     "country",
                     "year"
                 ],
-                "value": "ne_con_tetc_cd",
+                "value": "ne_con_prvt_zs",
                 "resources": [
-                    "ddf--datapoints--ne_con_tetc_cd--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "ne_con_tetc_cn",
-                "resources": [
-                    "ddf--datapoints--ne_con_tetc_cn--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "ne_con_tetc_kd",
-                "resources": [
-                    "ddf--datapoints--ne_con_tetc_kd--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "ne_con_tetc_kd_zg",
-                "resources": [
-                    "ddf--datapoints--ne_con_tetc_kd_zg--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "ne_con_tetc_kn",
-                "resources": [
-                    "ddf--datapoints--ne_con_tetc_kn--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "ne_con_tetc_zs",
-                "resources": [
-                    "ddf--datapoints--ne_con_tetc_zs--by--country--year"
+                    "ddf--datapoints--ne_con_prvt_zs--by--country--year"
                 ]
             },
             {
@@ -41303,6 +40921,16 @@
                 "value": "ne_con_totl_kn",
                 "resources": [
                     "ddf--datapoints--ne_con_totl_kn--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "ne_con_totl_zs",
+                "resources": [
+                    "ddf--datapoints--ne_con_totl_zs--by--country--year"
                 ]
             },
             {
@@ -41780,6 +41408,26 @@
                     "country",
                     "year"
                 ],
+                "value": "nv_fsm_totl_cn",
+                "resources": [
+                    "ddf--datapoints--nv_fsm_totl_cn--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "nv_fsm_totl_kn",
+                "resources": [
+                    "ddf--datapoints--nv_fsm_totl_kn--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
                 "value": "nv_ind_empl_kd",
                 "resources": [
                     "ddf--datapoints--nv_ind_empl_kd--by--country--year"
@@ -41980,9 +41628,9 @@
                     "country",
                     "year"
                 ],
-                "value": "nv_srv_tetc_cd",
+                "value": "nv_srv_totl_kd",
                 "resources": [
-                    "ddf--datapoints--nv_srv_tetc_cd--by--country--year"
+                    "ddf--datapoints--nv_srv_totl_kd--by--country--year"
                 ]
             },
             {
@@ -41990,9 +41638,9 @@
                     "country",
                     "year"
                 ],
-                "value": "nv_srv_tetc_cn",
+                "value": "nv_srv_totl_kd_zg",
                 "resources": [
-                    "ddf--datapoints--nv_srv_tetc_cn--by--country--year"
+                    "ddf--datapoints--nv_srv_totl_kd_zg--by--country--year"
                 ]
             },
             {
@@ -42000,39 +41648,9 @@
                     "country",
                     "year"
                 ],
-                "value": "nv_srv_tetc_kd",
+                "value": "nv_srv_totl_zs",
                 "resources": [
-                    "ddf--datapoints--nv_srv_tetc_kd--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "nv_srv_tetc_kd_zg",
-                "resources": [
-                    "ddf--datapoints--nv_srv_tetc_kd_zg--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "nv_srv_tetc_kn",
-                "resources": [
-                    "ddf--datapoints--nv_srv_tetc_kn--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "nv_srv_tetc_zs",
-                "resources": [
-                    "ddf--datapoints--nv_srv_tetc_zs--by--country--year"
+                    "ddf--datapoints--nv_srv_totl_zs--by--country--year"
                 ]
             },
             {
@@ -45543,6 +45161,16 @@
                 "value": "sh_prg_anem",
                 "resources": [
                     "ddf--datapoints--sh_prg_anem--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "sh_prv_smok",
+                "resources": [
+                    "ddf--datapoints--sh_prv_smok--by--country--year"
                 ]
             },
             {
@@ -49966,6 +49594,6 @@
                 ]
             }
         ],
-        "synonym": []
+        "synonyms": []
     }
 }
