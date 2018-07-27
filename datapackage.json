@@ -3,7 +3,7 @@
     "language": {
         "id": "en"
     },
-    "created": "2018-07-15T01:22:15.820211+00:00",
+    "created": "2018-07-27T01:49:31.361391+00:00",
     "resources": [
         {
             "path": "ddf--concepts--continuous.csv",
@@ -33345,9 +33345,6 @@
                     },
                     {
                         "name": "latest_trade_data"
-                    },
-                    {
-                        "name": "latest_water_withdrawal_data"
                     }
                 ],
                 "primaryKey": "country"
@@ -33644,15 +33641,6 @@
                     "country"
                 ],
                 "value": "latest_trade_data",
-                "resources": [
-                    "ddf--entities--country"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country"
-                ],
-                "value": "latest_water_withdrawal_data",
                 "resources": [
                     "ddf--entities--country"
                 ]

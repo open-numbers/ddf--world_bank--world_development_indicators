@@ -28,7 +28,6 @@ vital_registration_complete,Vital registration complete,string
 latest_agricultural_census,Latest agricultural census,string
 latest_industrial_data,Latest industrial data,string
 latest_trade_data,Latest trade data,string
-latest_water_withdrawal_data,Latest water withdrawal data,string
 series_code,Series Code,string
 topic,Topic,string
 short_definition,Short definition,string
