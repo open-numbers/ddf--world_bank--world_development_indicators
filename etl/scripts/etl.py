@@ -128,9 +128,12 @@ def remove_cr(df):
 if __name__ == '__main__':
 
     print('reading source files...')
-    data = pd.read_csv(data_csv, encoding='latin', dtype=str).dropna(how='all', axis=1)
-    country = pd.read_csv(country_csv, encoding='latin', dtype=str).dropna(how='all', axis=1)
-    series = pd.read_csv(series_csv, encoding='latin', dtype=str).dropna(how='all', axis=1)
+    data = pd.read_csv(data_csv, encoding='latin', dtype=str,
+                       na_values=[''], keep_default_na=False).dropna(how='all', axis=1)
+    country = pd.read_csv(country_csv, encoding='latin', dtype=str,
+                          na_values=[''], keep_default_na=False).dropna(how='all', axis=1)
+    series = pd.read_csv(series_csv, encoding='latin', dtype=str,
+                         na_values=[''], keep_default_na=False).dropna(how='all', axis=1)
 
     print('creating concepts files...')
     concept_continuous = extract_concept_continuous(country, series)
