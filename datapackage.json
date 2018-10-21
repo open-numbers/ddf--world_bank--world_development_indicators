@@ -3,7 +3,7 @@
     "language": {
         "id": "en"
     },
-    "created": "2018-09-28T16:12:01.185475+00:00",
+    "created": "2018-10-21T01:22:01.216499+00:00",
     "resources": [
         {
             "path": "ddf--concepts--continuous.csv",
@@ -63,6 +63,9 @@
                     },
                     {
                         "name": "related_source_links"
+                    },
+                    {
+                        "name": "related_indicators"
                     },
                     {
                         "name": "license_type"
@@ -11556,6 +11559,195 @@
             }
         },
         {
+            "path": "ddf--datapoints--hd_hci_ovrl--by--country--year.csv",
+            "name": "ddf--datapoints--hd_hci_ovrl--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "hd_hci_ovrl"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--hd_hci_ovrl_fe--by--country--year.csv",
+            "name": "ddf--datapoints--hd_hci_ovrl_fe--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "hd_hci_ovrl_fe"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--hd_hci_ovrl_lb--by--country--year.csv",
+            "name": "ddf--datapoints--hd_hci_ovrl_lb--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "hd_hci_ovrl_lb"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--hd_hci_ovrl_lb_fe--by--country--year.csv",
+            "name": "ddf--datapoints--hd_hci_ovrl_lb_fe--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "hd_hci_ovrl_lb_fe"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--hd_hci_ovrl_lb_ma--by--country--year.csv",
+            "name": "ddf--datapoints--hd_hci_ovrl_lb_ma--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "hd_hci_ovrl_lb_ma"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--hd_hci_ovrl_ma--by--country--year.csv",
+            "name": "ddf--datapoints--hd_hci_ovrl_ma--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "hd_hci_ovrl_ma"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--hd_hci_ovrl_ub--by--country--year.csv",
+            "name": "ddf--datapoints--hd_hci_ovrl_ub--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "hd_hci_ovrl_ub"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--hd_hci_ovrl_ub_fe--by--country--year.csv",
+            "name": "ddf--datapoints--hd_hci_ovrl_ub_fe--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "hd_hci_ovrl_ub_fe"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--hd_hci_ovrl_ub_ma--by--country--year.csv",
+            "name": "ddf--datapoints--hd_hci_ovrl_ub_ma--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "hd_hci_ovrl_ub_ma"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
             "path": "ddf--datapoints--ic_bus_dfrn_xq--by--country--year.csv",
             "name": "ddf--datapoints--ic_bus_dfrn_xq--by--country--year",
             "schema": {
@@ -15033,6 +15225,27 @@
                     },
                     {
                         "name": "ne_con_totl_kd"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "path": "ddf--datapoints--ne_con_totl_kd_zg--by--country--year.csv",
+            "name": "ddf--datapoints--ne_con_totl_kd_zg--by--country--year",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "ne_con_totl_kd_zg"
                     }
                 ],
                 "primaryKey": [
@@ -33689,6 +33902,15 @@
                 "primaryKey": [
                     "concept"
                 ],
+                "value": "related_indicators",
+                "resources": [
+                    "ddf--concepts--continuous"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "concept"
+                ],
                 "value": "related_source_links",
                 "resources": [
                     "ddf--concepts--continuous"
@@ -39487,6 +39709,96 @@
                     "country",
                     "year"
                 ],
+                "value": "hd_hci_ovrl",
+                "resources": [
+                    "ddf--datapoints--hd_hci_ovrl--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "hd_hci_ovrl_fe",
+                "resources": [
+                    "ddf--datapoints--hd_hci_ovrl_fe--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "hd_hci_ovrl_lb",
+                "resources": [
+                    "ddf--datapoints--hd_hci_ovrl_lb--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "hd_hci_ovrl_lb_fe",
+                "resources": [
+                    "ddf--datapoints--hd_hci_ovrl_lb_fe--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "hd_hci_ovrl_lb_ma",
+                "resources": [
+                    "ddf--datapoints--hd_hci_ovrl_lb_ma--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "hd_hci_ovrl_ma",
+                "resources": [
+                    "ddf--datapoints--hd_hci_ovrl_ma--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "hd_hci_ovrl_ub",
+                "resources": [
+                    "ddf--datapoints--hd_hci_ovrl_ub--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "hd_hci_ovrl_ub_fe",
+                "resources": [
+                    "ddf--datapoints--hd_hci_ovrl_ub_fe--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "hd_hci_ovrl_ub_ma",
+                "resources": [
+                    "ddf--datapoints--hd_hci_ovrl_ub_ma--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
                 "value": "ic_bus_dfrn_xq",
                 "resources": [
                     "ddf--datapoints--ic_bus_dfrn_xq--by--country--year"
@@ -41140,6 +41452,16 @@
                 "value": "ne_con_totl_kd",
                 "resources": [
                     "ddf--datapoints--ne_con_totl_kd--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "ne_con_totl_kd_zg",
+                "resources": [
+                    "ddf--datapoints--ne_con_totl_kd_zg--by--country--year"
                 ]
             },
             {
