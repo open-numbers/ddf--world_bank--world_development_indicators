@@ -1,12 +1,14 @@
 # -*- coding: utf-8 -*-
 
 from zipfile import ZipFile
-from ddf_utils.factory import worldbank as wb
+from ddf_utils.factory import WorldBankLoader
 import os
 
 source_dir = '../source/'
 
+
 def update():
+    wb = WorldBankLoader()
     print('downloading source data...')
     wb.bulk_download('WDI', source_dir)
     print('extracting...')
