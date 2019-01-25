@@ -11,7 +11,7 @@ import os
 
 from ddf_utils.str import to_concept_id
 from ddf_utils.io import dump_json
-from ddf_utils.model.package import DataPackage as DP
+from ddf_utils.package import get_datapackage
 
 # configuration of file path.
 source_dir = '../source/'
@@ -173,4 +173,4 @@ if __name__ == '__main__':
             )
 
     # datapackage
-    dump_json(os.path.join(output_dir, 'datapackage.json'), DP.get_datapackage(output_dir, update=True))
+    dump_json(os.path.join(output_dir, 'datapackage.json'), get_datapackage(output_dir, update=True))
