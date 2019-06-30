@@ -3,7 +3,11 @@
     "language": {
         "id": "en"
     },
-    "created": "2019-04-28T01:57:12.627086+00:00",
+    "title": "ddf--world_bank--world_development_indicators",
+    "description": "",
+    "author": "",
+    "license": "",
+    "created": "2019-06-30T04:34:54.784977+00:00",
     "resources": [
         {
             "name": "ddf--concepts--continuous",
@@ -885,6 +889,48 @@
                     },
                     {
                         "name": "bm_gsr_totl_cd"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--bm_gsr_tran_zs--by--country--year",
+            "path": "ddf--datapoints--bm_gsr_tran_zs--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "bm_gsr_tran_zs"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--bm_gsr_trvl_zs--by--country--year",
+            "path": "ddf--datapoints--bm_gsr_trvl_zs--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "bm_gsr_trvl_zs"
                     }
                 ],
                 "primaryKey": [
@@ -32772,6 +32818,48 @@
             }
         },
         {
+            "name": "ddf--datapoints--tm_val_tran_zs_wt--by--country--year",
+            "path": "ddf--datapoints--tm_val_tran_zs_wt--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "tm_val_tran_zs_wt"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--tm_val_trvl_zs_wt--by--country--year",
+            "path": "ddf--datapoints--tm_val_trvl_zs_wt--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "tm_val_trvl_zs_wt"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
             "name": "ddf--datapoints--tt_pri_mrch_xd_wd--by--country--year",
             "path": "ddf--datapoints--tt_pri_mrch_xd_wd--by--country--year.csv",
             "schema": {
@@ -32931,6 +33019,27 @@
                     },
                     {
                         "name": "tx_val_ictg_zs_un"
+                    }
+                ],
+                "primaryKey": [
+                    "country",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--tx_val_insf_zs_wt--by--country--year",
+            "path": "ddf--datapoints--tx_val_insf_zs_wt--by--country--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "tx_val_insf_zs_wt"
                     }
                 ],
                 "primaryKey": [
@@ -34508,6 +34617,26 @@
                 "value": "bm_gsr_totl_cd",
                 "resources": [
                     "ddf--datapoints--bm_gsr_totl_cd--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "bm_gsr_tran_zs",
+                "resources": [
+                    "ddf--datapoints--bm_gsr_tran_zs--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "bm_gsr_trvl_zs",
+                "resources": [
+                    "ddf--datapoints--bm_gsr_trvl_zs--by--country--year"
                 ]
             },
             {
@@ -49695,6 +49824,26 @@
                     "country",
                     "year"
                 ],
+                "value": "tm_val_tran_zs_wt",
+                "resources": [
+                    "ddf--datapoints--tm_val_tran_zs_wt--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "tm_val_trvl_zs_wt",
+                "resources": [
+                    "ddf--datapoints--tm_val_trvl_zs_wt--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
                 "value": "tt_pri_mrch_xd_wd",
                 "resources": [
                     "ddf--datapoints--tt_pri_mrch_xd_wd--by--country--year"
@@ -49768,6 +49917,16 @@
                 "value": "tx_val_ictg_zs_un",
                 "resources": [
                     "ddf--datapoints--tx_val_ictg_zs_un--by--country--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "country",
+                    "year"
+                ],
+                "value": "tx_val_insf_zs_wt",
+                "resources": [
+                    "ddf--datapoints--tx_val_insf_zs_wt--by--country--year"
                 ]
             },
             {
