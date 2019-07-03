@@ -1,6 +1,5 @@
 concept,name,concept_type
 country_code,Country Code,string
-short_name,Short Name,string
 table_name,Table Name,string
 long_name,Long Name,string
 2_alpha_code,2-alpha code,string
@@ -29,10 +28,8 @@ vital_registration_complete,Vital registration complete,string
 latest_agricultural_census,Latest agricultural census,string
 latest_industrial_data,Latest industrial data,string
 latest_trade_data,Latest trade data,string
-latest_water_withdrawal_data,Latest water withdrawal data,string
 series_code,Series Code,string
 topic,Topic,string
-indicator_name,Indicator Name,string
 short_definition,Short definition,string
 long_definition,Long definition,string
 unit_of_measure,Unit of measure,string
@@ -47,7 +44,6 @@ source,Source,string
 statistical_concept_and_methodology,Statistical concept and methodology,string
 development_relevance,Development relevance,string
 related_source_links,Related source links,string
-other_web_links,Other web links,string
 related_indicators,Related indicators,string
 license_type,License Type,string
 country,Country,entity_domain
