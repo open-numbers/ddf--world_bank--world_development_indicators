@@ -7,7 +7,7 @@
     "description": "",
     "author": "",
     "license": "",
-    "created": "2019-11-03T05:27:24.571963+00:00",
+    "created": "2019-12-22T03:36:11.584043+00:00",
     "resources": [
         {
             "name": "ddf--concepts--continuous",
@@ -25951,48 +25951,6 @@
             }
         },
         {
-            "name": "ddf--datapoints--sp_dth_infr_zs--by--country--year",
-            "path": "ddf--datapoints--sp_dth_infr_zs--by--country--year.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "sp_dth_infr_zs"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
-            "name": "ddf--datapoints--sp_dth_rept_zs--by--country--year",
-            "path": "ddf--datapoints--sp_dth_rept_zs--by--country--year.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "sp_dth_rept_zs"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
             "name": "ddf--datapoints--sp_dyn_amrt_fe--by--country--year",
             "path": "ddf--datapoints--sp_dyn_amrt_fe--by--country--year.csv",
             "schema": {
@@ -43019,26 +42977,6 @@
                 "value": "sp_ado_tfrt",
                 "resources": [
                     "ddf--datapoints--sp_ado_tfrt--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "sp_dth_infr_zs",
-                "resources": [
-                    "ddf--datapoints--sp_dth_infr_zs--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "sp_dth_rept_zs",
-                "resources": [
-                    "ddf--datapoints--sp_dth_rept_zs--by--country--year"
                 ]
             },
             {
