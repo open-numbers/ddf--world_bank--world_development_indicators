@@ -10,7 +10,7 @@ source_dir = '../source/'
 def update():
     wb = WorldBankLoader()
     print('downloading source data...')
-    wb.bulk_download('WDI', source_dir)
+    wb.bulk_download('WDI', source_dir, timeout=60)
     print('extracting...')
     f = ZipFile(os.path.join(source_dir, 'WDI_csv.zip'))
     f.extractall(source_dir)
