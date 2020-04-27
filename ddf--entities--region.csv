@@ -1,0 +1,20 @@
+region,name,is--excluding_high_income,is--global,is--ida_and_ibrd
+eas,East Asia & Pacific,FALSE,FALSE,FALSE
+eap,East Asia & Pacific (excluding high income),TRUE,FALSE,FALSE
+tea,East Asia & Pacific (IDA & IBRD),FALSE,FALSE,TRUE
+ecs,Europe & Central Asia,FALSE,FALSE,FALSE
+eca,Europe & Central Asia (excluding high income),TRUE,FALSE,FALSE
+tec,Europe & Central Asia (IDA & IBRD),FALSE,FALSE,TRUE
+lcn,Latin America & Caribbean,FALSE,FALSE,FALSE
+lac,Latin America & Caribbean (excluding high income),TRUE,FALSE,FALSE
+tla,Latin America & Caribbean (IDA & IBRD),FALSE,FALSE,TRUE
+mea,Middle East & North Africa,FALSE,FALSE,FALSE
+mna,Middle East & North Africa (excluding high income),TRUE,FALSE,FALSE
+tmn,Middle East & North Africa (IDA & IBRD),FALSE,FALSE,TRUE
+nac,North America,FALSE,FALSE,FALSE
+sas,South Asia,FALSE,FALSE,FALSE
+tsa,South Asia (IDA & IBRD),FALSE,FALSE,TRUE
+ssf,Sub-Saharan Africa,FALSE,FALSE,FALSE
+ssa,Sub-Saharan Africa (excluding high income),TRUE,FALSE,FALSE
+tss,Sub-Saharan Africa (IDA & IBRD),FALSE,FALSE,TRUE
+wld,World,FALSE,TRUE,FALSE
