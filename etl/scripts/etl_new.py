@@ -22,91 +22,46 @@ data_csv = os.path.join(source_dir, 'WDIData.csv')
 country_csv = os.path.join(source_dir, 'WDICountry.csv')
 series_csv = os.path.join(source_dir, 'WDISeries.csv')
 groups_xls = os.path.join(source_dir, 'CLASS.xls')
+domain_xls = os.path.join(source_dir, 'wb_economy_entity_domain.xlsx')
 
 CONCEPTS = list()
 DOMAINS = list()
 
 
-def extract_all_entities(econs: pd.DataFrame, groups: pd.DataFrame):
+def extrace_economy_entities(domains: pd.DataFrame, groups: pd.DataFrame):
     """create domains/sets for economics"""
-
-    regions = econs[pd.isnull(econs['Region'])][['Economy', 'Code']]
-    bare_regions = econs['Region'].unique()
-    bare_income_groups = econs['Income group'].unique()
-    bare_lending_cats = econs['Lending category'].unique()
-
-    def infer_domain_set(name):
-        if name in bare_regions:
-            domain = 'region'
-            eset = []
-        elif '(excluding high income)' in name:
-            domain = 'region'
-            eset = 'excluding_high_income'
-        elif ' (IDA & IBRD)' in name:
-            domain = 'region'
-            eset = 'ida_and_ibrd'
-        elif 'demographic dividend' in name:
-            domain = 'demographic_dividend_state'
-            eset = []
-        elif name in bare_income_groups:
-            domain = 'income_group'
-            eset = []
-        elif name in bare_lending_cats:
-            domain = 'lending_category'
-            eset = []
-        elif name == 'World':
-            domain = 'region'
-            eset = 'global'
-        elif 'small states' in name:
-            domain = 'small_state'
-            eset = []
-        else:
-            domain = 'other_group'
-            eset = []
-        return domain, eset
-
     all_entities = list()
+    set_membership = dict()
 
-    for _, row in regions.iterrows():
-        name = row['Economy']
-        code = row['Code']
-        eid = to_concept_id(code)
-        domain, eset = infer_domain_set(name)
-        if eset:
-            eset = [eset]
-        all_entities.append(Entity(id=eid, domain=domain, sets=eset, props={'name': name}))
+    for _, row in domains.iterrows():
+        name = row['name']
+        sets = row['set membership']
+        sets_list = list(map(str.strip, sets.split(',')))
+        id = to_concept_id(row['economy'])
+        set_membership[row['economy']] = sets_list
+        all_entities.append(
+            Entity(id=id,
+                   domain='economy',
+                   sets=sets_list,
+                   props={'name': name}))
 
-    countries = econs[~pd.isnull(econs['Region'])][['Economy', 'Code']]
-    groups = groups.groupby('CountryCode')
-    for _, row in countries.iterrows():
-        name = row['Economy']
-        code = row['Code']
-        eid = to_concept_id(code)
-        domain = 'country'
+    groups = groups.groupby(by=['CountryCode']).groups
+    for eco, df in groups:
+        eco_groups = df['GroupCode'].values.tolist()
+        eco_id = to_concept_id(eco)
+        eco_name = df['CountryName'].unique()
+        if len(eco_name) > 1:
+            print(f'Warning: economy {eco} has multiple names: {eco_name}')
         props = dict()
-        for _, gr in groups.get_group(code).iterrows():
-            other_domain, other_set = infer_domain_set(gr['GroupName'])
-            other_group_code = to_concept_id(gr['GroupCode'])
-            if other_set:
-                props[other_set] = other_group_code
-            else:
-                props[other_domain] = other_group_code
-        all_entities.append(Entity(id=eid, domain=domain, sets=[], props=props))
+        for g in eco_groups:
+            sets = set_membership[g]
+            for s in sets:
+                props[s] = to_concept_id(g)
+        all_entities.append(
+            Entity(id=eco_id, domain='economy', sets=['country'], props=props))
 
-    return all_entities
-
-
-def create_domain(all_entities, domain_name, domain_id=None):
-
-    if not domain_id:
-        domain_id = to_concept_id(domain_name)
-
-    domain = EntityDomain(
-        id=domain_id,
-        entities=[x for x in all_entities if x.domain == domain_id],
-        props={'name': domain_name})
-
-    DOMAINS.append(domain)
+        print(all_entities[-1])
+        return all_entities
 
 
 def main():
@@ -139,20 +94,9 @@ def main():
                            na_values=[''],
                            keep_default_na=False).dropna(how='all')
 
-    # load entities and create domains
-    all_entities = extract_all_entities(econs=econs, groups=groups)
-    create_domain(all_entities, "Country")
-    create_domain(all_entities, "Region")
-    create_domain(all_entities, "Demographic Dividend State")
-    create_domain(all_entities, "Small State")
-    create_domain(all_entities, "Lending Category")
-    create_domain(all_entities, "Other Group")
+    domains = pd.read_excel(domain_xls).iloc[5:]
+    extrace_economy_entities(domains, groups)
 
-    for domain in DOMAINS:
-        domain_df = pd.DataFrame.from_records(domain.to_dict())
-        # print(domain.id)
-        # print(domain_df.head())
-        domain_df.to_csv(f'../../ddf--entities--{domain.id}.csv', index=False)
 
 if __name__ == '__main__':
     main()
