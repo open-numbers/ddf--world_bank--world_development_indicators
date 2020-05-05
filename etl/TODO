@@ -8,3 +8,6 @@
     Same with lending category. E.g. afg is ibt,ida and idx.
 
     See https://gapminder.slack.com/archives/C0J37K49M/p1587995762080500
+
+
+- move dataponints output to a folder so that homepage won't get a lot of files.
