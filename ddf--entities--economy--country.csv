@@ -1,0 +1,219 @@
+economy,is--country,name,income_2level,income_3level,income_4level,region,demographic_dividend_state,global,other_group,lending_category_total,lending_category_ida_total,lending_category,region_ida_and_ibrd,region_excluding_high_income,small_state,small_state_total
+abw,TRUE,Aruba,hic,hic,hic,lcn,lte,wld,,,,,,,,
+afg,TRUE,Afghanistan,lmy,lic,lic,sas,pre,wld,ldc,ibt,ida,idx,tsa,,,
+ago,TRUE,Angola,lmy,mic,lmc,ssf,pre,wld,ldc,ibt,ibd,ibd,tss,ssa,,
+alb,TRUE,Albania,lmy,mic,umc,ecs,lte,wld,,ibt,ibd,ibd,tec,eca,,
+and,TRUE,Andorra,hic,hic,hic,ecs,,wld,,,,,,,,
+are,TRUE,United Arab Emirates,hic,hic,hic,mea,lte,wld,arb,,,,,,,
+arg,TRUE,Argentina,lmy,mic,umc,lcn,ear,wld,,ibt,ibd,ibd,tla,lac,,
+arm,TRUE,Armenia,lmy,mic,umc,ecs,lte,wld,,ibt,ibd,ibd,tec,eca,,
+asm,TRUE,American Samoa,lmy,mic,umc,eas,,wld,,,,,,eap,,
+atg,TRUE,Antigua and Barbuda,hic,hic,hic,lcn,pst,wld,,ibt,ibd,ibd,tla,,css,sst
+aus,TRUE,Australia,hic,hic,hic,eas,pst,wld,oed,,,,,,,
+aut,TRUE,Austria,hic,hic,hic,ecs,pst,wld,oed,,,,,,,
+aze,TRUE,Azerbaijan,lmy,mic,umc,ecs,lte,wld,,ibt,ibd,ibd,tec,eca,,
+bdi,TRUE,Burundi,lmy,lic,lic,ssf,pre,wld,ldc,ibt,ida,idx,tss,ssa,,
+bel,TRUE,Belgium,hic,hic,hic,ecs,pst,wld,oed,,,,,,,
+ben,TRUE,Benin,lmy,lic,lic,ssf,pre,wld,ldc,ibt,ida,idx,tss,ssa,,
+bfa,TRUE,Burkina Faso,lmy,lic,lic,ssf,pre,wld,ldc,ibt,ida,idx,tss,ssa,,
+bgd,TRUE,Bangladesh,lmy,mic,lmc,sas,ear,wld,ldc,ibt,ida,idx,tsa,,,
+bgr,TRUE,Bulgaria,lmy,mic,umc,ecs,pst,wld,euu,ibt,ibd,ibd,tec,eca,,
+bhr,TRUE,Bahrain,hic,hic,hic,mea,ear,wld,arb,,,,,,oss,sst
+bhs,TRUE,"Bahamas, The",hic,hic,hic,lcn,lte,wld,,,,,,,css,sst
+bih,TRUE,Bosnia and Herzegovina,lmy,mic,umc,ecs,pst,wld,,ibt,ibd,ibd,tec,eca,,
+blr,TRUE,Belarus,lmy,mic,umc,ecs,pst,wld,,ibt,ibd,ibd,tec,eca,,
+blz,TRUE,Belize,lmy,mic,umc,lcn,ear,wld,,ibt,ibd,ibd,tla,lac,css,sst
+bmu,TRUE,Bermuda,hic,hic,hic,nac,,wld,,,,,,,,
+bol,TRUE,Bolivia,lmy,mic,lmc,lcn,ear,wld,hpc,ibt,ibd,ibd,tla,lac,,
+bra,TRUE,Brazil,lmy,mic,umc,lcn,lte,wld,,ibt,ibd,ibd,tla,lac,,
+brb,TRUE,Barbados,hic,hic,hic,lcn,pst,wld,,,,,,,css,sst
+brn,TRUE,Brunei Darussalam,hic,hic,hic,eas,lte,wld,,,,,,,oss,sst
+btn,TRUE,Bhutan,lmy,mic,lmc,sas,ear,wld,ldc,ibt,ida,idx,tsa,,oss,sst
+bwa,TRUE,Botswana,lmy,mic,umc,ssf,ear,wld,,ibt,ibd,ibd,tss,ssa,oss,sst
+caf,TRUE,Central African Republic,lmy,lic,lic,ssf,pre,wld,ldc,ibt,ida,idx,tss,ssa,,
+can,TRUE,Canada,hic,hic,hic,nac,pst,wld,oed,,,,,,,
+che,TRUE,Switzerland,hic,hic,hic,ecs,pst,wld,oed,,,,,,,
+chi,TRUE,Channel Islands,hic,hic,hic,ecs,,wld,,,,,,,,
+chl,TRUE,Chile,hic,hic,hic,lcn,lte,wld,oed,ibt,ibd,ibd,tla,,,
+chn,TRUE,China,lmy,mic,umc,eas,lte,wld,,ibt,ibd,ibd,tea,eap,,
+civ,TRUE,Cote d'Ivoire,lmy,mic,lmc,ssf,pre,wld,hpc,ibt,ida,idx,tss,ssa,,
+cmr,TRUE,Cameroon,lmy,mic,lmc,ssf,pre,wld,hpc,ibt,ida,idb,tss,ssa,,
+cod,TRUE,"Congo, Dem. Rep.",lmy,lic,lic,ssf,pre,wld,ldc,ibt,ida,idx,tss,ssa,,
+cog,TRUE,"Congo, Rep.",lmy,mic,lmc,ssf,pre,wld,hpc,ibt,ida,idb,tss,ssa,,
+col,TRUE,Colombia,lmy,mic,umc,lcn,lte,wld,,ibt,ibd,ibd,tla,lac,,
+com,TRUE,Comoros,lmy,mic,lmc,ssf,pre,wld,ldc,ibt,ida,idx,tss,ssa,oss,sst
+cpv,TRUE,Cabo Verde,lmy,mic,lmc,ssf,ear,wld,,ibt,ida,idb,tss,ssa,oss,sst
+cri,TRUE,Costa Rica,lmy,mic,umc,lcn,lte,wld,,ibt,ibd,ibd,tla,lac,,
+cub,TRUE,Cuba,lmy,mic,umc,lcn,pst,wld,,,,,,lac,,
+cuw,TRUE,Curacao,hic,hic,hic,lcn,,wld,,,,,,,,
+cym,TRUE,Cayman Islands,hic,hic,hic,lcn,,wld,,,,,,,,
+cyp,TRUE,Cyprus,hic,hic,hic,ecs,lte,wld,euu,,,,,,oss,sst
+cze,TRUE,Czech Republic,hic,hic,hic,ecs,pst,wld,oed,,,,,,,
+deu,TRUE,Germany,hic,hic,hic,ecs,pst,wld,oed,,,,,,,
+dji,TRUE,Djibouti,lmy,mic,lmc,mea,ear,wld,ldc,ibt,ida,idx,tmn,mna,oss,sst
+dma,TRUE,Dominica,lmy,mic,umc,lcn,,wld,,ibt,ida,idb,tla,lac,css,sst
+dnk,TRUE,Denmark,hic,hic,hic,ecs,pst,wld,oed,,,,,,,
+dom,TRUE,Dominican Republic,lmy,mic,umc,lcn,ear,wld,,ibt,ibd,ibd,tla,lac,,
+dza,TRUE,Algeria,lmy,mic,umc,mea,ear,wld,arb,ibt,ibd,ibd,tmn,mna,,
+ecu,TRUE,Ecuador,lmy,mic,umc,lcn,ear,wld,,ibt,ibd,ibd,tla,lac,,
+egy,TRUE,"Egypt, Arab Rep.",lmy,mic,lmc,mea,ear,wld,arb,ibt,ibd,ibd,tmn,mna,,
+eri,TRUE,Eritrea,lmy,lic,lic,ssf,pre,wld,ldc,ibt,ida,idx,tss,ssa,,
+esp,TRUE,Spain,hic,hic,hic,ecs,pst,wld,oed,,,,,,,
+est,TRUE,Estonia,hic,hic,hic,ecs,lte,wld,oed,,,,,,oss,sst
+eth,TRUE,Ethiopia,lmy,lic,lic,ssf,ear,wld,ldc,ibt,ida,idx,tss,ssa,,
+fin,TRUE,Finland,hic,hic,hic,ecs,pst,wld,oed,,,,,,,
+fji,TRUE,Fiji,lmy,mic,umc,eas,lte,wld,,ibt,ida,idb,tea,eap,pss,sst
+fra,TRUE,France,hic,hic,hic,ecs,pst,wld,oed,,,,,,,
+fro,TRUE,Faroe Islands,hic,hic,hic,ecs,,wld,,,,,,,,
+fsm,TRUE,"Micronesia, Fed. Sts.",lmy,mic,lmc,eas,ear,wld,fcs,ibt,ida,idx,tea,eap,pss,sst
+gab,TRUE,Gabon,lmy,mic,umc,ssf,ear,wld,,ibt,ibd,ibd,tss,ssa,oss,sst
+gbr,TRUE,United Kingdom,hic,hic,hic,ecs,pst,wld,oed,,,,,,,
+geo,TRUE,Georgia,lmy,mic,umc,ecs,lte,wld,,ibt,ibd,ibd,tec,eca,,
+gha,TRUE,Ghana,lmy,mic,lmc,ssf,ear,wld,hpc,ibt,ida,idx,tss,ssa,,
+gib,TRUE,Gibraltar,hic,hic,hic,ecs,,wld,,,,,,,,
+gin,TRUE,Guinea,lmy,lic,lic,ssf,pre,wld,ldc,ibt,ida,idx,tss,ssa,,
+gmb,TRUE,"Gambia, The",lmy,lic,lic,ssf,pre,wld,ldc,ibt,ida,idx,tss,ssa,oss,sst
+gnb,TRUE,Guinea-Bissau,lmy,lic,lic,ssf,pre,wld,ldc,ibt,ida,idx,tss,ssa,oss,sst
+gnq,TRUE,Equatorial Guinea,lmy,mic,umc,ssf,pre,wld,,ibt,ibd,ibd,tss,ssa,oss,sst
+grc,TRUE,Greece,hic,hic,hic,ecs,pst,wld,oed,,,,,,,
+grd,TRUE,Grenada,lmy,mic,umc,lcn,ear,wld,,ibt,ida,idb,tla,lac,css,sst
+grl,TRUE,Greenland,hic,hic,hic,ecs,,wld,,,,,,,,
+gtm,TRUE,Guatemala,lmy,mic,umc,lcn,ear,wld,,ibt,ibd,ibd,tla,lac,,
+gum,TRUE,Guam,hic,hic,hic,eas,lte,wld,,,,,,,,
+guy,TRUE,Guyana,lmy,mic,umc,lcn,lte,wld,hpc,ibt,ida,idx,tla,lac,css,sst
+hkg,TRUE,"Hong Kong SAR, China",hic,hic,hic,eas,pst,wld,,,,,,,,
+hnd,TRUE,Honduras,lmy,mic,lmc,lcn,ear,wld,hpc,ibt,ida,idx,tla,lac,,
+hrv,TRUE,Croatia,hic,hic,hic,ecs,pst,wld,euu,ibt,ibd,ibd,tec,,,
+hti,TRUE,Haiti,lmy,lic,lic,lcn,ear,wld,ldc,ibt,ida,idx,tla,lac,,
+hun,TRUE,Hungary,hic,hic,hic,ecs,pst,wld,oed,,,,,,,
+idn,TRUE,Indonesia,lmy,mic,lmc,eas,ear,wld,,ibt,ibd,ibd,tea,eap,,
+imn,TRUE,Isle of Man,hic,hic,hic,ecs,,wld,,,,,,,,
+ind,TRUE,India,lmy,mic,lmc,sas,ear,wld,,ibt,ibd,ibd,tsa,,,
+irl,TRUE,Ireland,hic,hic,hic,ecs,lte,wld,oed,,,,,,,
+irn,TRUE,"Iran, Islamic Rep.",lmy,mic,umc,mea,ear,wld,,ibt,ibd,ibd,tmn,mna,,
+irq,TRUE,Iraq,lmy,mic,umc,mea,pre,wld,fcs,ibt,ibd,ibd,tmn,mna,,
+isl,TRUE,Iceland,hic,hic,hic,ecs,lte,wld,oed,,,,,,oss,sst
+isr,TRUE,Israel,hic,hic,hic,mea,ear,wld,oed,,,,,,,
+ita,TRUE,Italy,hic,hic,hic,ecs,pst,wld,oed,,,,,,,
+jam,TRUE,Jamaica,lmy,mic,umc,lcn,lte,wld,,ibt,ibd,ibd,tla,lac,css,sst
+jor,TRUE,Jordan,lmy,mic,umc,mea,ear,wld,arb,ibt,ibd,ibd,tmn,mna,,
+jpn,TRUE,Japan,hic,hic,hic,eas,pst,wld,oed,,,,,,,
+kaz,TRUE,Kazakhstan,lmy,mic,umc,ecs,lte,wld,,ibt,ibd,ibd,tec,eca,,
+ken,TRUE,Kenya,lmy,mic,lmc,ssf,pre,wld,,ibt,ida,idb,tss,ssa,,
+kgz,TRUE,Kyrgyz Republic,lmy,mic,lmc,ecs,lte,wld,,ibt,ida,idx,tec,eca,,
+khm,TRUE,Cambodia,lmy,mic,lmc,eas,ear,wld,ldc,ibt,ida,idx,tea,eap,,
+kir,TRUE,Kiribati,lmy,mic,lmc,eas,ear,wld,ldc,ibt,ida,idx,tea,eap,pss,sst
+kna,TRUE,St. Kitts and Nevis,hic,hic,hic,lcn,,wld,,ibt,ibd,ibd,tla,,css,sst
+kor,TRUE,"Korea, Rep.",hic,hic,hic,eas,pst,wld,oed,,,,,,,
+kwt,TRUE,Kuwait,hic,hic,hic,mea,lte,wld,arb,,,,,,,
+lao,TRUE,Lao PDR,lmy,mic,lmc,eas,ear,wld,ldc,ibt,ida,idx,tea,eap,,
+lbn,TRUE,Lebanon,lmy,mic,umc,mea,lte,wld,fcs,ibt,ibd,ibd,tmn,mna,,
+lbr,TRUE,Liberia,lmy,lic,lic,ssf,pre,wld,ldc,ibt,ida,idx,tss,ssa,,
+lby,TRUE,Libya,lmy,mic,umc,mea,ear,wld,fcs,ibt,ibd,ibd,tmn,mna,,
+lca,TRUE,St. Lucia,lmy,mic,umc,lcn,lte,wld,,ibt,ida,idb,tla,lac,css,sst
+lie,TRUE,Liechtenstein,hic,hic,hic,ecs,,wld,,,,,,,,
+lka,TRUE,Sri Lanka,lmy,mic,umc,sas,lte,wld,,ibt,ibd,ibd,tsa,,,
+lso,TRUE,Lesotho,lmy,mic,lmc,ssf,ear,wld,ldc,ibt,ida,idx,tss,ssa,oss,sst
+ltu,TRUE,Lithuania,hic,hic,hic,ecs,pst,wld,oed,,,,,,,
+lux,TRUE,Luxembourg,hic,hic,hic,ecs,pst,wld,oed,,,,,,,
+lva,TRUE,Latvia,hic,hic,hic,ecs,lte,wld,oed,,,,,,,
+mac,TRUE,"Macao SAR, China",hic,hic,hic,eas,pst,wld,,,,,,,,
+maf,TRUE,St. Martin (French part),hic,hic,hic,lcn,,wld,,,,,,,,
+mar,TRUE,Morocco,lmy,mic,lmc,mea,lte,wld,arb,ibt,ibd,ibd,tmn,mna,,
+mco,TRUE,Monaco,hic,hic,hic,ecs,,wld,,,,,,,,
+mda,TRUE,Moldova,lmy,mic,lmc,ecs,lte,wld,,ibt,ida,idb,tec,eca,,
+mdg,TRUE,Madagascar,lmy,lic,lic,ssf,pre,wld,ldc,ibt,ida,idx,tss,ssa,,
+mdv,TRUE,Maldives,lmy,mic,umc,sas,ear,wld,,ibt,ida,idx,tsa,,oss,sst
+mex,TRUE,Mexico,lmy,mic,umc,lcn,ear,wld,oed,ibt,ibd,ibd,tla,lac,,
+mhl,TRUE,Marshall Islands,lmy,mic,umc,eas,,wld,fcs,ibt,ida,idx,tea,eap,pss,sst
+mkd,TRUE,North Macedonia,lmy,mic,umc,ecs,lte,wld,,ibt,ibd,ibd,tec,eca,,
+mli,TRUE,Mali,lmy,lic,lic,ssf,pre,wld,ldc,ibt,ida,idx,tss,ssa,,
+mlt,TRUE,Malta,hic,hic,hic,mea,pst,wld,euu,,,,,,oss,sst
+mmr,TRUE,Myanmar,lmy,mic,lmc,eas,ear,wld,ldc,ibt,ida,idx,tea,eap,,
+mne,TRUE,Montenegro,lmy,mic,umc,ecs,lte,wld,,ibt,ibd,ibd,tec,eca,oss,sst
+mng,TRUE,Mongolia,lmy,mic,lmc,eas,lte,wld,,ibt,ida,idb,tea,eap,,
+mnp,TRUE,Northern Mariana Islands,hic,hic,hic,eas,,wld,,,,,,,,
+moz,TRUE,Mozambique,lmy,lic,lic,ssf,pre,wld,ldc,ibt,ida,idx,tss,ssa,,
+mrt,TRUE,Mauritania,lmy,mic,lmc,ssf,pre,wld,ldc,ibt,ida,idx,tss,ssa,,
+mus,TRUE,Mauritius,lmy,mic,umc,ssf,lte,wld,,ibt,ibd,ibd,tss,ssa,oss,sst
+mwi,TRUE,Malawi,lmy,lic,lic,ssf,pre,wld,ldc,ibt,ida,idx,tss,ssa,,
+mys,TRUE,Malaysia,lmy,mic,umc,eas,lte,wld,,ibt,ibd,ibd,tea,eap,,
+nam,TRUE,Namibia,lmy,mic,umc,ssf,ear,wld,,ibt,ibd,ibd,tss,ssa,oss,sst
+ncl,TRUE,New Caledonia,hic,hic,hic,eas,lte,wld,,,,,,,,
+ner,TRUE,Niger,lmy,lic,lic,ssf,pre,wld,ldc,ibt,ida,idx,tss,ssa,,
+nga,TRUE,Nigeria,lmy,mic,lmc,ssf,pre,wld,fcs,ibt,ida,idb,tss,ssa,,
+nic,TRUE,Nicaragua,lmy,mic,lmc,lcn,ear,wld,hpc,ibt,ida,idx,tla,lac,,
+nld,TRUE,Netherlands,hic,hic,hic,ecs,pst,wld,oed,,,,,,,
+nor,TRUE,Norway,hic,hic,hic,ecs,pst,wld,oed,,,,,,,
+npl,TRUE,Nepal,lmy,lic,lic,sas,ear,wld,ldc,ibt,ida,idx,tsa,,,
+nru,TRUE,Nauru,lmy,mic,umc,eas,,wld,,ibt,ibd,ibd,tea,eap,pss,sst
+nzl,TRUE,New Zealand,hic,hic,hic,eas,pst,wld,oed,,,,,,,
+omn,TRUE,Oman,hic,hic,hic,mea,lte,wld,arb,,,,,,,
+pak,TRUE,Pakistan,lmy,mic,lmc,sas,ear,wld,,ibt,ida,idb,tsa,,,
+pan,TRUE,Panama,hic,hic,hic,lcn,ear,wld,,ibt,ibd,ibd,tla,,,
+per,TRUE,Peru,lmy,mic,umc,lcn,ear,wld,,ibt,ibd,ibd,tla,lac,,
+phl,TRUE,Philippines,lmy,mic,lmc,eas,ear,wld,,ibt,ibd,ibd,tea,eap,,
+plw,TRUE,Palau,hic,hic,hic,eas,,wld,,ibt,ibd,ibd,tea,,pss,sst
+png,TRUE,Papua New Guinea,lmy,mic,lmc,eas,ear,wld,fcs,ibt,ida,idb,tea,eap,,
+pol,TRUE,Poland,hic,hic,hic,ecs,lte,wld,oed,ibt,ibd,ibd,tec,,,
+pri,TRUE,Puerto Rico,hic,hic,hic,lcn,lte,wld,,,,,,,,
+prk,TRUE,"Korea, Dem. People's Rep.",lmy,lic,lic,eas,lte,wld,,,,,,eap,,
+prt,TRUE,Portugal,hic,hic,hic,ecs,pst,wld,oed,,,,,,,
+pry,TRUE,Paraguay,lmy,mic,umc,lcn,ear,wld,,ibt,ibd,ibd,tla,lac,,
+pse,TRUE,West Bank and Gaza,lmy,mic,lmc,mea,ear,wld,fcs,,,,,mna,,
+pyf,TRUE,French Polynesia,hic,hic,hic,eas,lte,wld,,,,,,,,
+qat,TRUE,Qatar,hic,hic,hic,mea,lte,wld,arb,,,,,,oss,sst
+rou,TRUE,Romania,lmy,mic,umc,ecs,lte,wld,euu,ibt,ibd,ibd,tec,eca,,
+rus,TRUE,Russian Federation,lmy,mic,umc,ecs,lte,wld,,ibt,ibd,ibd,tec,eca,,
+rwa,TRUE,Rwanda,lmy,lic,lic,ssf,ear,wld,ldc,ibt,ida,idx,tss,ssa,,
+sau,TRUE,Saudi Arabia,hic,hic,hic,mea,ear,wld,arb,,,,,,,
+sdn,TRUE,Sudan,lmy,mic,lmc,ssf,pre,wld,ldc,ibt,ida,idx,tss,ssa,,
+sen,TRUE,Senegal,lmy,mic,lmc,ssf,pre,wld,ldc,ibt,ida,idx,tss,ssa,,
+sgp,TRUE,Singapore,hic,hic,hic,eas,pst,wld,,,,,,,,
+slb,TRUE,Solomon Islands,lmy,mic,lmc,eas,ear,wld,ldc,ibt,ida,idx,tea,eap,pss,sst
+sle,TRUE,Sierra Leone,lmy,lic,lic,ssf,pre,wld,ldc,ibt,ida,idx,tss,ssa,,
+slv,TRUE,El Salvador,lmy,mic,lmc,lcn,ear,wld,,ibt,ibd,ibd,tla,lac,,
+smr,TRUE,San Marino,hic,hic,hic,ecs,,wld,,,,,,,oss,sst
+som,TRUE,Somalia,lmy,lic,lic,ssf,pre,wld,ldc,ibt,ida,idx,tss,ssa,,
+srb,TRUE,Serbia,lmy,mic,umc,ecs,lte,wld,,ibt,ibd,ibd,tec,eca,,
+ssd,TRUE,South Sudan,lmy,lic,lic,ssf,pre,wld,ldc,ibt,ida,idx,tss,ssa,,
+stp,TRUE,Sao Tome and Principe,lmy,mic,lmc,ssf,,wld,ldc,ibt,ida,idx,tss,ssa,oss,sst
+sur,TRUE,Suriname,lmy,mic,umc,lcn,ear,wld,,ibt,ibd,ibd,tla,lac,css,sst
+svk,TRUE,Slovak Republic,hic,hic,hic,ecs,lte,wld,oed,,,,,,,
+svn,TRUE,Slovenia,hic,hic,hic,ecs,pst,wld,oed,,,,,,,
+swe,TRUE,Sweden,hic,hic,hic,ecs,pst,wld,oed,,,,,,,
+swz,TRUE,Eswatini,lmy,mic,lmc,ssf,ear,wld,,ibt,ibd,ibd,tss,ssa,oss,sst
+sxm,TRUE,Sint Maarten (Dutch part),hic,hic,hic,lcn,,wld,,,,,,,,
+syc,TRUE,Seychelles,hic,hic,hic,ssf,lte,wld,,ibt,ibd,ibd,tss,,oss,sst
+syr,TRUE,Syrian Arab Republic,lmy,lic,lic,mea,ear,wld,fcs,ibt,ida,idx,tmn,mna,,
+tca,TRUE,Turks and Caicos Islands,hic,hic,hic,lcn,,wld,,,,,,,,
+tcd,TRUE,Chad,lmy,lic,lic,ssf,pre,wld,ldc,ibt,ida,idx,tss,ssa,,
+tgo,TRUE,Togo,lmy,lic,lic,ssf,pre,wld,ldc,ibt,ida,idx,tss,ssa,,
+tha,TRUE,Thailand,lmy,mic,umc,eas,lte,wld,,ibt,ibd,ibd,tea,eap,,
+tjk,TRUE,Tajikistan,lmy,lic,lic,ecs,ear,wld,,ibt,ida,idx,tec,eca,,
+tkm,TRUE,Turkmenistan,lmy,mic,umc,ecs,ear,wld,,ibt,ibd,ibd,tec,eca,,
+tls,TRUE,Timor-Leste,lmy,mic,lmc,eas,pre,wld,ldc,ibt,ida,idb,tea,eap,oss,sst
+ton,TRUE,Tonga,lmy,mic,umc,eas,ear,wld,,ibt,ida,idx,tea,eap,pss,sst
+tto,TRUE,Trinidad and Tobago,hic,hic,hic,lcn,lte,wld,,ibt,ibd,ibd,tla,,css,sst
+tun,TRUE,Tunisia,lmy,mic,lmc,mea,lte,wld,arb,ibt,ibd,ibd,tmn,mna,,
+tur,TRUE,Turkey,lmy,mic,umc,ecs,ear,wld,oed,ibt,ibd,ibd,tec,eca,,
+tuv,TRUE,Tuvalu,lmy,mic,umc,eas,,wld,ldc,ibt,ida,idx,tea,eap,pss,sst
+twn,TRUE,"Taiwan, China",hic,hic,hic,eas,,wld,,,,,,,,
+tza,TRUE,Tanzania,lmy,lic,lic,ssf,pre,wld,ldc,ibt,ida,idx,tss,ssa,,
+uga,TRUE,Uganda,lmy,lic,lic,ssf,pre,wld,ldc,ibt,ida,idx,tss,ssa,,
+ukr,TRUE,Ukraine,lmy,mic,lmc,ecs,pst,wld,,ibt,ibd,ibd,tec,eca,,
+ury,TRUE,Uruguay,hic,hic,hic,lcn,lte,wld,,ibt,ibd,ibd,tla,,,
+usa,TRUE,United States,hic,hic,hic,nac,pst,wld,oed,,,,,,,
+uzb,TRUE,Uzbekistan,lmy,mic,lmc,ecs,ear,wld,,ibt,ida,idb,tec,eca,,
+vct,TRUE,St. Vincent and the Grenadines,lmy,mic,umc,lcn,lte,wld,,ibt,ida,idb,tla,lac,css,sst
+ven,TRUE,"Venezuela, RB",lmy,mic,umc,lcn,ear,wld,fcs,ibt,ibd,ibd,tla,lac,,
+vgb,TRUE,British Virgin Islands,hic,hic,hic,lcn,,wld,,,,,,,,
+vir,TRUE,Virgin Islands (U.S.),hic,hic,hic,lcn,lte,wld,,,,,,,,
+vnm,TRUE,Vietnam,lmy,mic,lmc,eas,lte,wld,,ibt,ibd,ibd,tea,eap,,
+vut,TRUE,Vanuatu,lmy,mic,lmc,eas,ear,wld,ldc,ibt,ida,idx,tea,eap,pss,sst
+wsm,TRUE,Samoa,lmy,mic,umc,eas,ear,wld,,ibt,ida,idx,tea,eap,pss,sst
+xkx,TRUE,Kosovo,lmy,mic,umc,ecs,,wld,fcs,ibt,ida,idx,tec,eca,,
+yem,TRUE,"Yemen, Rep.",lmy,lic,lic,mea,ear,wld,ldc,ibt,ida,idx,tmn,mna,,
+zaf,TRUE,South Africa,lmy,mic,umc,ssf,ear,wld,,ibt,ibd,ibd,tss,ssa,,
+zmb,TRUE,Zambia,lmy,mic,lmc,ssf,pre,wld,ldc,ibt,ida,idx,tss,ssa,,
+zwe,TRUE,Zimbabwe,lmy,mic,lmc,ssf,ear,wld,fcs,ibt,ida,idb,tss,ssa,,

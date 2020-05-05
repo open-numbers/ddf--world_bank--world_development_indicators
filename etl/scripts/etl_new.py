@@ -45,14 +45,15 @@ def extrace_economy_entities(domains: pd.DataFrame, groups: pd.DataFrame):
                    sets=sets_list,
                    props={'name': name}))
 
-    groups = groups.groupby(by=['CountryCode']).groups
-    for eco, df in groups:
+    grouped = groups.groupby(by=['CountryCode'])
+    for eco, idx in grouped.groups.items():
+        df = groups.iloc[idx]
         eco_groups = df['GroupCode'].values.tolist()
         eco_id = to_concept_id(eco)
         eco_name = df['CountryName'].unique()
         if len(eco_name) > 1:
             print(f'Warning: economy {eco} has multiple names: {eco_name}')
-        props = dict()
+        props = {'name': eco_name[0]}
         for g in eco_groups:
             sets = set_membership[g]
             for s in sets:
@@ -60,27 +61,27 @@ def extrace_economy_entities(domains: pd.DataFrame, groups: pd.DataFrame):
         all_entities.append(
             Entity(id=eco_id, domain='economy', sets=['country'], props=props))
 
-        print(all_entities[-1])
-        return all_entities
+    return all_entities
 
 
 def main():
     print("reading source files...")
-    data = pd.read_csv(data_csv,
-                       encoding='latin',
-                       dtype=str,
-                       na_values=[''],
-                       keep_default_na=False).dropna(how='all', axis=1)
-    country = pd.read_csv(country_csv,
-                          encoding='latin',
-                          dtype=str,
-                          na_values=[''],
-                          keep_default_na=False).dropna(how='all', axis=1)
-    series = pd.read_csv(series_csv,
-                         encoding='latin',
-                         dtype=str,
-                         na_values=[''],
-                         keep_default_na=False).dropna(how='all', axis=1)
+    # data = pd.read_csv(data_csv,
+    #                    encoding='latin',
+    #                    dtype=str,
+    #                    na_values=[''],
+    #                    keep_default_na=False).dropna(how='all', axis=1)
+    # country = pd.read_csv(country_csv,
+    #                       encoding='latin',
+    #                       dtype=str,
+    #                       na_values=[''],
+    #                       keep_default_na=False).dropna(how='all', axis=1)
+    # series = pd.read_csv(series_csv,
+    #                      encoding='latin',
+    #                      dtype=str,
+    #                      na_values=[''],
+    #                      keep_default_na=False).dropna(how='all', axis=1)
+
     econs = pd.read_excel(
         groups_xls,
         sheet_name='List of economies',
@@ -94,8 +95,12 @@ def main():
                            na_values=[''],
                            keep_default_na=False).dropna(how='all')
 
-    domains = pd.read_excel(domain_xls).iloc[5:]
-    extrace_economy_entities(domains, groups)
+    domains = pd.read_excel(domain_xls)
+    all_entities = extrace_economy_entities(domains, groups)
+    eco_domain = EntityDomain(id='economy', entities=all_entities, props={'name': 'Economy'})
+    for eset in eco_domain.entity_sets:
+        df = pd.DataFrame.from_records([v.to_dict() for v in eco_domain.get_entity_set(eset)])
+        df.to_csv(f'../../ddf--entities--economy--{eset}.csv', index=False)
 
 
 if __name__ == '__main__':
