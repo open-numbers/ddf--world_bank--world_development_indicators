@@ -55,7 +55,11 @@ def extrace_economy_entities(domains: pd.DataFrame, groups: pd.DataFrame):
             print(f'Warning: economy {eco} has multiple names: {eco_name}')
         props = {'name': eco_name[0]}
         for g in eco_groups:
-            sets = set_membership[g]
+            try:
+                sets = set_membership[g]
+            except KeyError:
+                print("warning: group not found: {g}, please add it to the wb_economy_entity_domain.xlsx file.")
+                raise
             for s in sets:
                 props[s] = to_concept_id(g)
         all_entities.append(
