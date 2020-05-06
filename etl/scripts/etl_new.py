@@ -195,25 +195,24 @@ def main():
         df.to_csv(f'../../ddf--entities--economy--{eset}.csv', index=False)
 
     # datapoints
-    # print('creating datapoints...')
-    # datapoints = extract_datapoints_country_year(data)
-    # datapoints_output_dir = os.path.join(output_dir, 'datapoints')
-    # os.makedirs(datapoints_output_dir, exist_ok=True)
-    # for k, v in datapoints.items():
-    #     v[k] = pd.to_numeric(v[k])
-    #     if not v.empty:
-    #         v.to_csv(
-    #             os.path.join(
-    #                 datapoints_output_dir,
-    #                 'ddf--datapoints--' + k + '--by--economy--year.csv'),
-    #             index=False,
-    #             encoding='latin',
-    #             # keep 10 digits. this is to avoid pandas
-    #             # use scientific notation in the datapoints
-    #             # and also keep precision. There are really
-    #             # small/big numbers in this datset.
-    #             float_format='%.10f')
-
+    print('creating datapoints...')
+    datapoints = extract_datapoints_country_year(data)
+    datapoints_output_dir = os.path.join(output_dir, 'datapoints')
+    os.makedirs(datapoints_output_dir, exist_ok=True)
+    for k, v in datapoints.items():
+        v[k] = pd.to_numeric(v[k])
+        if not v.empty:
+            v.to_csv(
+                os.path.join(
+                    datapoints_output_dir,
+                    'ddf--datapoints--' + k + '--by--economy--year.csv'),
+                index=False,
+                encoding='latin',
+                # keep 10 digits. this is to avoid pandas
+                # use scientific notation in the datapoints
+                # and also keep precision. There are really
+                # small/big numbers in this datset.
+                float_format='%.10f')
 
     # concepts
     print('creating concepts files...')
