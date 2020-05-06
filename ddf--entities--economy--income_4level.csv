@@ -1,5 +1,5 @@
-income_4level,is--income_2level,is--income_3level,is--income_4level,name
-hic,TRUE,TRUE,TRUE,High income
-lic,FALSE,TRUE,TRUE,Low income
-lmc,FALSE,FALSE,TRUE,Lower middle income
-umc,FALSE,FALSE,TRUE,Upper middle income
+income_4level,is--income_4level,name
+hic,TRUE,High income
+lic,TRUE,Low income
+lmc,TRUE,Lower middle income
+umc,TRUE,Upper middle income

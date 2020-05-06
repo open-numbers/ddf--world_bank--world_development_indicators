@@ -14,6 +14,7 @@ from ddf_utils.io import dump_json
 from ddf_utils.package import get_datapackage
 from ddf_utils.model.ddf import Concept, EntityDomain, Entity
 
+
 # configuration of file path.
 source_dir = '../source/'
 output_dir = '../../'
@@ -59,19 +60,14 @@ def extrace_economy_entities(domains: pd.DataFrame, groups: pd.DataFrame):
                 raise
             for s in sets:
                 group_concept = to_concept_id(g)
-                # we do not allow multiple membership except `other_group`
-                if s == 'other_group' and s in props:
-                    if s in props:
-                        props[s] = ','.join([props[s], group_concept])
-                    else:
-                        props[s] = group_concept
-                else:
-                    if s in props:
-                        raise ValueError(
-                            f'{eco_name} belongs to 2 groups '
-                            '({props[s]}, {group_concept}) in same entity_set {s}'
-                        )
-                    props[s] = group_concept
+                # we do not allow multiple membership
+                if s in props:
+                    raise ValueError(
+                        f'{eco_name} belongs to 2 groups '
+                        '({props[s]}, {group_concept}) in same entity_set {s}'
+                    )
+                props[s] = group_concept
+
         all_entities.append(
             Entity(id=eco_id, domain='economy', sets=['country'], props=props))
 
@@ -205,12 +201,12 @@ def main():
                               props={'name': 'Economy'})
     for eset in eco_domain.entity_sets:
         df = pd.DataFrame.from_records(eco_domain.to_dict(eset=eset))
-        # there is an issue in ddf_utils that some is-- headers doesn't
-        # include FALSEs. We add it here
-        # FIXME
+        # some entities belong to multiple entity_sets, but we don't need to
+        # include other is-- headers than the one we are proceeding.
+        # TODO: maybe change the EntityDomain.to_dict method
         for col in df.columns:
-            if col.startswith('is--'):
-                df[col] = df[col].fillna('FALSE')
+            if col.startswith('is--') and col != f'is--{eset}':
+                df = df.drop(col, axis=1)
         df.to_csv(f'../../ddf--entities--economy--{eset}.csv', index=False)
 
     # datapoints

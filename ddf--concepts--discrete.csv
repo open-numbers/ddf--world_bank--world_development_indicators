@@ -19,20 +19,27 @@ related_source_links,string,Related source links,
 related_indicators,string,Related indicators,
 license_type,string,License Type,
 economy,entity_domain,Economy,
-small_state_total,entity_set,Small State Total,economy
-lending_category,entity_set,Lending Category,economy
-income_4level,entity_set,Income 4Level,economy
-lending_category_total,entity_set,Lending Category Total,economy
 lending_category_ida_total,entity_set,Lending Category Ida Total,economy
-other_group,entity_set,Other Group,economy
-region,entity_set,Region,economy
-global,entity_set,Global,economy
-income_3level,entity_set,Income 3Level,economy
-small_state,entity_set,Small State,economy
-country,entity_set,Country,economy
+other_group_emu,entity_set,Other Group Emu,economy
+other_group_fcs,entity_set,Other Group Fcs,economy
 region_ida_and_ibrd,entity_set,Region Ida And Ibrd,economy
+small_state,entity_set,Small State,economy
 demographic_dividend_state,entity_set,Demographic Dividend State,economy
+other_group_arb,entity_set,Other Group Arb,economy
+income_3level,entity_set,Income 3Level,economy
+income_4level,entity_set,Income 4Level,economy
+other_group_hpc,entity_set,Other Group Hpc,economy
+lending_category_total,entity_set,Lending Category Total,economy
+other_group_ldc,entity_set,Other Group Ldc,economy
+global,entity_set,Global,economy
 income_2level,entity_set,Income 2Level,economy
 region_excluding_high_income,entity_set,Region Excluding High Income,economy
+other_group_ceb,entity_set,Other Group Ceb,economy
+lending_category,entity_set,Lending Category,economy
+other_group_euu,entity_set,Other Group Euu,economy
+region,entity_set,Region,economy
+other_group_oed,entity_set,Other Group Oed,economy
+country,entity_set,Country,economy
+small_state_total,entity_set,Small State Total,economy
 year,time,Year,
 domain,string,Domain,
