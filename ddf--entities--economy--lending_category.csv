@@ -1,4 +1,4 @@
 lending_category,is--lending_category,is--lending_category_ida_total,name
 ibd,TRUE,TRUE,IBRD only
-idb,TRUE,,IDA blend
-idx,TRUE,,IDA only
+idb,TRUE,FALSE,IDA blend
+idx,TRUE,FALSE,IDA only

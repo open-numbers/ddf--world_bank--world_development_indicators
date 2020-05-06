@@ -192,6 +192,12 @@ def main():
                               props={'name': 'Economy'})
     for eset in eco_domain.entity_sets:
         df = pd.DataFrame.from_records(eco_domain.to_dict(eset=eset))
+        # there is an issue in ddf_utils that some is-- headers doesn't
+        # include FALSEs. We add it here
+        # FIXME
+        for col in df.columns:
+            if col.startswith('is--'):
+                df[col] = df[col].fillna('FALSE')
         df.to_csv(f'../../ddf--entities--economy--{eset}.csv', index=False)
 
     # datapoints
