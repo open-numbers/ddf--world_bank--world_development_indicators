@@ -58,7 +58,20 @@ def extrace_economy_entities(domains: pd.DataFrame, groups: pd.DataFrame):
                       "wb_economy_entity_domain.xlsx file.")
                 raise
             for s in sets:
-                props[s] = to_concept_id(g)
+                group_concept = to_concept_id(g)
+                # we do not allow multiple membership except `other_group`
+                if s == 'other_group' and s in props:
+                    if s in props:
+                        props[s] = ','.join([props[s], group_concept])
+                    else:
+                        props[s] = group_concept
+                else:
+                    if s in props:
+                        raise ValueError(
+                            f'{eco_name} belongs to 2 groups '
+                            '({props[s]}, {group_concept}) in same entity_set {s}'
+                        )
+                    props[s] = group_concept
         all_entities.append(
             Entity(id=eco_id, domain='economy', sets=['country'], props=props))
 
@@ -231,13 +244,11 @@ def main():
     ]
     concept_continuous_df = pd.DataFrame.from_records(concept_continuous)
     concept_continuous_df.to_csv(os.path.join(output_dir,
-                                           'ddf--concepts--continuous.csv'),
-                              index=False,
-                              encoding='latin')
+                                              'ddf--concepts--continuous.csv'),
+                                 index=False,
+                                 encoding='latin')
 
-    concept_discrete = [
-        c for c in concepts if c.concept_type != 'measure'
-    ]
+    concept_discrete = [c for c in concepts if c.concept_type != 'measure']
     for c in extract_concept_entities(eco_domain):
         concept_discrete.append(c)
     # hard code the `year` and `domain` concept
@@ -249,9 +260,9 @@ def main():
     concept_discrete = [c.to_dict() for c in concept_discrete]
     concept_discrete_df = pd.DataFrame.from_records(concept_discrete)
     concept_discrete_df.to_csv(os.path.join(output_dir,
-                                         'ddf--concepts--discrete.csv'),
-                            index=False,
-                            encoding='latin')
+                                            'ddf--concepts--discrete.csv'),
+                               index=False,
+                               encoding='latin')
 
     # datapackage
     dump_json(os.path.join(output_dir, 'datapackage.json'),
