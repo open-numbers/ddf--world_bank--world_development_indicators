@@ -1,4 +1,4 @@
-economy,is--country,name,income_2level,income_3level,income_4level,region,demographic_dividend_state,global,other_group,lending_category_total,lending_category_ida_total,lending_category,region_ida_and_ibrd,region_excluding_high_income,small_state,small_state_total
+country,is--country,name,income_2level,income_3level,income_4level,region,demographic_dividend_state,global,other_group,lending_category_total,lending_category_ida_total,lending_category,region_ida_and_ibrd,region_excluding_high_income,small_state,small_state_total
 abw,TRUE,Aruba,hic,hic,hic,lcn,lte,wld,,,,,,,,
 afg,TRUE,Afghanistan,lmy,lic,lic,sas,pre,wld,ldc,ibt,ida,idx,tsa,,,
 ago,TRUE,Angola,lmy,mic,lmc,ssf,pre,wld,ldc,ibt,ibd,ibd,tss,ssa,,

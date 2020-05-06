@@ -1,4 +1,4 @@
-economy,is--lending_category,is--lending_category_ida_total,name
+lending_category,is--lending_category,is--lending_category_ida_total,name
 ibd,TRUE,TRUE,IBRD only
 idb,TRUE,,IDA blend
 idx,TRUE,,IDA only

@@ -1,4 +1,4 @@
-economy,is--income_2level,is--income_3level,is--income_4level,name
+income_4level,is--income_2level,is--income_3level,is--income_4level,name
 hic,TRUE,TRUE,TRUE,High income
 lic,,TRUE,TRUE,Low income
 lmc,,,TRUE,Lower middle income

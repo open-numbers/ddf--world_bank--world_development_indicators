@@ -43,8 +43,7 @@ def extrace_economy_entities(domains: pd.DataFrame, groups: pd.DataFrame):
                    props={'name': name}))
 
     grouped = groups.groupby(by=['CountryCode'])
-    for eco, idx in grouped.groups.items():
-        df = groups.iloc[idx]
+    for eco, df in grouped:
         eco_groups = df['GroupCode'].values.tolist()
         eco_id = to_concept_id(eco)
         eco_name = df['CountryName'].unique()
@@ -104,6 +103,24 @@ def extract_concept_series(series):
         yield Concept(id=concept, concept_type='measure', props=props)
 
 
+def extract_concept_entities(domain):
+
+    # first yield the domain concept
+    yield Concept(id=domain.id,
+                  concept_type='entity_domain',
+                  props={'name': domain.props['name']})
+
+    # then the entity sets:
+    for eset in domain.entity_sets:
+        name = ' '.join(eset.split('_')).title()
+        yield Concept(id=eset,
+                      concept_type='entity_set',
+                      props={
+                          'name': name,
+                          'domain': domain.id
+                      })
+
+
 def extract_datapoints_country_year(data):
     """extract all data points by country and year, base on the data csv"""
 
@@ -116,22 +133,21 @@ def extract_datapoints_country_year(data):
     print(data.iloc[0].index[:idx])
 
     # group the data by series.
-    gs = data.groupby(by='Indicator Code').groups
+    grouped = data.groupby(by='Indicator Code')
 
-    for subject in data['Indicator Code'].unique():
-        s = to_concept_id(subject)
-        headers_datapoints = ['country', 'year', s]
+    for indicator, df in grouped:
+        concept = to_concept_id(indicator)
+        headers_datapoints = ['economy', 'year', concept]
 
-        data_all = data.ix[gs[subject]].copy()
+        df_group = df.copy()
+        df_group['Country Code'] = df_group['Country Code'].apply(to_concept_id)
+        df_group = df_group.set_index('Country Code')
+        df_group = df_group.T['1960':]  # data begins from 1960
+        df_group = df_group.unstack()  # adding back country code as column
+        df_group = df_group.reset_index().dropna()  # ... and year column
+        df_group.columns = headers_datapoints
 
-        data_all['Country Code'] = data_all['Country Code'].apply(to_concept_id)
-        data_all = data_all.set_index('Country Code')
-        data_all = data_all.T['1960':]  # data begins from 1960
-        data_all = data_all.unstack()  # adding back country code as column
-        data_all = data_all.reset_index().dropna()  # ... and year column
-        data_all.columns = headers_datapoints
-
-        res[s] = data_all
+        res[concept] = df_group
 
     return res
 
@@ -175,29 +191,29 @@ def main():
                               entities=all_entities,
                               props={'name': 'Economy'})
     for eset in eco_domain.entity_sets:
-        df = pd.DataFrame.from_records(
-            [v.to_dict() for v in eco_domain.get_entity_set(eset)])
+        df = pd.DataFrame.from_records(eco_domain.to_dict(eset=eset))
         df.to_csv(f'../../ddf--entities--economy--{eset}.csv', index=False)
 
     # datapoints
-    print('creating datapoints...')
-    datapoints = extract_datapoints_country_year(data)
-    datapoints_output_dir = os.path.join(output_dir, 'datapoints')
-    os.makedirs(datapoints_output_dir, exist_ok=True)
-    for k, v in datapoints.items():
-        v[k] = pd.to_numeric(v[k])
-        if not v.empty:
-            v.to_csv(
-                os.path.join(
-                    datapoints_output_dir,
-                    'ddf--datapoints--' + k + '--by--economy--year.csv'),
-                index=False,
-                encoding='latin',
-                # keep 10 digits. this is to avoid pandas
-                # use scientific notation in the datapoints
-                # and also keep precision. There are really
-                # small/big numbers in this datset.
-                float_format='%.10f')
+    # print('creating datapoints...')
+    # datapoints = extract_datapoints_country_year(data)
+    # datapoints_output_dir = os.path.join(output_dir, 'datapoints')
+    # os.makedirs(datapoints_output_dir, exist_ok=True)
+    # for k, v in datapoints.items():
+    #     v[k] = pd.to_numeric(v[k])
+    #     if not v.empty:
+    #         v.to_csv(
+    #             os.path.join(
+    #                 datapoints_output_dir,
+    #                 'ddf--datapoints--' + k + '--by--economy--year.csv'),
+    #             index=False,
+    #             encoding='latin',
+    #             # keep 10 digits. this is to avoid pandas
+    #             # use scientific notation in the datapoints
+    #             # and also keep precision. There are really
+    #             # small/big numbers in this datset.
+    #             float_format='%.10f')
+
 
     # concepts
     print('creating concepts files...')
@@ -205,22 +221,29 @@ def main():
     for c in extract_concept_series(series):
         concepts.append(c)
 
-    # TODO: extract concepts from entities
-
     concept_continuous = [
         c.to_dict() for c in concepts if c.concept_type == 'measure'
     ]
     concept_continuous_df = pd.DataFrame.from_records(concept_continuous)
-    concept_continuous.to_csv(os.path.join(output_dir,
+    concept_continuous_df.to_csv(os.path.join(output_dir,
                                            'ddf--concepts--continuous.csv'),
                               index=False,
                               encoding='latin')
 
     concept_discrete = [
-        c.to_dict() for c in concepts if c.concept_type != 'measure'
+        c for c in concepts if c.concept_type != 'measure'
     ]
+    for c in extract_concept_entities(eco_domain):
+        concept_discrete.append(c)
+    # hard code the `year` and `domain` concept
+    concept_discrete.append(
+        Concept(id='year', concept_type='time', props=dict(name='Year')))
+    concept_discrete.append(
+        Concept(id='domain', concept_type='string', props=dict(name='Domain')))
+
+    concept_discrete = [c.to_dict() for c in concept_discrete]
     concept_discrete_df = pd.DataFrame.from_records(concept_discrete)
-    concept_discrete.to_csv(os.path.join(output_dir,
+    concept_discrete_df.to_csv(os.path.join(output_dir,
                                          'ddf--concepts--discrete.csv'),
                             index=False,
                             encoding='latin')
