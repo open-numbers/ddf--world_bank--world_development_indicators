@@ -278,6 +278,7 @@ def main():
 
     concept_discrete = [c.to_dict() for c in concept_discrete]
     concept_discrete_df = pd.DataFrame.from_records(concept_discrete)
+    concept_discrete_df = concept_discrete_df.sort_values(by='concept')
     concept_discrete_df.to_csv(os.path.join(output_dir,
                                             'ddf--concepts--discrete.csv'),
                                index=False,
