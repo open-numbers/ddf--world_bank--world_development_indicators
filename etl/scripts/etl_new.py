@@ -14,6 +14,7 @@ from ddf_utils.io import dump_json
 from ddf_utils.package import get_datapackage
 from ddf_utils.model.ddf import Concept, EntityDomain, Entity
 
+from income_group_hist import *
 
 # configuration of file path.
 source_dir = '../source/'
@@ -24,9 +25,10 @@ country_csv = os.path.join(source_dir, 'WDICountry.csv')
 series_csv = os.path.join(source_dir, 'WDISeries.csv')
 groups_xls = os.path.join(source_dir, 'CLASS.xls')
 domain_xls = os.path.join(source_dir, 'wb_economy_entity_domain.xlsx')
+oghist_file = os.path.join(source_dir, 'OGHIST.xls')
 
 
-def extrace_economy_entities(domains: pd.DataFrame, groups: pd.DataFrame):
+def extract_economy_entities(domains: pd.DataFrame, groups: pd.DataFrame):
     """create domains/sets for economics"""
     all_entities = list()
     set_membership = dict()
@@ -64,8 +66,7 @@ def extrace_economy_entities(domains: pd.DataFrame, groups: pd.DataFrame):
                 if s in props:
                     raise ValueError(
                         f'{eco_name} belongs to 2 groups '
-                        '({props[s]}, {group_concept}) in same entity_set {s}'
-                    )
+                        '({props[s]}, {group_concept}) in same entity_set {s}')
                 props[s] = group_concept
 
         all_entities.append(
@@ -195,7 +196,22 @@ def main():
     # domain
     print('creating economy domain...')
     domains = pd.read_excel(domain_xls)
-    all_entities = extrace_economy_entities(domains, groups)
+    all_entities = extract_economy_entities(domains, groups)
+
+    # domain: add more entity from income group history
+    income_hist_table = load_and_pre_process(oghist_file)
+    income_economy = income_hist_table[
+        'economy_name']  # the index is economy IDs.
+    existing = [e.id for e in all_entities]
+    missing = [i for i in income_economy.index if i not in existing]
+    for i in missing:
+        name = income_economy[i]
+        all_entities.append(
+            Entity(id=i,
+                   domain='economy',
+                   sets=['country'],
+                   props=dict(name=name)))
+
     eco_domain = EntityDomain(id='economy',
                               entities=all_entities,
                               props={'name': 'Economy'})
@@ -228,6 +244,13 @@ def main():
                 # and also keep precision. There are really
                 # small/big numbers in this datset.
                 float_format='%.10f')
+
+    # income group history datapoints
+    income_hist_dp = create_hist_income_grorup_datapoints(income_hist_table)
+    for lvl, df in income_hist_dp.items():
+        df.to_csv(join(output_dir,
+                       f'ddf--datapoints--{lvl}--by--economy--year.csv'),
+                  index=False)
 
     # concepts
     print('creating concepts files...')

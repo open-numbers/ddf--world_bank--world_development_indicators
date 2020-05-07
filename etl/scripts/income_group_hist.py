@@ -19,10 +19,14 @@ def load_and_pre_process(source_file):
                           keep_default_na=False,
                           na_values=['', '..'],
                           skiprows=5)
-    table = table.drop(table.columns[1], axis=1)
-    table = table.rename(columns={'Unnamed: 0': 'economy'})
+    # table = table.drop(table.columns[1], axis=1)
+    table = table.rename(columns={
+        table.columns[0]: 'economy',
+        table.columns[1]: 'economy_name'
+    })
     table['economy'] = table['economy'].str.lower()
-    table = table.set_index('economy').iloc[4:]
+    table = table.iloc[4:].dropna(subset=['economy', 'economy_name'],
+                                  how='any').set_index('economy')
     return table
 
 
@@ -34,9 +38,10 @@ def remap_df(df, column, column_new_name, mapping):
 
 
 def create_hist_income_grorup_datapoints(table: pd.DataFrame):
-    df = flatten_table(table)
+    df = table.drop('economy_name', axis=1)
+    df = flatten_table(df)
     df.columns = ['economy', 'year', 'income_group']
-    # NOTE from source file:
+    # NOTE about LM* from source file:
     # * At this time, there were Yemen, PDR (L) and Yemen, Arab Rep. (LM);
     # combined they would have been LM.
     level_map_4 = {
