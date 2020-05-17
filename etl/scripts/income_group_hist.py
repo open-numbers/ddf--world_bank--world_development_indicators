@@ -37,7 +37,7 @@ def remap_df(df, column, column_new_name, mapping):
     return df
 
 
-def create_hist_income_grorup_datapoints(table: pd.DataFrame):
+def create_hist_income_group_datapoints(table: pd.DataFrame):
     df = table.drop('economy_name', axis=1)
     df = flatten_table(df)
     df.columns = ['economy', 'year', 'income_group']
@@ -77,7 +77,7 @@ def create_hist_income_grorup_datapoints(table: pd.DataFrame):
 
 if __name__ == '__main__':
     table = load_and_pre_process(oghist_file)
-    result = create_hist_income_grorup_datapoints(table)
+    result = create_hist_income_group_datapoints(table)
     for lvl, df in result.items():
         df.to_csv(join(output_dir,
                        f'ddf--datapoints--{lvl}--by--economy--year.csv'),
