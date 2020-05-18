@@ -1,4 +1,5 @@
 etl/source/WDI_csv
+*.bak
 
 # Tempfiles of OSX/Win
 Thumbs.db

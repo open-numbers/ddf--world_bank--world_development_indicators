@@ -1,51 +1,45 @@
-concept,name,concept_type
-country_code,Country Code,string
-table_name,Table Name,string
-long_name,Long Name,string
-2_alpha_code,2-alpha code,string
-currency_unit,Currency Unit,string
-special_notes,Special Notes,string
-region,Region,string
-income_group,Income Group,string
-wb_2_code,WB-2 code,string
-national_accounts_base_year,National accounts base year,string
-national_accounts_reference_year,National accounts reference year,string
-sna_price_valuation,SNA price valuation,string
-lending_category,Lending category,string
-other_groups,Other groups,string
-system_of_national_accounts,System of National Accounts,string
-alternative_conversion_factor,Alternative conversion factor,string
-ppp_survey_year,PPP survey year,string
-balance_of_payments_manual_in_use,Balance of Payments Manual in use,string
-external_debt_reporting_status,External debt Reporting status,string
-system_of_trade,System of trade,string
-government_accounting_concept,Government Accounting concept,string
-imf_data_dissemination_standard,IMF data dissemination standard,string
-latest_population_census,Latest population census,string
-latest_household_survey,Latest household survey,string
-source_of_most_recent_income_and_expenditure_data,Source of most recent Income and expenditure data,string
-vital_registration_complete,Vital registration complete,string
-latest_agricultural_census,Latest agricultural census,string
-latest_industrial_data,Latest industrial data,string
-latest_trade_data,Latest trade data,string
-series_code,Series Code,string
-topic,Topic,string
-short_definition,Short definition,string
-long_definition,Long definition,string
-unit_of_measure,Unit of measure,string
-periodicity,Periodicity,string
-base_period,Base Period,string
-other_notes,Other notes,string
-aggregation_method,Aggregation method,string
-limitations_and_exceptions,Limitations and exceptions,string
-notes_from_original_source,Notes from original source,string
-general_comments,General comments,string
-source,Source,string
-statistical_concept_and_methodology,Statistical concept and methodology,string
-development_relevance,Development relevance,string
-related_source_links,Related source links,string
-related_indicators,Related indicators,string
-license_type,License Type,string
-country,Country,entity_domain
-year,Year,time
-name,Name,string
+concept,concept_type,name,domain
+aggregation_method,string,Aggregation method,
+base_period,string,Base Period,
+country,entity_set,Country,economy
+demographic_dividend_state,entity_set,Demographic Dividend State,economy
+development_relevance,string,Development relevance,
+domain,string,Domain,
+economy,entity_domain,Economy,
+general_comments,string,General comments,
+global,entity_set,Global,economy
+income_2level,entity_set,Income 2Level,economy
+income_3level,entity_set,Income 3Level,economy
+income_4level,entity_set,Income 4Level,economy
+lending_category,entity_set,Lending Category,economy
+lending_category_ida_total,entity_set,Lending Category Ida Total,economy
+lending_category_total,entity_set,Lending Category Total,economy
+license_type,string,License Type,
+limitations_and_exceptions,string,Limitations and exceptions,
+long_definition,string,Long definition,
+name,string,Name,
+notes_from_original_source,string,Notes from original source,
+other_group_arb,entity_set,Other Group Arb,economy
+other_group_ceb,entity_set,Other Group Ceb,economy
+other_group_emu,entity_set,Other Group Emu,economy
+other_group_euu,entity_set,Other Group Euu,economy
+other_group_fcs,entity_set,Other Group Fcs,economy
+other_group_hpc,entity_set,Other Group Hpc,economy
+other_group_ldc,entity_set,Other Group Ldc,economy
+other_group_oed,entity_set,Other Group Oed,economy
+other_notes,string,Other notes,
+periodicity,string,Periodicity,
+region,entity_set,Region,economy
+region_excluding_high_income,entity_set,Region Excluding High Income,economy
+region_ida_and_ibrd,entity_set,Region Ida And Ibrd,economy
+related_indicators,string,Related indicators,
+related_source_links,string,Related source links,
+series_code,string,Series Code,
+short_definition,string,Short definition,
+small_state,entity_set,Small State,economy
+small_state_total,entity_set,Small State Total,economy
+source,string,Source,
+statistical_concept_and_methodology,string,Statistical concept and methodology,
+topic,string,Topic,
+unit_of_measure,string,Unit of measure,
+year,time,Year,

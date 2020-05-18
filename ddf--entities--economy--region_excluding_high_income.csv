@@ -1,0 +1,6 @@
+region_excluding_high_income,is--region_excluding_high_income,name
+eap,TRUE,East Asia & Pacific (excluding high income)
+eca,TRUE,Europe & Central Asia (excluding high income)
+lac,TRUE,Latin America & Caribbean (excluding high income)
+mna,TRUE,Middle East & North Africa (excluding high income)
+ssa,TRUE,Sub-Saharan Africa (excluding high income)
