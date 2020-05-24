@@ -1,0 +1,5 @@
+demographic_dividend_state,is--demographic_dividend_state,name
+ear,TRUE,Early-demographic dividend
+lte,TRUE,Late-demographic dividend
+pst,TRUE,Post-demographic dividend
+pre,TRUE,Pre-demographic dividend

@@ -1,0 +1,4 @@
+lending_category,is--lending_category,name
+ibd,TRUE,IBRD only
+idb,TRUE,IDA blend
+idx,TRUE,IDA only
