@@ -31,6 +31,7 @@ afg,2015,lic
 afg,2016,lic
 afg,2017,lic
 afg,2018,lic
+afg,2019,lic
 alb,1990,mic
 alb,1991,mic
 alb,1992,mic
@@ -60,6 +61,7 @@ alb,2015,mic
 alb,2016,mic
 alb,2017,mic
 alb,2018,mic
+alb,2019,mic
 dza,1987,mic
 dza,1988,mic
 dza,1989,mic
@@ -92,6 +94,7 @@ dza,2015,mic
 dza,2016,mic
 dza,2017,mic
 dza,2018,mic
+dza,2019,mic
 asm,1987,hic
 asm,1988,hic
 asm,1989,hic
@@ -124,6 +127,7 @@ asm,2015,mic
 asm,2016,mic
 asm,2017,mic
 asm,2018,mic
+asm,2019,mic
 and,1990,hic
 and,1991,hic
 and,1992,hic
@@ -153,6 +157,7 @@ and,2015,hic
 and,2016,hic
 and,2017,hic
 and,2018,hic
+and,2019,hic
 ago,1988,mic
 ago,1989,mic
 ago,1990,mic
@@ -184,6 +189,7 @@ ago,2015,mic
 ago,2016,mic
 ago,2017,mic
 ago,2018,mic
+ago,2019,mic
 atg,1987,mic
 atg,1988,mic
 atg,1989,mic
@@ -216,6 +222,7 @@ atg,2015,hic
 atg,2016,hic
 atg,2017,hic
 atg,2018,hic
+atg,2019,hic
 arg,1987,mic
 arg,1988,mic
 arg,1989,mic
@@ -248,6 +255,7 @@ arg,2015,mic
 arg,2016,mic
 arg,2017,hic
 arg,2018,mic
+arg,2019,mic
 arm,1991,mic
 arm,1992,mic
 arm,1993,lic
@@ -276,6 +284,7 @@ arm,2015,mic
 arm,2016,mic
 arm,2017,mic
 arm,2018,mic
+arm,2019,mic
 abw,1987,hic
 abw,1988,hic
 abw,1989,hic
@@ -308,6 +317,7 @@ abw,2015,hic
 abw,2016,hic
 abw,2017,hic
 abw,2018,hic
+abw,2019,hic
 aus,1987,hic
 aus,1988,hic
 aus,1989,hic
@@ -340,6 +350,7 @@ aus,2015,hic
 aus,2016,hic
 aus,2017,hic
 aus,2018,hic
+aus,2019,hic
 aut,1987,hic
 aut,1988,hic
 aut,1989,hic
@@ -372,6 +383,7 @@ aut,2015,hic
 aut,2016,hic
 aut,2017,hic
 aut,2018,hic
+aut,2019,hic
 aze,1991,mic
 aze,1992,mic
 aze,1993,mic
@@ -400,6 +412,7 @@ aze,2015,mic
 aze,2016,mic
 aze,2017,mic
 aze,2018,mic
+aze,2019,mic
 bhs,1987,hic
 bhs,1988,hic
 bhs,1989,hic
@@ -432,6 +445,7 @@ bhs,2015,hic
 bhs,2016,hic
 bhs,2017,hic
 bhs,2018,hic
+bhs,2019,hic
 bhr,1987,hic
 bhr,1988,hic
 bhr,1989,hic
@@ -464,6 +478,7 @@ bhr,2015,hic
 bhr,2016,hic
 bhr,2017,hic
 bhr,2018,hic
+bhr,2019,hic
 bgd,1987,lic
 bgd,1988,lic
 bgd,1989,lic
@@ -496,6 +511,7 @@ bgd,2015,mic
 bgd,2016,mic
 bgd,2017,mic
 bgd,2018,mic
+bgd,2019,mic
 brb,1987,mic
 brb,1988,mic
 brb,1989,hic
@@ -528,6 +544,7 @@ brb,2015,hic
 brb,2016,hic
 brb,2017,hic
 brb,2018,hic
+brb,2019,hic
 blr,1991,mic
 blr,1992,mic
 blr,1993,mic
@@ -556,6 +573,7 @@ blr,2015,mic
 blr,2016,mic
 blr,2017,mic
 blr,2018,mic
+blr,2019,mic
 bel,1987,hic
 bel,1988,hic
 bel,1989,hic
@@ -588,6 +606,7 @@ bel,2015,hic
 bel,2016,hic
 bel,2017,hic
 bel,2018,hic
+bel,2019,hic
 blz,1987,mic
 blz,1988,mic
 blz,1989,mic
@@ -620,6 +639,7 @@ blz,2015,mic
 blz,2016,mic
 blz,2017,mic
 blz,2018,mic
+blz,2019,mic
 ben,1987,lic
 ben,1988,lic
 ben,1989,lic
@@ -652,6 +672,7 @@ ben,2015,lic
 ben,2016,lic
 ben,2017,lic
 ben,2018,lic
+ben,2019,mic
 bmu,1987,hic
 bmu,1988,hic
 bmu,1989,hic
@@ -684,6 +705,7 @@ bmu,2015,hic
 bmu,2016,hic
 bmu,2017,hic
 bmu,2018,hic
+bmu,2019,hic
 btn,1987,lic
 btn,1988,lic
 btn,1989,lic
@@ -716,6 +738,7 @@ btn,2015,mic
 btn,2016,mic
 btn,2017,mic
 btn,2018,mic
+btn,2019,mic
 bol,1987,mic
 bol,1988,mic
 bol,1989,mic
@@ -748,6 +771,7 @@ bol,2015,mic
 bol,2016,mic
 bol,2017,mic
 bol,2018,mic
+bol,2019,mic
 bih,1992,mic
 bih,1993,lic
 bih,1994,lic
@@ -775,6 +799,7 @@ bih,2015,mic
 bih,2016,mic
 bih,2017,mic
 bih,2018,mic
+bih,2019,mic
 bwa,1987,mic
 bwa,1988,mic
 bwa,1989,mic
@@ -807,6 +832,7 @@ bwa,2015,mic
 bwa,2016,mic
 bwa,2017,mic
 bwa,2018,mic
+bwa,2019,mic
 bra,1987,mic
 bra,1988,mic
 bra,1989,mic
@@ -839,10 +865,12 @@ bra,2015,mic
 bra,2016,mic
 bra,2017,mic
 bra,2018,mic
+bra,2019,mic
 vgb,2015,hic
 vgb,2016,hic
 vgb,2017,hic
 vgb,2018,hic
+vgb,2019,hic
 brn,1987,hic
 brn,1990,hic
 brn,1991,hic
@@ -873,6 +901,7 @@ brn,2015,hic
 brn,2016,hic
 brn,2017,hic
 brn,2018,hic
+brn,2019,hic
 bgr,1989,mic
 bgr,1990,mic
 bgr,1991,mic
@@ -903,6 +932,7 @@ bgr,2015,mic
 bgr,2016,mic
 bgr,2017,mic
 bgr,2018,mic
+bgr,2019,mic
 bfa,1987,lic
 bfa,1988,lic
 bfa,1989,lic
@@ -935,6 +965,7 @@ bfa,2015,lic
 bfa,2016,lic
 bfa,2017,lic
 bfa,2018,lic
+bfa,2019,lic
 bdi,1987,lic
 bdi,1988,lic
 bdi,1989,lic
@@ -967,6 +998,7 @@ bdi,2015,lic
 bdi,2016,lic
 bdi,2017,lic
 bdi,2018,lic
+bdi,2019,lic
 cpv,1988,mic
 cpv,1989,mic
 cpv,1990,mic
@@ -998,6 +1030,7 @@ cpv,2015,mic
 cpv,2016,mic
 cpv,2017,mic
 cpv,2018,mic
+cpv,2019,mic
 khm,1987,lic
 khm,1988,lic
 khm,1989,lic
@@ -1030,6 +1063,7 @@ khm,2015,mic
 khm,2016,mic
 khm,2017,mic
 khm,2018,mic
+khm,2019,mic
 cmr,1987,mic
 cmr,1988,mic
 cmr,1989,mic
@@ -1062,6 +1096,7 @@ cmr,2015,mic
 cmr,2016,mic
 cmr,2017,mic
 cmr,2018,mic
+cmr,2019,mic
 can,1987,hic
 can,1988,hic
 can,1989,hic
@@ -1094,6 +1129,7 @@ can,2015,hic
 can,2016,hic
 can,2017,hic
 can,2018,hic
+can,2019,hic
 cym,1993,hic
 cym,1994,hic
 cym,1995,hic
@@ -1120,6 +1156,7 @@ cym,2015,hic
 cym,2016,hic
 cym,2017,hic
 cym,2018,hic
+cym,2019,hic
 caf,1987,lic
 caf,1988,lic
 caf,1989,lic
@@ -1152,6 +1189,7 @@ caf,2015,lic
 caf,2016,lic
 caf,2017,lic
 caf,2018,lic
+caf,2019,lic
 tcd,1987,lic
 tcd,1988,lic
 tcd,1989,lic
@@ -1184,6 +1222,7 @@ tcd,2015,lic
 tcd,2016,lic
 tcd,2017,lic
 tcd,2018,lic
+tcd,2019,lic
 chi,1987,hic
 chi,1988,hic
 chi,1989,hic
@@ -1216,6 +1255,7 @@ chi,2015,hic
 chi,2016,hic
 chi,2017,hic
 chi,2018,hic
+chi,2019,hic
 chl,1987,mic
 chl,1988,mic
 chl,1989,mic
@@ -1248,6 +1288,7 @@ chl,2015,hic
 chl,2016,hic
 chl,2017,hic
 chl,2018,hic
+chl,2019,hic
 chn,1987,lic
 chn,1988,lic
 chn,1989,lic
@@ -1280,6 +1321,7 @@ chn,2015,mic
 chn,2016,mic
 chn,2017,mic
 chn,2018,mic
+chn,2019,mic
 col,1987,mic
 col,1988,mic
 col,1989,mic
@@ -1312,6 +1354,7 @@ col,2015,mic
 col,2016,mic
 col,2017,mic
 col,2018,mic
+col,2019,mic
 com,1987,lic
 com,1988,lic
 com,1989,lic
@@ -1344,6 +1387,7 @@ com,2015,lic
 com,2016,lic
 com,2017,lic
 com,2018,mic
+com,2019,mic
 cod,1987,lic
 cod,1988,lic
 cod,1989,lic
@@ -1376,6 +1420,7 @@ cod,2015,lic
 cod,2016,lic
 cod,2017,lic
 cod,2018,lic
+cod,2019,lic
 cog,1987,mic
 cog,1988,mic
 cog,1989,mic
@@ -1408,6 +1453,7 @@ cog,2015,mic
 cog,2016,mic
 cog,2017,mic
 cog,2018,mic
+cog,2019,mic
 cri,1987,mic
 cri,1988,mic
 cri,1989,mic
@@ -1440,6 +1486,7 @@ cri,2015,mic
 cri,2016,mic
 cri,2017,mic
 cri,2018,mic
+cri,2019,mic
 civ,1987,mic
 civ,1988,mic
 civ,1989,mic
@@ -1472,6 +1519,7 @@ civ,2015,mic
 civ,2016,mic
 civ,2017,mic
 civ,2018,mic
+civ,2019,mic
 hrv,1992,mic
 hrv,1993,mic
 hrv,1994,mic
@@ -1499,6 +1547,7 @@ hrv,2015,hic
 hrv,2016,mic
 hrv,2017,hic
 hrv,2018,hic
+hrv,2019,hic
 cub,1990,mic
 cub,1991,mic
 cub,1992,mic
@@ -1528,6 +1577,7 @@ cub,2015,mic
 cub,2016,mic
 cub,2017,mic
 cub,2018,mic
+cub,2019,mic
 cuw,2010,hic
 cuw,2011,hic
 cuw,2012,hic
@@ -1537,6 +1587,7 @@ cuw,2015,hic
 cuw,2016,hic
 cuw,2017,hic
 cuw,2018,hic
+cuw,2019,hic
 cyp,1987,mic
 cyp,1988,hic
 cyp,1989,hic
@@ -1569,6 +1620,7 @@ cyp,2015,hic
 cyp,2016,hic
 cyp,2017,hic
 cyp,2018,hic
+cyp,2019,hic
 cze,1992,mic
 cze,1993,mic
 cze,1994,mic
@@ -1596,6 +1648,7 @@ cze,2015,hic
 cze,2016,hic
 cze,2017,hic
 cze,2018,hic
+cze,2019,hic
 dnk,1987,hic
 dnk,1988,hic
 dnk,1989,hic
@@ -1628,6 +1681,7 @@ dnk,2015,hic
 dnk,2016,hic
 dnk,2017,hic
 dnk,2018,hic
+dnk,2019,hic
 dji,1990,mic
 dji,1991,mic
 dji,1992,mic
@@ -1657,6 +1711,7 @@ dji,2015,mic
 dji,2016,mic
 dji,2017,mic
 dji,2018,mic
+dji,2019,mic
 dma,1987,mic
 dma,1988,mic
 dma,1989,mic
@@ -1689,6 +1744,7 @@ dma,2015,mic
 dma,2016,mic
 dma,2017,mic
 dma,2018,mic
+dma,2019,mic
 dom,1987,mic
 dom,1988,mic
 dom,1989,mic
@@ -1721,6 +1777,7 @@ dom,2015,mic
 dom,2016,mic
 dom,2017,mic
 dom,2018,mic
+dom,2019,mic
 ecu,1987,mic
 ecu,1988,mic
 ecu,1989,mic
@@ -1753,6 +1810,7 @@ ecu,2015,mic
 ecu,2016,mic
 ecu,2017,mic
 ecu,2018,mic
+ecu,2019,mic
 egy,1987,mic
 egy,1988,mic
 egy,1989,mic
@@ -1785,6 +1843,7 @@ egy,2015,mic
 egy,2016,mic
 egy,2017,mic
 egy,2018,mic
+egy,2019,mic
 slv,1987,mic
 slv,1988,mic
 slv,1989,mic
@@ -1817,6 +1876,7 @@ slv,2015,mic
 slv,2016,mic
 slv,2017,mic
 slv,2018,mic
+slv,2019,mic
 gnq,1987,lic
 gnq,1988,lic
 gnq,1989,lic
@@ -1849,6 +1909,7 @@ gnq,2015,mic
 gnq,2016,mic
 gnq,2017,mic
 gnq,2018,mic
+gnq,2019,mic
 eri,1992,lic
 eri,1993,lic
 eri,1994,lic
@@ -1876,6 +1937,7 @@ eri,2015,lic
 eri,2016,lic
 eri,2017,lic
 eri,2018,lic
+eri,2019,lic
 est,1991,mic
 est,1992,mic
 est,1993,mic
@@ -1904,6 +1966,7 @@ est,2015,hic
 est,2016,hic
 est,2017,hic
 est,2018,hic
+est,2019,hic
 swz,1987,mic
 swz,1988,mic
 swz,1989,mic
@@ -1936,6 +1999,7 @@ swz,2015,mic
 swz,2016,mic
 swz,2017,mic
 swz,2018,mic
+swz,2019,mic
 eth,1987,lic
 eth,1988,lic
 eth,1989,lic
@@ -1968,6 +2032,7 @@ eth,2015,lic
 eth,2016,lic
 eth,2017,lic
 eth,2018,lic
+eth,2019,lic
 fro,1987,hic
 fro,1988,hic
 fro,1989,hic
@@ -2000,6 +2065,7 @@ fro,2015,hic
 fro,2016,hic
 fro,2017,hic
 fro,2018,hic
+fro,2019,hic
 fji,1987,mic
 fji,1988,mic
 fji,1989,mic
@@ -2032,6 +2098,7 @@ fji,2015,mic
 fji,2016,mic
 fji,2017,mic
 fji,2018,mic
+fji,2019,mic
 fin,1987,hic
 fin,1988,hic
 fin,1989,hic
@@ -2064,6 +2131,7 @@ fin,2015,hic
 fin,2016,hic
 fin,2017,hic
 fin,2018,hic
+fin,2019,hic
 fra,1987,hic
 fra,1988,hic
 fra,1989,hic
@@ -2096,6 +2164,7 @@ fra,2015,hic
 fra,2016,hic
 fra,2017,hic
 fra,2018,hic
+fra,2019,hic
 pyf,1990,hic
 pyf,1991,hic
 pyf,1992,hic
@@ -2125,6 +2194,7 @@ pyf,2015,hic
 pyf,2016,hic
 pyf,2017,hic
 pyf,2018,hic
+pyf,2019,hic
 gab,1987,mic
 gab,1988,mic
 gab,1989,mic
@@ -2157,6 +2227,7 @@ gab,2015,mic
 gab,2016,mic
 gab,2017,mic
 gab,2018,mic
+gab,2019,mic
 gmb,1987,lic
 gmb,1988,lic
 gmb,1989,lic
@@ -2189,6 +2260,7 @@ gmb,2015,lic
 gmb,2016,lic
 gmb,2017,lic
 gmb,2018,lic
+gmb,2019,lic
 geo,1991,mic
 geo,1992,mic
 geo,1993,lic
@@ -2217,6 +2289,7 @@ geo,2015,mic
 geo,2016,mic
 geo,2017,mic
 geo,2018,mic
+geo,2019,mic
 deu,1987,hic
 deu,1988,hic
 deu,1989,hic
@@ -2249,6 +2322,7 @@ deu,2015,hic
 deu,2016,hic
 deu,2017,hic
 deu,2018,hic
+deu,2019,hic
 gha,1987,lic
 gha,1988,lic
 gha,1989,lic
@@ -2281,6 +2355,7 @@ gha,2015,mic
 gha,2016,mic
 gha,2017,mic
 gha,2018,mic
+gha,2019,mic
 gib,1987,mic
 gib,1988,mic
 gib,1989,mic
@@ -2294,6 +2369,7 @@ gib,2015,hic
 gib,2016,hic
 gib,2017,hic
 gib,2018,hic
+gib,2019,hic
 grc,1987,mic
 grc,1988,mic
 grc,1989,mic
@@ -2326,6 +2402,7 @@ grc,2015,hic
 grc,2016,hic
 grc,2017,hic
 grc,2018,hic
+grc,2019,hic
 grl,1987,hic
 grl,1988,hic
 grl,1989,hic
@@ -2358,6 +2435,7 @@ grl,2015,hic
 grl,2016,hic
 grl,2017,hic
 grl,2018,hic
+grl,2019,hic
 grd,1987,mic
 grd,1988,mic
 grd,1989,mic
@@ -2390,6 +2468,7 @@ grd,2015,mic
 grd,2016,mic
 grd,2017,mic
 grd,2018,mic
+grd,2019,mic
 gum,1987,hic
 gum,1988,hic
 gum,1989,hic
@@ -2422,6 +2501,7 @@ gum,2015,hic
 gum,2016,hic
 gum,2017,hic
 gum,2018,hic
+gum,2019,hic
 gtm,1987,mic
 gtm,1988,mic
 gtm,1989,mic
@@ -2454,6 +2534,7 @@ gtm,2015,mic
 gtm,2016,mic
 gtm,2017,mic
 gtm,2018,mic
+gtm,2019,mic
 gin,1987,lic
 gin,1988,lic
 gin,1989,lic
@@ -2486,6 +2567,7 @@ gin,2015,lic
 gin,2016,lic
 gin,2017,lic
 gin,2018,lic
+gin,2019,lic
 gnb,1987,lic
 gnb,1988,lic
 gnb,1989,lic
@@ -2518,6 +2600,7 @@ gnb,2015,lic
 gnb,2016,lic
 gnb,2017,lic
 gnb,2018,lic
+gnb,2019,lic
 guy,1987,lic
 guy,1988,lic
 guy,1989,lic
@@ -2550,6 +2633,7 @@ guy,2015,mic
 guy,2016,mic
 guy,2017,mic
 guy,2018,mic
+guy,2019,mic
 hti,1987,lic
 hti,1988,lic
 hti,1989,lic
@@ -2582,6 +2666,7 @@ hti,2015,lic
 hti,2016,lic
 hti,2017,lic
 hti,2018,lic
+hti,2019,lic
 hnd,1987,mic
 hnd,1988,mic
 hnd,1989,mic
@@ -2614,6 +2699,7 @@ hnd,2015,mic
 hnd,2016,mic
 hnd,2017,mic
 hnd,2018,mic
+hnd,2019,mic
 hkg,1987,hic
 hkg,1988,hic
 hkg,1989,hic
@@ -2646,6 +2732,7 @@ hkg,2015,hic
 hkg,2016,hic
 hkg,2017,hic
 hkg,2018,hic
+hkg,2019,hic
 hun,1987,mic
 hun,1988,mic
 hun,1989,mic
@@ -2678,6 +2765,7 @@ hun,2015,hic
 hun,2016,hic
 hun,2017,hic
 hun,2018,hic
+hun,2019,hic
 isl,1987,hic
 isl,1988,hic
 isl,1989,hic
@@ -2710,6 +2798,7 @@ isl,2015,hic
 isl,2016,hic
 isl,2017,hic
 isl,2018,hic
+isl,2019,hic
 ind,1987,lic
 ind,1988,lic
 ind,1989,lic
@@ -2742,6 +2831,7 @@ ind,2015,mic
 ind,2016,mic
 ind,2017,mic
 ind,2018,mic
+ind,2019,mic
 idn,1987,lic
 idn,1988,lic
 idn,1989,lic
@@ -2774,6 +2864,7 @@ idn,2015,mic
 idn,2016,mic
 idn,2017,mic
 idn,2018,mic
+idn,2019,mic
 irn,1987,mic
 irn,1988,mic
 irn,1989,mic
@@ -2806,6 +2897,7 @@ irn,2015,mic
 irn,2016,mic
 irn,2017,mic
 irn,2018,mic
+irn,2019,mic
 irq,1987,mic
 irq,1988,mic
 irq,1989,mic
@@ -2838,6 +2930,7 @@ irq,2015,mic
 irq,2016,mic
 irq,2017,mic
 irq,2018,mic
+irq,2019,mic
 irl,1987,hic
 irl,1988,hic
 irl,1989,hic
@@ -2870,6 +2963,7 @@ irl,2015,hic
 irl,2016,hic
 irl,2017,hic
 irl,2018,hic
+irl,2019,hic
 imn,1987,hic
 imn,1988,hic
 imn,1989,hic
@@ -2902,6 +2996,7 @@ imn,2015,hic
 imn,2016,hic
 imn,2017,hic
 imn,2018,hic
+imn,2019,hic
 isr,1987,hic
 isr,1988,hic
 isr,1989,hic
@@ -2934,6 +3029,7 @@ isr,2015,hic
 isr,2016,hic
 isr,2017,hic
 isr,2018,hic
+isr,2019,hic
 ita,1987,hic
 ita,1988,hic
 ita,1989,hic
@@ -2966,6 +3062,7 @@ ita,2015,hic
 ita,2016,hic
 ita,2017,hic
 ita,2018,hic
+ita,2019,hic
 jam,1987,mic
 jam,1988,mic
 jam,1989,mic
@@ -2998,6 +3095,7 @@ jam,2015,mic
 jam,2016,mic
 jam,2017,mic
 jam,2018,mic
+jam,2019,mic
 jpn,1987,hic
 jpn,1988,hic
 jpn,1989,hic
@@ -3030,6 +3128,7 @@ jpn,2015,hic
 jpn,2016,hic
 jpn,2017,hic
 jpn,2018,hic
+jpn,2019,hic
 jor,1987,mic
 jor,1988,mic
 jor,1989,mic
@@ -3062,6 +3161,7 @@ jor,2015,mic
 jor,2016,mic
 jor,2017,mic
 jor,2018,mic
+jor,2019,mic
 kaz,1991,mic
 kaz,1992,mic
 kaz,1993,mic
@@ -3090,6 +3190,7 @@ kaz,2015,mic
 kaz,2016,mic
 kaz,2017,mic
 kaz,2018,mic
+kaz,2019,mic
 ken,1987,lic
 ken,1988,lic
 ken,1989,lic
@@ -3122,6 +3223,7 @@ ken,2015,mic
 ken,2016,mic
 ken,2017,mic
 ken,2018,mic
+ken,2019,mic
 kir,1987,mic
 kir,1988,mic
 kir,1989,mic
@@ -3154,6 +3256,7 @@ kir,2015,mic
 kir,2016,mic
 kir,2017,mic
 kir,2018,mic
+kir,2019,mic
 prk,1990,mic
 prk,1991,mic
 prk,1992,mic
@@ -3183,6 +3286,7 @@ prk,2015,lic
 prk,2016,lic
 prk,2017,lic
 prk,2018,lic
+prk,2019,lic
 kor,1987,mic
 kor,1988,mic
 kor,1989,mic
@@ -3215,6 +3319,7 @@ kor,2015,hic
 kor,2016,hic
 kor,2017,hic
 kor,2018,hic
+kor,2019,hic
 xkx,2008,mic
 xkx,2009,mic
 xkx,2010,mic
@@ -3226,6 +3331,7 @@ xkx,2015,mic
 xkx,2016,mic
 xkx,2017,mic
 xkx,2018,mic
+xkx,2019,mic
 kwt,1987,hic
 kwt,1988,hic
 kwt,1989,hic
@@ -3258,6 +3364,7 @@ kwt,2015,hic
 kwt,2016,hic
 kwt,2017,hic
 kwt,2018,hic
+kwt,2019,hic
 kgz,1991,mic
 kgz,1992,mic
 kgz,1993,mic
@@ -3286,6 +3393,7 @@ kgz,2015,mic
 kgz,2016,mic
 kgz,2017,mic
 kgz,2018,mic
+kgz,2019,mic
 lao,1987,lic
 lao,1988,lic
 lao,1989,lic
@@ -3318,6 +3426,7 @@ lao,2015,mic
 lao,2016,mic
 lao,2017,mic
 lao,2018,mic
+lao,2019,mic
 lva,1991,mic
 lva,1992,mic
 lva,1993,mic
@@ -3346,6 +3455,7 @@ lva,2015,hic
 lva,2016,hic
 lva,2017,hic
 lva,2018,hic
+lva,2019,hic
 lbn,1987,mic
 lbn,1988,mic
 lbn,1989,mic
@@ -3378,6 +3488,7 @@ lbn,2015,mic
 lbn,2016,mic
 lbn,2017,mic
 lbn,2018,mic
+lbn,2019,mic
 lso,1987,lic
 lso,1988,lic
 lso,1989,lic
@@ -3410,6 +3521,7 @@ lso,2015,mic
 lso,2016,mic
 lso,2017,mic
 lso,2018,mic
+lso,2019,mic
 lbr,1987,lic
 lbr,1988,lic
 lbr,1989,lic
@@ -3442,6 +3554,7 @@ lbr,2015,lic
 lbr,2016,lic
 lbr,2017,lic
 lbr,2018,lic
+lbr,2019,lic
 lby,1987,mic
 lby,1988,mic
 lby,1989,mic
@@ -3474,6 +3587,7 @@ lby,2015,mic
 lby,2016,mic
 lby,2017,mic
 lby,2018,mic
+lby,2019,mic
 lie,1994,hic
 lie,1995,hic
 lie,1996,hic
@@ -3499,6 +3613,7 @@ lie,2015,hic
 lie,2016,hic
 lie,2017,hic
 lie,2018,hic
+lie,2019,hic
 ltu,1991,mic
 ltu,1992,mic
 ltu,1993,mic
@@ -3527,6 +3642,7 @@ ltu,2015,hic
 ltu,2016,hic
 ltu,2017,hic
 ltu,2018,hic
+ltu,2019,hic
 lux,1987,hic
 lux,1988,hic
 lux,1989,hic
@@ -3559,6 +3675,7 @@ lux,2015,hic
 lux,2016,hic
 lux,2017,hic
 lux,2018,hic
+lux,2019,hic
 mac,1987,mic
 mac,1988,mic
 mac,1989,mic
@@ -3591,6 +3708,7 @@ mac,2015,hic
 mac,2016,hic
 mac,2017,hic
 mac,2018,hic
+mac,2019,hic
 mdg,1987,lic
 mdg,1988,lic
 mdg,1989,lic
@@ -3623,6 +3741,7 @@ mdg,2015,lic
 mdg,2016,lic
 mdg,2017,lic
 mdg,2018,lic
+mdg,2019,lic
 mwi,1987,lic
 mwi,1988,lic
 mwi,1989,lic
@@ -3655,6 +3774,7 @@ mwi,2015,lic
 mwi,2016,lic
 mwi,2017,lic
 mwi,2018,lic
+mwi,2019,lic
 mys,1987,mic
 mys,1988,mic
 mys,1989,mic
@@ -3687,6 +3807,7 @@ mys,2015,mic
 mys,2016,mic
 mys,2017,mic
 mys,2018,mic
+mys,2019,mic
 mdv,1987,lic
 mdv,1988,lic
 mdv,1989,lic
@@ -3719,6 +3840,7 @@ mdv,2015,mic
 mdv,2016,mic
 mdv,2017,mic
 mdv,2018,mic
+mdv,2019,mic
 mli,1987,lic
 mli,1988,lic
 mli,1989,lic
@@ -3751,6 +3873,7 @@ mli,2015,lic
 mli,2016,lic
 mli,2017,lic
 mli,2018,lic
+mli,2019,lic
 mlt,1987,mic
 mlt,1988,mic
 mlt,1989,hic
@@ -3783,6 +3906,7 @@ mlt,2015,hic
 mlt,2016,hic
 mlt,2017,hic
 mlt,2018,hic
+mlt,2019,hic
 mhl,1991,mic
 mhl,1992,mic
 mhl,1993,mic
@@ -3811,6 +3935,7 @@ mhl,2015,mic
 mhl,2016,mic
 mhl,2017,mic
 mhl,2018,mic
+mhl,2019,mic
 mrt,1987,lic
 mrt,1988,lic
 mrt,1989,lic
@@ -3843,6 +3968,7 @@ mrt,2015,mic
 mrt,2016,mic
 mrt,2017,mic
 mrt,2018,mic
+mrt,2019,mic
 mus,1987,mic
 mus,1988,mic
 mus,1989,mic
@@ -3875,6 +4001,7 @@ mus,2015,mic
 mus,2016,mic
 mus,2017,mic
 mus,2018,mic
+mus,2019,hic
 mex,1987,mic
 mex,1988,mic
 mex,1989,mic
@@ -3907,6 +4034,7 @@ mex,2015,mic
 mex,2016,mic
 mex,2017,mic
 mex,2018,mic
+mex,2019,mic
 fsm,1991,mic
 fsm,1992,mic
 fsm,1993,mic
@@ -3935,6 +4063,7 @@ fsm,2015,mic
 fsm,2016,mic
 fsm,2017,mic
 fsm,2018,mic
+fsm,2019,mic
 mda,1991,mic
 mda,1992,mic
 mda,1993,mic
@@ -3963,6 +4092,7 @@ mda,2015,mic
 mda,2016,mic
 mda,2017,mic
 mda,2018,mic
+mda,2019,mic
 mco,1994,hic
 mco,1995,hic
 mco,1996,hic
@@ -3988,6 +4118,7 @@ mco,2015,hic
 mco,2016,hic
 mco,2017,hic
 mco,2018,hic
+mco,2019,hic
 mng,1989,mic
 mng,1990,mic
 mng,1991,mic
@@ -4018,6 +4149,7 @@ mng,2015,mic
 mng,2016,mic
 mng,2017,mic
 mng,2018,mic
+mng,2019,mic
 mne,2006,mic
 mne,2007,mic
 mne,2008,mic
@@ -4031,6 +4163,7 @@ mne,2015,mic
 mne,2016,mic
 mne,2017,mic
 mne,2018,mic
+mne,2019,mic
 mar,1987,mic
 mar,1988,mic
 mar,1989,mic
@@ -4063,6 +4196,7 @@ mar,2015,mic
 mar,2016,mic
 mar,2017,mic
 mar,2018,mic
+mar,2019,mic
 moz,1987,lic
 moz,1988,lic
 moz,1989,lic
@@ -4095,6 +4229,7 @@ moz,2015,lic
 moz,2016,lic
 moz,2017,lic
 moz,2018,lic
+moz,2019,lic
 mmr,1987,lic
 mmr,1988,lic
 mmr,1989,lic
@@ -4127,6 +4262,7 @@ mmr,2015,mic
 mmr,2016,mic
 mmr,2017,mic
 mmr,2018,mic
+mmr,2019,mic
 nam,1989,mic
 nam,1990,mic
 nam,1991,mic
@@ -4157,10 +4293,12 @@ nam,2015,mic
 nam,2016,mic
 nam,2017,mic
 nam,2018,mic
+nam,2019,mic
 nru,2015,hic
 nru,2016,mic
 nru,2017,mic
 nru,2018,mic
+nru,2019,hic
 npl,1987,lic
 npl,1988,lic
 npl,1989,lic
@@ -4193,6 +4331,7 @@ npl,2015,lic
 npl,2016,lic
 npl,2017,lic
 npl,2018,lic
+npl,2019,mic
 nld,1987,hic
 nld,1988,hic
 nld,1989,hic
@@ -4225,6 +4364,7 @@ nld,2015,hic
 nld,2016,hic
 nld,2017,hic
 nld,2018,hic
+nld,2019,hic
 ncl,1987,mic
 ncl,1988,mic
 ncl,1989,mic
@@ -4257,6 +4397,7 @@ ncl,2015,hic
 ncl,2016,hic
 ncl,2017,hic
 ncl,2018,hic
+ncl,2019,hic
 nzl,1987,hic
 nzl,1988,hic
 nzl,1989,hic
@@ -4289,6 +4430,7 @@ nzl,2015,hic
 nzl,2016,hic
 nzl,2017,hic
 nzl,2018,hic
+nzl,2019,hic
 nic,1987,mic
 nic,1988,mic
 nic,1989,mic
@@ -4321,6 +4463,7 @@ nic,2015,mic
 nic,2016,mic
 nic,2017,mic
 nic,2018,mic
+nic,2019,mic
 ner,1987,lic
 ner,1988,lic
 ner,1989,lic
@@ -4353,6 +4496,7 @@ ner,2015,lic
 ner,2016,lic
 ner,2017,lic
 ner,2018,lic
+ner,2019,lic
 nga,1987,lic
 nga,1988,lic
 nga,1989,lic
@@ -4385,6 +4529,7 @@ nga,2015,mic
 nga,2016,mic
 nga,2017,mic
 nga,2018,mic
+nga,2019,mic
 mkd,1992,mic
 mkd,1993,mic
 mkd,1994,mic
@@ -4412,6 +4557,7 @@ mkd,2015,mic
 mkd,2016,mic
 mkd,2017,mic
 mkd,2018,mic
+mkd,2019,mic
 mnp,1992,mic
 mnp,1993,mic
 mnp,1994,mic
@@ -4439,6 +4585,7 @@ mnp,2015,hic
 mnp,2016,hic
 mnp,2017,hic
 mnp,2018,hic
+mnp,2019,hic
 nor,1987,hic
 nor,1988,hic
 nor,1989,hic
@@ -4471,6 +4618,7 @@ nor,2015,hic
 nor,2016,hic
 nor,2017,hic
 nor,2018,hic
+nor,2019,hic
 omn,1987,mic
 omn,1988,mic
 omn,1989,mic
@@ -4503,6 +4651,7 @@ omn,2015,hic
 omn,2016,hic
 omn,2017,hic
 omn,2018,hic
+omn,2019,hic
 pak,1987,lic
 pak,1988,lic
 pak,1989,lic
@@ -4535,6 +4684,7 @@ pak,2015,mic
 pak,2016,mic
 pak,2017,mic
 pak,2018,mic
+pak,2019,mic
 plw,1996,mic
 plw,1997,mic
 plw,1998,mic
@@ -4558,6 +4708,7 @@ plw,2015,mic
 plw,2016,hic
 plw,2017,hic
 plw,2018,hic
+plw,2019,hic
 pan,1987,mic
 pan,1988,mic
 pan,1989,mic
@@ -4590,6 +4741,7 @@ pan,2015,mic
 pan,2016,mic
 pan,2017,hic
 pan,2018,hic
+pan,2019,hic
 png,1987,mic
 png,1988,mic
 png,1989,mic
@@ -4622,6 +4774,7 @@ png,2015,mic
 png,2016,mic
 png,2017,mic
 png,2018,mic
+png,2019,mic
 pry,1987,mic
 pry,1988,mic
 pry,1989,mic
@@ -4654,6 +4807,7 @@ pry,2015,mic
 pry,2016,mic
 pry,2017,mic
 pry,2018,mic
+pry,2019,mic
 per,1987,mic
 per,1988,mic
 per,1989,mic
@@ -4686,6 +4840,7 @@ per,2015,mic
 per,2016,mic
 per,2017,mic
 per,2018,mic
+per,2019,mic
 phl,1987,mic
 phl,1988,mic
 phl,1989,mic
@@ -4718,6 +4873,7 @@ phl,2015,mic
 phl,2016,mic
 phl,2017,mic
 phl,2018,mic
+phl,2019,mic
 pol,1987,mic
 pol,1988,mic
 pol,1989,mic
@@ -4750,6 +4906,7 @@ pol,2015,hic
 pol,2016,hic
 pol,2017,hic
 pol,2018,hic
+pol,2019,hic
 prt,1987,mic
 prt,1988,mic
 prt,1989,mic
@@ -4782,6 +4939,7 @@ prt,2015,hic
 prt,2016,hic
 prt,2017,hic
 prt,2018,hic
+prt,2019,hic
 pri,1987,mic
 pri,1988,mic
 pri,1989,hic
@@ -4814,6 +4972,7 @@ pri,2015,hic
 pri,2016,hic
 pri,2017,hic
 pri,2018,hic
+pri,2019,hic
 qat,1987,hic
 qat,1988,hic
 qat,1989,hic
@@ -4846,6 +5005,7 @@ qat,2015,hic
 qat,2016,hic
 qat,2017,hic
 qat,2018,hic
+qat,2019,hic
 rou,1987,mic
 rou,1988,mic
 rou,1989,mic
@@ -4878,6 +5038,7 @@ rou,2015,mic
 rou,2016,mic
 rou,2017,mic
 rou,2018,mic
+rou,2019,hic
 rus,1991,mic
 rus,1992,mic
 rus,1993,mic
@@ -4906,6 +5067,7 @@ rus,2015,mic
 rus,2016,mic
 rus,2017,mic
 rus,2018,mic
+rus,2019,mic
 rwa,1987,lic
 rwa,1988,lic
 rwa,1989,lic
@@ -4938,6 +5100,7 @@ rwa,2015,lic
 rwa,2016,lic
 rwa,2017,lic
 rwa,2018,lic
+rwa,2019,lic
 wsm,1987,mic
 wsm,1988,mic
 wsm,1989,mic
@@ -4970,6 +5133,7 @@ wsm,2015,mic
 wsm,2016,mic
 wsm,2017,mic
 wsm,2018,mic
+wsm,2019,mic
 smr,1991,hic
 smr,1992,hic
 smr,1993,hic
@@ -4992,6 +5156,7 @@ smr,2015,hic
 smr,2016,hic
 smr,2017,hic
 smr,2018,hic
+smr,2019,hic
 stp,1987,lic
 stp,1988,lic
 stp,1989,lic
@@ -5024,6 +5189,7 @@ stp,2015,mic
 stp,2016,mic
 stp,2017,mic
 stp,2018,mic
+stp,2019,mic
 sau,1987,hic
 sau,1988,hic
 sau,1989,hic
@@ -5056,6 +5222,7 @@ sau,2015,hic
 sau,2016,hic
 sau,2017,hic
 sau,2018,hic
+sau,2019,hic
 sen,1987,mic
 sen,1988,mic
 sen,1989,mic
@@ -5088,6 +5255,7 @@ sen,2015,lic
 sen,2016,lic
 sen,2017,lic
 sen,2018,mic
+sen,2019,mic
 srb,2006,mic
 srb,2007,mic
 srb,2008,mic
@@ -5101,6 +5269,7 @@ srb,2015,mic
 srb,2016,mic
 srb,2017,mic
 srb,2018,mic
+srb,2019,mic
 syc,1987,mic
 syc,1988,mic
 syc,1989,mic
@@ -5133,6 +5302,7 @@ syc,2015,hic
 syc,2016,hic
 syc,2017,hic
 syc,2018,hic
+syc,2019,hic
 sle,1987,lic
 sle,1988,lic
 sle,1989,lic
@@ -5165,6 +5335,7 @@ sle,2015,lic
 sle,2016,lic
 sle,2017,lic
 sle,2018,lic
+sle,2019,lic
 sgp,1987,hic
 sgp,1988,hic
 sgp,1989,hic
@@ -5197,6 +5368,7 @@ sgp,2015,hic
 sgp,2016,hic
 sgp,2017,hic
 sgp,2018,hic
+sgp,2019,hic
 sxm,2010,hic
 sxm,2011,hic
 sxm,2012,hic
@@ -5206,6 +5378,7 @@ sxm,2015,hic
 sxm,2016,hic
 sxm,2017,hic
 sxm,2018,hic
+sxm,2019,hic
 svk,1992,mic
 svk,1993,mic
 svk,1994,mic
@@ -5233,6 +5406,7 @@ svk,2015,hic
 svk,2016,hic
 svk,2017,hic
 svk,2018,hic
+svk,2019,hic
 svn,1992,mic
 svn,1993,mic
 svn,1994,mic
@@ -5260,6 +5434,7 @@ svn,2015,hic
 svn,2016,hic
 svn,2017,hic
 svn,2018,hic
+svn,2019,hic
 slb,1987,lic
 slb,1988,mic
 slb,1989,lic
@@ -5292,6 +5467,7 @@ slb,2015,mic
 slb,2016,mic
 slb,2017,mic
 slb,2018,mic
+slb,2019,mic
 som,1987,lic
 som,1988,lic
 som,1989,lic
@@ -5324,6 +5500,7 @@ som,2015,lic
 som,2016,lic
 som,2017,lic
 som,2018,lic
+som,2019,lic
 zaf,1987,mic
 zaf,1988,mic
 zaf,1989,mic
@@ -5356,6 +5533,7 @@ zaf,2015,mic
 zaf,2016,mic
 zaf,2017,mic
 zaf,2018,mic
+zaf,2019,mic
 ssd,2011,mic
 ssd,2012,lic
 ssd,2013,mic
@@ -5364,6 +5542,7 @@ ssd,2015,lic
 ssd,2016,lic
 ssd,2017,lic
 ssd,2018,lic
+ssd,2019,lic
 esp,1987,hic
 esp,1988,hic
 esp,1989,hic
@@ -5396,6 +5575,7 @@ esp,2015,hic
 esp,2016,hic
 esp,2017,hic
 esp,2018,hic
+esp,2019,hic
 lka,1987,lic
 lka,1988,lic
 lka,1989,lic
@@ -5428,6 +5608,7 @@ lka,2015,mic
 lka,2016,mic
 lka,2017,mic
 lka,2018,mic
+lka,2019,mic
 kna,1987,mic
 kna,1988,mic
 kna,1989,mic
@@ -5460,6 +5641,7 @@ kna,2015,hic
 kna,2016,hic
 kna,2017,hic
 kna,2018,hic
+kna,2019,hic
 lca,1987,mic
 lca,1988,mic
 lca,1989,mic
@@ -5492,6 +5674,7 @@ lca,2015,mic
 lca,2016,mic
 lca,2017,mic
 lca,2018,mic
+lca,2019,mic
 maf,2010,hic
 maf,2011,hic
 maf,2012,hic
@@ -5501,6 +5684,7 @@ maf,2015,hic
 maf,2016,hic
 maf,2017,hic
 maf,2018,hic
+maf,2019,hic
 vct,1987,mic
 vct,1988,mic
 vct,1989,mic
@@ -5533,6 +5717,7 @@ vct,2015,mic
 vct,2016,mic
 vct,2017,mic
 vct,2018,mic
+vct,2019,mic
 sdn,1987,lic
 sdn,1988,lic
 sdn,1989,lic
@@ -5565,6 +5750,7 @@ sdn,2015,mic
 sdn,2016,mic
 sdn,2017,mic
 sdn,2018,mic
+sdn,2019,lic
 sur,1987,mic
 sur,1988,mic
 sur,1989,mic
@@ -5597,6 +5783,7 @@ sur,2015,mic
 sur,2016,mic
 sur,2017,mic
 sur,2018,mic
+sur,2019,mic
 swe,1987,hic
 swe,1988,hic
 swe,1989,hic
@@ -5629,6 +5816,7 @@ swe,2015,hic
 swe,2016,hic
 swe,2017,hic
 swe,2018,hic
+swe,2019,hic
 che,1987,hic
 che,1988,hic
 che,1989,hic
@@ -5661,6 +5849,7 @@ che,2015,hic
 che,2016,hic
 che,2017,hic
 che,2018,hic
+che,2019,hic
 syr,1987,mic
 syr,1988,mic
 syr,1989,mic
@@ -5693,6 +5882,7 @@ syr,2015,mic
 syr,2016,mic
 syr,2017,lic
 syr,2018,lic
+syr,2019,lic
 twn,1987,hic
 twn,1988,hic
 twn,1989,hic
@@ -5725,6 +5915,7 @@ twn,2015,hic
 twn,2016,hic
 twn,2017,hic
 twn,2018,hic
+twn,2019,hic
 tjk,1991,mic
 tjk,1992,lic
 tjk,1993,lic
@@ -5753,6 +5944,7 @@ tjk,2015,mic
 tjk,2016,mic
 tjk,2017,lic
 tjk,2018,lic
+tjk,2019,lic
 tza,1987,lic
 tza,1988,lic
 tza,1989,lic
@@ -5785,6 +5977,7 @@ tza,2015,lic
 tza,2016,lic
 tza,2017,lic
 tza,2018,lic
+tza,2019,mic
 tha,1987,mic
 tha,1988,mic
 tha,1989,mic
@@ -5817,6 +6010,7 @@ tha,2015,mic
 tha,2016,mic
 tha,2017,mic
 tha,2018,mic
+tha,2019,mic
 tls,2001,lic
 tls,2002,lic
 tls,2003,lic
@@ -5835,6 +6029,7 @@ tls,2015,mic
 tls,2016,mic
 tls,2017,mic
 tls,2018,mic
+tls,2019,mic
 tgo,1987,lic
 tgo,1988,lic
 tgo,1989,lic
@@ -5867,6 +6062,7 @@ tgo,2015,lic
 tgo,2016,lic
 tgo,2017,lic
 tgo,2018,lic
+tgo,2019,lic
 ton,1987,mic
 ton,1988,mic
 ton,1989,mic
@@ -5899,6 +6095,7 @@ ton,2015,mic
 ton,2016,mic
 ton,2017,mic
 ton,2018,mic
+ton,2019,mic
 tto,1987,mic
 tto,1988,mic
 tto,1989,mic
@@ -5931,6 +6128,7 @@ tto,2015,hic
 tto,2016,hic
 tto,2017,hic
 tto,2018,hic
+tto,2019,hic
 tun,1987,mic
 tun,1988,mic
 tun,1989,mic
@@ -5963,6 +6161,7 @@ tun,2015,mic
 tun,2016,mic
 tun,2017,mic
 tun,2018,mic
+tun,2019,mic
 tur,1987,mic
 tur,1988,mic
 tur,1989,mic
@@ -5995,6 +6194,7 @@ tur,2015,mic
 tur,2016,mic
 tur,2017,mic
 tur,2018,mic
+tur,2019,mic
 tkm,1991,mic
 tkm,1992,mic
 tkm,1993,mic
@@ -6023,6 +6223,7 @@ tkm,2015,mic
 tkm,2016,mic
 tkm,2017,mic
 tkm,2018,mic
+tkm,2019,mic
 tca,2009,hic
 tca,2010,hic
 tca,2011,hic
@@ -6033,6 +6234,7 @@ tca,2015,hic
 tca,2016,hic
 tca,2017,hic
 tca,2018,hic
+tca,2019,hic
 tuv,2009,mic
 tuv,2010,mic
 tuv,2011,mic
@@ -6043,6 +6245,7 @@ tuv,2015,mic
 tuv,2016,mic
 tuv,2017,mic
 tuv,2018,mic
+tuv,2019,mic
 uga,1987,lic
 uga,1988,lic
 uga,1989,lic
@@ -6075,6 +6278,7 @@ uga,2015,lic
 uga,2016,lic
 uga,2017,lic
 uga,2018,lic
+uga,2019,lic
 ukr,1991,mic
 ukr,1992,mic
 ukr,1993,mic
@@ -6103,6 +6307,7 @@ ukr,2015,mic
 ukr,2016,mic
 ukr,2017,mic
 ukr,2018,mic
+ukr,2019,mic
 are,1987,hic
 are,1988,hic
 are,1989,hic
@@ -6135,6 +6340,7 @@ are,2015,hic
 are,2016,hic
 are,2017,hic
 are,2018,hic
+are,2019,hic
 gbr,1987,hic
 gbr,1988,hic
 gbr,1989,hic
@@ -6167,6 +6373,7 @@ gbr,2015,hic
 gbr,2016,hic
 gbr,2017,hic
 gbr,2018,hic
+gbr,2019,hic
 usa,1987,hic
 usa,1988,hic
 usa,1989,hic
@@ -6199,6 +6406,7 @@ usa,2015,hic
 usa,2016,hic
 usa,2017,hic
 usa,2018,hic
+usa,2019,hic
 ury,1987,mic
 ury,1988,mic
 ury,1989,mic
@@ -6231,6 +6439,7 @@ ury,2015,hic
 ury,2016,hic
 ury,2017,hic
 ury,2018,hic
+ury,2019,hic
 uzb,1991,mic
 uzb,1992,mic
 uzb,1993,mic
@@ -6259,6 +6468,7 @@ uzb,2015,mic
 uzb,2016,mic
 uzb,2017,mic
 uzb,2018,mic
+uzb,2019,mic
 vut,1987,mic
 vut,1988,mic
 vut,1989,mic
@@ -6291,6 +6501,7 @@ vut,2015,mic
 vut,2016,mic
 vut,2017,mic
 vut,2018,mic
+vut,2019,mic
 ven,1987,mic
 ven,1988,mic
 ven,1989,mic
@@ -6323,6 +6534,7 @@ ven,2015,mic
 ven,2016,mic
 ven,2017,mic
 ven,2018,mic
+ven,2019,mic
 vnm,1987,lic
 vnm,1988,lic
 vnm,1989,lic
@@ -6355,6 +6567,7 @@ vnm,2015,mic
 vnm,2016,mic
 vnm,2017,mic
 vnm,2018,mic
+vnm,2019,mic
 vir,1987,hic
 vir,1988,hic
 vir,1989,hic
@@ -6387,6 +6600,7 @@ vir,2015,hic
 vir,2016,hic
 vir,2017,hic
 vir,2018,hic
+vir,2019,hic
 pse,1994,mic
 pse,1995,mic
 pse,1996,mic
@@ -6412,6 +6626,7 @@ pse,2015,mic
 pse,2016,mic
 pse,2017,mic
 pse,2018,mic
+pse,2019,mic
 yem,1987,mic
 yem,1988,mic
 yem,1989,mic
@@ -6444,6 +6659,7 @@ yem,2015,mic
 yem,2016,mic
 yem,2017,lic
 yem,2018,lic
+yem,2019,lic
 zmb,1987,lic
 zmb,1988,lic
 zmb,1989,lic
@@ -6476,6 +6692,7 @@ zmb,2015,mic
 zmb,2016,mic
 zmb,2017,mic
 zmb,2018,mic
+zmb,2019,mic
 zwe,1987,mic
 zwe,1988,mic
 zwe,1989,mic
@@ -6508,6 +6725,7 @@ zwe,2015,lic
 zwe,2016,lic
 zwe,2017,lic
 zwe,2018,mic
+zwe,2019,mic
 csk,1990,mic
 csk,1991,mic
 myt,1990,hic
