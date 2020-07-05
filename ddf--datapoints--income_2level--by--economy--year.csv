@@ -31,6 +31,7 @@ afg,2015,lmy
 afg,2016,lmy
 afg,2017,lmy
 afg,2018,lmy
+afg,2019,lmy
 alb,1990,lmy
 alb,1991,lmy
 alb,1992,lmy
@@ -60,6 +61,7 @@ alb,2015,lmy
 alb,2016,lmy
 alb,2017,lmy
 alb,2018,lmy
+alb,2019,lmy
 dza,1987,lmy
 dza,1988,lmy
 dza,1989,lmy
@@ -92,6 +94,7 @@ dza,2015,lmy
 dza,2016,lmy
 dza,2017,lmy
 dza,2018,lmy
+dza,2019,lmy
 asm,1987,hic
 asm,1988,hic
 asm,1989,hic
@@ -124,6 +127,7 @@ asm,2015,lmy
 asm,2016,lmy
 asm,2017,lmy
 asm,2018,lmy
+asm,2019,lmy
 and,1990,hic
 and,1991,hic
 and,1992,hic
@@ -153,6 +157,7 @@ and,2015,hic
 and,2016,hic
 and,2017,hic
 and,2018,hic
+and,2019,hic
 ago,1988,lmy
 ago,1989,lmy
 ago,1990,lmy
@@ -184,6 +189,7 @@ ago,2015,lmy
 ago,2016,lmy
 ago,2017,lmy
 ago,2018,lmy
+ago,2019,lmy
 atg,1987,lmy
 atg,1988,lmy
 atg,1989,lmy
@@ -216,6 +222,7 @@ atg,2015,hic
 atg,2016,hic
 atg,2017,hic
 atg,2018,hic
+atg,2019,hic
 arg,1987,lmy
 arg,1988,lmy
 arg,1989,lmy
@@ -248,6 +255,7 @@ arg,2015,lmy
 arg,2016,lmy
 arg,2017,hic
 arg,2018,lmy
+arg,2019,lmy
 arm,1991,lmy
 arm,1992,lmy
 arm,1993,lmy
@@ -276,6 +284,7 @@ arm,2015,lmy
 arm,2016,lmy
 arm,2017,lmy
 arm,2018,lmy
+arm,2019,lmy
 abw,1987,hic
 abw,1988,hic
 abw,1989,hic
@@ -308,6 +317,7 @@ abw,2015,hic
 abw,2016,hic
 abw,2017,hic
 abw,2018,hic
+abw,2019,hic
 aus,1987,hic
 aus,1988,hic
 aus,1989,hic
@@ -340,6 +350,7 @@ aus,2015,hic
 aus,2016,hic
 aus,2017,hic
 aus,2018,hic
+aus,2019,hic
 aut,1987,hic
 aut,1988,hic
 aut,1989,hic
@@ -372,6 +383,7 @@ aut,2015,hic
 aut,2016,hic
 aut,2017,hic
 aut,2018,hic
+aut,2019,hic
 aze,1991,lmy
 aze,1992,lmy
 aze,1993,lmy
@@ -400,6 +412,7 @@ aze,2015,lmy
 aze,2016,lmy
 aze,2017,lmy
 aze,2018,lmy
+aze,2019,lmy
 bhs,1987,hic
 bhs,1988,hic
 bhs,1989,hic
@@ -432,6 +445,7 @@ bhs,2015,hic
 bhs,2016,hic
 bhs,2017,hic
 bhs,2018,hic
+bhs,2019,hic
 bhr,1987,hic
 bhr,1988,hic
 bhr,1989,hic
@@ -464,6 +478,7 @@ bhr,2015,hic
 bhr,2016,hic
 bhr,2017,hic
 bhr,2018,hic
+bhr,2019,hic
 bgd,1987,lmy
 bgd,1988,lmy
 bgd,1989,lmy
@@ -496,6 +511,7 @@ bgd,2015,lmy
 bgd,2016,lmy
 bgd,2017,lmy
 bgd,2018,lmy
+bgd,2019,lmy
 brb,1987,lmy
 brb,1988,lmy
 brb,1989,hic
@@ -528,6 +544,7 @@ brb,2015,hic
 brb,2016,hic
 brb,2017,hic
 brb,2018,hic
+brb,2019,hic
 blr,1991,lmy
 blr,1992,lmy
 blr,1993,lmy
@@ -556,6 +573,7 @@ blr,2015,lmy
 blr,2016,lmy
 blr,2017,lmy
 blr,2018,lmy
+blr,2019,lmy
 bel,1987,hic
 bel,1988,hic
 bel,1989,hic
@@ -588,6 +606,7 @@ bel,2015,hic
 bel,2016,hic
 bel,2017,hic
 bel,2018,hic
+bel,2019,hic
 blz,1987,lmy
 blz,1988,lmy
 blz,1989,lmy
@@ -620,6 +639,7 @@ blz,2015,lmy
 blz,2016,lmy
 blz,2017,lmy
 blz,2018,lmy
+blz,2019,lmy
 ben,1987,lmy
 ben,1988,lmy
 ben,1989,lmy
@@ -652,6 +672,7 @@ ben,2015,lmy
 ben,2016,lmy
 ben,2017,lmy
 ben,2018,lmy
+ben,2019,lmy
 bmu,1987,hic
 bmu,1988,hic
 bmu,1989,hic
@@ -684,6 +705,7 @@ bmu,2015,hic
 bmu,2016,hic
 bmu,2017,hic
 bmu,2018,hic
+bmu,2019,hic
 btn,1987,lmy
 btn,1988,lmy
 btn,1989,lmy
@@ -716,6 +738,7 @@ btn,2015,lmy
 btn,2016,lmy
 btn,2017,lmy
 btn,2018,lmy
+btn,2019,lmy
 bol,1987,lmy
 bol,1988,lmy
 bol,1989,lmy
@@ -748,6 +771,7 @@ bol,2015,lmy
 bol,2016,lmy
 bol,2017,lmy
 bol,2018,lmy
+bol,2019,lmy
 bih,1992,lmy
 bih,1993,lmy
 bih,1994,lmy
@@ -775,6 +799,7 @@ bih,2015,lmy
 bih,2016,lmy
 bih,2017,lmy
 bih,2018,lmy
+bih,2019,lmy
 bwa,1987,lmy
 bwa,1988,lmy
 bwa,1989,lmy
@@ -807,6 +832,7 @@ bwa,2015,lmy
 bwa,2016,lmy
 bwa,2017,lmy
 bwa,2018,lmy
+bwa,2019,lmy
 bra,1987,lmy
 bra,1988,lmy
 bra,1989,lmy
@@ -839,10 +865,12 @@ bra,2015,lmy
 bra,2016,lmy
 bra,2017,lmy
 bra,2018,lmy
+bra,2019,lmy
 vgb,2015,hic
 vgb,2016,hic
 vgb,2017,hic
 vgb,2018,hic
+vgb,2019,hic
 brn,1987,hic
 brn,1990,hic
 brn,1991,hic
@@ -873,6 +901,7 @@ brn,2015,hic
 brn,2016,hic
 brn,2017,hic
 brn,2018,hic
+brn,2019,hic
 bgr,1989,lmy
 bgr,1990,lmy
 bgr,1991,lmy
@@ -903,6 +932,7 @@ bgr,2015,lmy
 bgr,2016,lmy
 bgr,2017,lmy
 bgr,2018,lmy
+bgr,2019,lmy
 bfa,1987,lmy
 bfa,1988,lmy
 bfa,1989,lmy
@@ -935,6 +965,7 @@ bfa,2015,lmy
 bfa,2016,lmy
 bfa,2017,lmy
 bfa,2018,lmy
+bfa,2019,lmy
 bdi,1987,lmy
 bdi,1988,lmy
 bdi,1989,lmy
@@ -967,6 +998,7 @@ bdi,2015,lmy
 bdi,2016,lmy
 bdi,2017,lmy
 bdi,2018,lmy
+bdi,2019,lmy
 cpv,1988,lmy
 cpv,1989,lmy
 cpv,1990,lmy
@@ -998,6 +1030,7 @@ cpv,2015,lmy
 cpv,2016,lmy
 cpv,2017,lmy
 cpv,2018,lmy
+cpv,2019,lmy
 khm,1987,lmy
 khm,1988,lmy
 khm,1989,lmy
@@ -1030,6 +1063,7 @@ khm,2015,lmy
 khm,2016,lmy
 khm,2017,lmy
 khm,2018,lmy
+khm,2019,lmy
 cmr,1987,lmy
 cmr,1988,lmy
 cmr,1989,lmy
@@ -1062,6 +1096,7 @@ cmr,2015,lmy
 cmr,2016,lmy
 cmr,2017,lmy
 cmr,2018,lmy
+cmr,2019,lmy
 can,1987,hic
 can,1988,hic
 can,1989,hic
@@ -1094,6 +1129,7 @@ can,2015,hic
 can,2016,hic
 can,2017,hic
 can,2018,hic
+can,2019,hic
 cym,1993,hic
 cym,1994,hic
 cym,1995,hic
@@ -1120,6 +1156,7 @@ cym,2015,hic
 cym,2016,hic
 cym,2017,hic
 cym,2018,hic
+cym,2019,hic
 caf,1987,lmy
 caf,1988,lmy
 caf,1989,lmy
@@ -1152,6 +1189,7 @@ caf,2015,lmy
 caf,2016,lmy
 caf,2017,lmy
 caf,2018,lmy
+caf,2019,lmy
 tcd,1987,lmy
 tcd,1988,lmy
 tcd,1989,lmy
@@ -1184,6 +1222,7 @@ tcd,2015,lmy
 tcd,2016,lmy
 tcd,2017,lmy
 tcd,2018,lmy
+tcd,2019,lmy
 chi,1987,hic
 chi,1988,hic
 chi,1989,hic
@@ -1216,6 +1255,7 @@ chi,2015,hic
 chi,2016,hic
 chi,2017,hic
 chi,2018,hic
+chi,2019,hic
 chl,1987,lmy
 chl,1988,lmy
 chl,1989,lmy
@@ -1248,6 +1288,7 @@ chl,2015,hic
 chl,2016,hic
 chl,2017,hic
 chl,2018,hic
+chl,2019,hic
 chn,1987,lmy
 chn,1988,lmy
 chn,1989,lmy
@@ -1280,6 +1321,7 @@ chn,2015,lmy
 chn,2016,lmy
 chn,2017,lmy
 chn,2018,lmy
+chn,2019,lmy
 col,1987,lmy
 col,1988,lmy
 col,1989,lmy
@@ -1312,6 +1354,7 @@ col,2015,lmy
 col,2016,lmy
 col,2017,lmy
 col,2018,lmy
+col,2019,lmy
 com,1987,lmy
 com,1988,lmy
 com,1989,lmy
@@ -1344,6 +1387,7 @@ com,2015,lmy
 com,2016,lmy
 com,2017,lmy
 com,2018,lmy
+com,2019,lmy
 cod,1987,lmy
 cod,1988,lmy
 cod,1989,lmy
@@ -1376,6 +1420,7 @@ cod,2015,lmy
 cod,2016,lmy
 cod,2017,lmy
 cod,2018,lmy
+cod,2019,lmy
 cog,1987,lmy
 cog,1988,lmy
 cog,1989,lmy
@@ -1408,6 +1453,7 @@ cog,2015,lmy
 cog,2016,lmy
 cog,2017,lmy
 cog,2018,lmy
+cog,2019,lmy
 cri,1987,lmy
 cri,1988,lmy
 cri,1989,lmy
@@ -1440,6 +1486,7 @@ cri,2015,lmy
 cri,2016,lmy
 cri,2017,lmy
 cri,2018,lmy
+cri,2019,lmy
 civ,1987,lmy
 civ,1988,lmy
 civ,1989,lmy
@@ -1472,6 +1519,7 @@ civ,2015,lmy
 civ,2016,lmy
 civ,2017,lmy
 civ,2018,lmy
+civ,2019,lmy
 hrv,1992,lmy
 hrv,1993,lmy
 hrv,1994,lmy
@@ -1499,6 +1547,7 @@ hrv,2015,hic
 hrv,2016,lmy
 hrv,2017,hic
 hrv,2018,hic
+hrv,2019,hic
 cub,1990,lmy
 cub,1991,lmy
 cub,1992,lmy
@@ -1528,6 +1577,7 @@ cub,2015,lmy
 cub,2016,lmy
 cub,2017,lmy
 cub,2018,lmy
+cub,2019,lmy
 cuw,2010,hic
 cuw,2011,hic
 cuw,2012,hic
@@ -1537,6 +1587,7 @@ cuw,2015,hic
 cuw,2016,hic
 cuw,2017,hic
 cuw,2018,hic
+cuw,2019,hic
 cyp,1987,lmy
 cyp,1988,hic
 cyp,1989,hic
@@ -1569,6 +1620,7 @@ cyp,2015,hic
 cyp,2016,hic
 cyp,2017,hic
 cyp,2018,hic
+cyp,2019,hic
 cze,1992,lmy
 cze,1993,lmy
 cze,1994,lmy
@@ -1596,6 +1648,7 @@ cze,2015,hic
 cze,2016,hic
 cze,2017,hic
 cze,2018,hic
+cze,2019,hic
 dnk,1987,hic
 dnk,1988,hic
 dnk,1989,hic
@@ -1628,6 +1681,7 @@ dnk,2015,hic
 dnk,2016,hic
 dnk,2017,hic
 dnk,2018,hic
+dnk,2019,hic
 dji,1990,lmy
 dji,1991,lmy
 dji,1992,lmy
@@ -1657,6 +1711,7 @@ dji,2015,lmy
 dji,2016,lmy
 dji,2017,lmy
 dji,2018,lmy
+dji,2019,lmy
 dma,1987,lmy
 dma,1988,lmy
 dma,1989,lmy
@@ -1689,6 +1744,7 @@ dma,2015,lmy
 dma,2016,lmy
 dma,2017,lmy
 dma,2018,lmy
+dma,2019,lmy
 dom,1987,lmy
 dom,1988,lmy
 dom,1989,lmy
@@ -1721,6 +1777,7 @@ dom,2015,lmy
 dom,2016,lmy
 dom,2017,lmy
 dom,2018,lmy
+dom,2019,lmy
 ecu,1987,lmy
 ecu,1988,lmy
 ecu,1989,lmy
@@ -1753,6 +1810,7 @@ ecu,2015,lmy
 ecu,2016,lmy
 ecu,2017,lmy
 ecu,2018,lmy
+ecu,2019,lmy
 egy,1987,lmy
 egy,1988,lmy
 egy,1989,lmy
@@ -1785,6 +1843,7 @@ egy,2015,lmy
 egy,2016,lmy
 egy,2017,lmy
 egy,2018,lmy
+egy,2019,lmy
 slv,1987,lmy
 slv,1988,lmy
 slv,1989,lmy
@@ -1817,6 +1876,7 @@ slv,2015,lmy
 slv,2016,lmy
 slv,2017,lmy
 slv,2018,lmy
+slv,2019,lmy
 gnq,1987,lmy
 gnq,1988,lmy
 gnq,1989,lmy
@@ -1849,6 +1909,7 @@ gnq,2015,lmy
 gnq,2016,lmy
 gnq,2017,lmy
 gnq,2018,lmy
+gnq,2019,lmy
 eri,1992,lmy
 eri,1993,lmy
 eri,1994,lmy
@@ -1876,6 +1937,7 @@ eri,2015,lmy
 eri,2016,lmy
 eri,2017,lmy
 eri,2018,lmy
+eri,2019,lmy
 est,1991,lmy
 est,1992,lmy
 est,1993,lmy
@@ -1904,6 +1966,7 @@ est,2015,hic
 est,2016,hic
 est,2017,hic
 est,2018,hic
+est,2019,hic
 swz,1987,lmy
 swz,1988,lmy
 swz,1989,lmy
@@ -1936,6 +1999,7 @@ swz,2015,lmy
 swz,2016,lmy
 swz,2017,lmy
 swz,2018,lmy
+swz,2019,lmy
 eth,1987,lmy
 eth,1988,lmy
 eth,1989,lmy
@@ -1968,6 +2032,7 @@ eth,2015,lmy
 eth,2016,lmy
 eth,2017,lmy
 eth,2018,lmy
+eth,2019,lmy
 fro,1987,hic
 fro,1988,hic
 fro,1989,hic
@@ -2000,6 +2065,7 @@ fro,2015,hic
 fro,2016,hic
 fro,2017,hic
 fro,2018,hic
+fro,2019,hic
 fji,1987,lmy
 fji,1988,lmy
 fji,1989,lmy
@@ -2032,6 +2098,7 @@ fji,2015,lmy
 fji,2016,lmy
 fji,2017,lmy
 fji,2018,lmy
+fji,2019,lmy
 fin,1987,hic
 fin,1988,hic
 fin,1989,hic
@@ -2064,6 +2131,7 @@ fin,2015,hic
 fin,2016,hic
 fin,2017,hic
 fin,2018,hic
+fin,2019,hic
 fra,1987,hic
 fra,1988,hic
 fra,1989,hic
@@ -2096,6 +2164,7 @@ fra,2015,hic
 fra,2016,hic
 fra,2017,hic
 fra,2018,hic
+fra,2019,hic
 pyf,1990,hic
 pyf,1991,hic
 pyf,1992,hic
@@ -2125,6 +2194,7 @@ pyf,2015,hic
 pyf,2016,hic
 pyf,2017,hic
 pyf,2018,hic
+pyf,2019,hic
 gab,1987,lmy
 gab,1988,lmy
 gab,1989,lmy
@@ -2157,6 +2227,7 @@ gab,2015,lmy
 gab,2016,lmy
 gab,2017,lmy
 gab,2018,lmy
+gab,2019,lmy
 gmb,1987,lmy
 gmb,1988,lmy
 gmb,1989,lmy
@@ -2189,6 +2260,7 @@ gmb,2015,lmy
 gmb,2016,lmy
 gmb,2017,lmy
 gmb,2018,lmy
+gmb,2019,lmy
 geo,1991,lmy
 geo,1992,lmy
 geo,1993,lmy
@@ -2217,6 +2289,7 @@ geo,2015,lmy
 geo,2016,lmy
 geo,2017,lmy
 geo,2018,lmy
+geo,2019,lmy
 deu,1987,hic
 deu,1988,hic
 deu,1989,hic
@@ -2249,6 +2322,7 @@ deu,2015,hic
 deu,2016,hic
 deu,2017,hic
 deu,2018,hic
+deu,2019,hic
 gha,1987,lmy
 gha,1988,lmy
 gha,1989,lmy
@@ -2281,6 +2355,7 @@ gha,2015,lmy
 gha,2016,lmy
 gha,2017,lmy
 gha,2018,lmy
+gha,2019,lmy
 gib,1987,lmy
 gib,1988,lmy
 gib,1989,lmy
@@ -2294,6 +2369,7 @@ gib,2015,hic
 gib,2016,hic
 gib,2017,hic
 gib,2018,hic
+gib,2019,hic
 grc,1987,lmy
 grc,1988,lmy
 grc,1989,lmy
@@ -2326,6 +2402,7 @@ grc,2015,hic
 grc,2016,hic
 grc,2017,hic
 grc,2018,hic
+grc,2019,hic
 grl,1987,hic
 grl,1988,hic
 grl,1989,hic
@@ -2358,6 +2435,7 @@ grl,2015,hic
 grl,2016,hic
 grl,2017,hic
 grl,2018,hic
+grl,2019,hic
 grd,1987,lmy
 grd,1988,lmy
 grd,1989,lmy
@@ -2390,6 +2468,7 @@ grd,2015,lmy
 grd,2016,lmy
 grd,2017,lmy
 grd,2018,lmy
+grd,2019,lmy
 gum,1987,hic
 gum,1988,hic
 gum,1989,hic
@@ -2422,6 +2501,7 @@ gum,2015,hic
 gum,2016,hic
 gum,2017,hic
 gum,2018,hic
+gum,2019,hic
 gtm,1987,lmy
 gtm,1988,lmy
 gtm,1989,lmy
@@ -2454,6 +2534,7 @@ gtm,2015,lmy
 gtm,2016,lmy
 gtm,2017,lmy
 gtm,2018,lmy
+gtm,2019,lmy
 gin,1987,lmy
 gin,1988,lmy
 gin,1989,lmy
@@ -2486,6 +2567,7 @@ gin,2015,lmy
 gin,2016,lmy
 gin,2017,lmy
 gin,2018,lmy
+gin,2019,lmy
 gnb,1987,lmy
 gnb,1988,lmy
 gnb,1989,lmy
@@ -2518,6 +2600,7 @@ gnb,2015,lmy
 gnb,2016,lmy
 gnb,2017,lmy
 gnb,2018,lmy
+gnb,2019,lmy
 guy,1987,lmy
 guy,1988,lmy
 guy,1989,lmy
@@ -2550,6 +2633,7 @@ guy,2015,lmy
 guy,2016,lmy
 guy,2017,lmy
 guy,2018,lmy
+guy,2019,lmy
 hti,1987,lmy
 hti,1988,lmy
 hti,1989,lmy
@@ -2582,6 +2666,7 @@ hti,2015,lmy
 hti,2016,lmy
 hti,2017,lmy
 hti,2018,lmy
+hti,2019,lmy
 hnd,1987,lmy
 hnd,1988,lmy
 hnd,1989,lmy
@@ -2614,6 +2699,7 @@ hnd,2015,lmy
 hnd,2016,lmy
 hnd,2017,lmy
 hnd,2018,lmy
+hnd,2019,lmy
 hkg,1987,hic
 hkg,1988,hic
 hkg,1989,hic
@@ -2646,6 +2732,7 @@ hkg,2015,hic
 hkg,2016,hic
 hkg,2017,hic
 hkg,2018,hic
+hkg,2019,hic
 hun,1987,lmy
 hun,1988,lmy
 hun,1989,lmy
@@ -2678,6 +2765,7 @@ hun,2015,hic
 hun,2016,hic
 hun,2017,hic
 hun,2018,hic
+hun,2019,hic
 isl,1987,hic
 isl,1988,hic
 isl,1989,hic
@@ -2710,6 +2798,7 @@ isl,2015,hic
 isl,2016,hic
 isl,2017,hic
 isl,2018,hic
+isl,2019,hic
 ind,1987,lmy
 ind,1988,lmy
 ind,1989,lmy
@@ -2742,6 +2831,7 @@ ind,2015,lmy
 ind,2016,lmy
 ind,2017,lmy
 ind,2018,lmy
+ind,2019,lmy
 idn,1987,lmy
 idn,1988,lmy
 idn,1989,lmy
@@ -2774,6 +2864,7 @@ idn,2015,lmy
 idn,2016,lmy
 idn,2017,lmy
 idn,2018,lmy
+idn,2019,lmy
 irn,1987,lmy
 irn,1988,lmy
 irn,1989,lmy
@@ -2806,6 +2897,7 @@ irn,2015,lmy
 irn,2016,lmy
 irn,2017,lmy
 irn,2018,lmy
+irn,2019,lmy
 irq,1987,lmy
 irq,1988,lmy
 irq,1989,lmy
@@ -2838,6 +2930,7 @@ irq,2015,lmy
 irq,2016,lmy
 irq,2017,lmy
 irq,2018,lmy
+irq,2019,lmy
 irl,1987,hic
 irl,1988,hic
 irl,1989,hic
@@ -2870,6 +2963,7 @@ irl,2015,hic
 irl,2016,hic
 irl,2017,hic
 irl,2018,hic
+irl,2019,hic
 imn,1987,hic
 imn,1988,hic
 imn,1989,hic
@@ -2902,6 +2996,7 @@ imn,2015,hic
 imn,2016,hic
 imn,2017,hic
 imn,2018,hic
+imn,2019,hic
 isr,1987,hic
 isr,1988,hic
 isr,1989,hic
@@ -2934,6 +3029,7 @@ isr,2015,hic
 isr,2016,hic
 isr,2017,hic
 isr,2018,hic
+isr,2019,hic
 ita,1987,hic
 ita,1988,hic
 ita,1989,hic
@@ -2966,6 +3062,7 @@ ita,2015,hic
 ita,2016,hic
 ita,2017,hic
 ita,2018,hic
+ita,2019,hic
 jam,1987,lmy
 jam,1988,lmy
 jam,1989,lmy
@@ -2998,6 +3095,7 @@ jam,2015,lmy
 jam,2016,lmy
 jam,2017,lmy
 jam,2018,lmy
+jam,2019,lmy
 jpn,1987,hic
 jpn,1988,hic
 jpn,1989,hic
@@ -3030,6 +3128,7 @@ jpn,2015,hic
 jpn,2016,hic
 jpn,2017,hic
 jpn,2018,hic
+jpn,2019,hic
 jor,1987,lmy
 jor,1988,lmy
 jor,1989,lmy
@@ -3062,6 +3161,7 @@ jor,2015,lmy
 jor,2016,lmy
 jor,2017,lmy
 jor,2018,lmy
+jor,2019,lmy
 kaz,1991,lmy
 kaz,1992,lmy
 kaz,1993,lmy
@@ -3090,6 +3190,7 @@ kaz,2015,lmy
 kaz,2016,lmy
 kaz,2017,lmy
 kaz,2018,lmy
+kaz,2019,lmy
 ken,1987,lmy
 ken,1988,lmy
 ken,1989,lmy
@@ -3122,6 +3223,7 @@ ken,2015,lmy
 ken,2016,lmy
 ken,2017,lmy
 ken,2018,lmy
+ken,2019,lmy
 kir,1987,lmy
 kir,1988,lmy
 kir,1989,lmy
@@ -3154,6 +3256,7 @@ kir,2015,lmy
 kir,2016,lmy
 kir,2017,lmy
 kir,2018,lmy
+kir,2019,lmy
 prk,1990,lmy
 prk,1991,lmy
 prk,1992,lmy
@@ -3183,6 +3286,7 @@ prk,2015,lmy
 prk,2016,lmy
 prk,2017,lmy
 prk,2018,lmy
+prk,2019,lmy
 kor,1987,lmy
 kor,1988,lmy
 kor,1989,lmy
@@ -3215,6 +3319,7 @@ kor,2015,hic
 kor,2016,hic
 kor,2017,hic
 kor,2018,hic
+kor,2019,hic
 xkx,2008,lmy
 xkx,2009,lmy
 xkx,2010,lmy
@@ -3226,6 +3331,7 @@ xkx,2015,lmy
 xkx,2016,lmy
 xkx,2017,lmy
 xkx,2018,lmy
+xkx,2019,lmy
 kwt,1987,hic
 kwt,1988,hic
 kwt,1989,hic
@@ -3258,6 +3364,7 @@ kwt,2015,hic
 kwt,2016,hic
 kwt,2017,hic
 kwt,2018,hic
+kwt,2019,hic
 kgz,1991,lmy
 kgz,1992,lmy
 kgz,1993,lmy
@@ -3286,6 +3393,7 @@ kgz,2015,lmy
 kgz,2016,lmy
 kgz,2017,lmy
 kgz,2018,lmy
+kgz,2019,lmy
 lao,1987,lmy
 lao,1988,lmy
 lao,1989,lmy
@@ -3318,6 +3426,7 @@ lao,2015,lmy
 lao,2016,lmy
 lao,2017,lmy
 lao,2018,lmy
+lao,2019,lmy
 lva,1991,lmy
 lva,1992,lmy
 lva,1993,lmy
@@ -3346,6 +3455,7 @@ lva,2015,hic
 lva,2016,hic
 lva,2017,hic
 lva,2018,hic
+lva,2019,hic
 lbn,1987,lmy
 lbn,1988,lmy
 lbn,1989,lmy
@@ -3378,6 +3488,7 @@ lbn,2015,lmy
 lbn,2016,lmy
 lbn,2017,lmy
 lbn,2018,lmy
+lbn,2019,lmy
 lso,1987,lmy
 lso,1988,lmy
 lso,1989,lmy
@@ -3410,6 +3521,7 @@ lso,2015,lmy
 lso,2016,lmy
 lso,2017,lmy
 lso,2018,lmy
+lso,2019,lmy
 lbr,1987,lmy
 lbr,1988,lmy
 lbr,1989,lmy
@@ -3442,6 +3554,7 @@ lbr,2015,lmy
 lbr,2016,lmy
 lbr,2017,lmy
 lbr,2018,lmy
+lbr,2019,lmy
 lby,1987,lmy
 lby,1988,lmy
 lby,1989,lmy
@@ -3474,6 +3587,7 @@ lby,2015,lmy
 lby,2016,lmy
 lby,2017,lmy
 lby,2018,lmy
+lby,2019,lmy
 lie,1994,hic
 lie,1995,hic
 lie,1996,hic
@@ -3499,6 +3613,7 @@ lie,2015,hic
 lie,2016,hic
 lie,2017,hic
 lie,2018,hic
+lie,2019,hic
 ltu,1991,lmy
 ltu,1992,lmy
 ltu,1993,lmy
@@ -3527,6 +3642,7 @@ ltu,2015,hic
 ltu,2016,hic
 ltu,2017,hic
 ltu,2018,hic
+ltu,2019,hic
 lux,1987,hic
 lux,1988,hic
 lux,1989,hic
@@ -3559,6 +3675,7 @@ lux,2015,hic
 lux,2016,hic
 lux,2017,hic
 lux,2018,hic
+lux,2019,hic
 mac,1987,lmy
 mac,1988,lmy
 mac,1989,lmy
@@ -3591,6 +3708,7 @@ mac,2015,hic
 mac,2016,hic
 mac,2017,hic
 mac,2018,hic
+mac,2019,hic
 mdg,1987,lmy
 mdg,1988,lmy
 mdg,1989,lmy
@@ -3623,6 +3741,7 @@ mdg,2015,lmy
 mdg,2016,lmy
 mdg,2017,lmy
 mdg,2018,lmy
+mdg,2019,lmy
 mwi,1987,lmy
 mwi,1988,lmy
 mwi,1989,lmy
@@ -3655,6 +3774,7 @@ mwi,2015,lmy
 mwi,2016,lmy
 mwi,2017,lmy
 mwi,2018,lmy
+mwi,2019,lmy
 mys,1987,lmy
 mys,1988,lmy
 mys,1989,lmy
@@ -3687,6 +3807,7 @@ mys,2015,lmy
 mys,2016,lmy
 mys,2017,lmy
 mys,2018,lmy
+mys,2019,lmy
 mdv,1987,lmy
 mdv,1988,lmy
 mdv,1989,lmy
@@ -3719,6 +3840,7 @@ mdv,2015,lmy
 mdv,2016,lmy
 mdv,2017,lmy
 mdv,2018,lmy
+mdv,2019,lmy
 mli,1987,lmy
 mli,1988,lmy
 mli,1989,lmy
@@ -3751,6 +3873,7 @@ mli,2015,lmy
 mli,2016,lmy
 mli,2017,lmy
 mli,2018,lmy
+mli,2019,lmy
 mlt,1987,lmy
 mlt,1988,lmy
 mlt,1989,hic
@@ -3783,6 +3906,7 @@ mlt,2015,hic
 mlt,2016,hic
 mlt,2017,hic
 mlt,2018,hic
+mlt,2019,hic
 mhl,1991,lmy
 mhl,1992,lmy
 mhl,1993,lmy
@@ -3811,6 +3935,7 @@ mhl,2015,lmy
 mhl,2016,lmy
 mhl,2017,lmy
 mhl,2018,lmy
+mhl,2019,lmy
 mrt,1987,lmy
 mrt,1988,lmy
 mrt,1989,lmy
@@ -3843,6 +3968,7 @@ mrt,2015,lmy
 mrt,2016,lmy
 mrt,2017,lmy
 mrt,2018,lmy
+mrt,2019,lmy
 mus,1987,lmy
 mus,1988,lmy
 mus,1989,lmy
@@ -3875,6 +4001,7 @@ mus,2015,lmy
 mus,2016,lmy
 mus,2017,lmy
 mus,2018,lmy
+mus,2019,hic
 mex,1987,lmy
 mex,1988,lmy
 mex,1989,lmy
@@ -3907,6 +4034,7 @@ mex,2015,lmy
 mex,2016,lmy
 mex,2017,lmy
 mex,2018,lmy
+mex,2019,lmy
 fsm,1991,lmy
 fsm,1992,lmy
 fsm,1993,lmy
@@ -3935,6 +4063,7 @@ fsm,2015,lmy
 fsm,2016,lmy
 fsm,2017,lmy
 fsm,2018,lmy
+fsm,2019,lmy
 mda,1991,lmy
 mda,1992,lmy
 mda,1993,lmy
@@ -3963,6 +4092,7 @@ mda,2015,lmy
 mda,2016,lmy
 mda,2017,lmy
 mda,2018,lmy
+mda,2019,lmy
 mco,1994,hic
 mco,1995,hic
 mco,1996,hic
@@ -3988,6 +4118,7 @@ mco,2015,hic
 mco,2016,hic
 mco,2017,hic
 mco,2018,hic
+mco,2019,hic
 mng,1989,lmy
 mng,1990,lmy
 mng,1991,lmy
@@ -4018,6 +4149,7 @@ mng,2015,lmy
 mng,2016,lmy
 mng,2017,lmy
 mng,2018,lmy
+mng,2019,lmy
 mne,2006,lmy
 mne,2007,lmy
 mne,2008,lmy
@@ -4031,6 +4163,7 @@ mne,2015,lmy
 mne,2016,lmy
 mne,2017,lmy
 mne,2018,lmy
+mne,2019,lmy
 mar,1987,lmy
 mar,1988,lmy
 mar,1989,lmy
@@ -4063,6 +4196,7 @@ mar,2015,lmy
 mar,2016,lmy
 mar,2017,lmy
 mar,2018,lmy
+mar,2019,lmy
 moz,1987,lmy
 moz,1988,lmy
 moz,1989,lmy
@@ -4095,6 +4229,7 @@ moz,2015,lmy
 moz,2016,lmy
 moz,2017,lmy
 moz,2018,lmy
+moz,2019,lmy
 mmr,1987,lmy
 mmr,1988,lmy
 mmr,1989,lmy
@@ -4127,6 +4262,7 @@ mmr,2015,lmy
 mmr,2016,lmy
 mmr,2017,lmy
 mmr,2018,lmy
+mmr,2019,lmy
 nam,1989,lmy
 nam,1990,lmy
 nam,1991,lmy
@@ -4157,10 +4293,12 @@ nam,2015,lmy
 nam,2016,lmy
 nam,2017,lmy
 nam,2018,lmy
+nam,2019,lmy
 nru,2015,hic
 nru,2016,lmy
 nru,2017,lmy
 nru,2018,lmy
+nru,2019,hic
 npl,1987,lmy
 npl,1988,lmy
 npl,1989,lmy
@@ -4193,6 +4331,7 @@ npl,2015,lmy
 npl,2016,lmy
 npl,2017,lmy
 npl,2018,lmy
+npl,2019,lmy
 nld,1987,hic
 nld,1988,hic
 nld,1989,hic
@@ -4225,6 +4364,7 @@ nld,2015,hic
 nld,2016,hic
 nld,2017,hic
 nld,2018,hic
+nld,2019,hic
 ncl,1987,lmy
 ncl,1988,lmy
 ncl,1989,lmy
@@ -4257,6 +4397,7 @@ ncl,2015,hic
 ncl,2016,hic
 ncl,2017,hic
 ncl,2018,hic
+ncl,2019,hic
 nzl,1987,hic
 nzl,1988,hic
 nzl,1989,hic
@@ -4289,6 +4430,7 @@ nzl,2015,hic
 nzl,2016,hic
 nzl,2017,hic
 nzl,2018,hic
+nzl,2019,hic
 nic,1987,lmy
 nic,1988,lmy
 nic,1989,lmy
@@ -4321,6 +4463,7 @@ nic,2015,lmy
 nic,2016,lmy
 nic,2017,lmy
 nic,2018,lmy
+nic,2019,lmy
 ner,1987,lmy
 ner,1988,lmy
 ner,1989,lmy
@@ -4353,6 +4496,7 @@ ner,2015,lmy
 ner,2016,lmy
 ner,2017,lmy
 ner,2018,lmy
+ner,2019,lmy
 nga,1987,lmy
 nga,1988,lmy
 nga,1989,lmy
@@ -4385,6 +4529,7 @@ nga,2015,lmy
 nga,2016,lmy
 nga,2017,lmy
 nga,2018,lmy
+nga,2019,lmy
 mkd,1992,lmy
 mkd,1993,lmy
 mkd,1994,lmy
@@ -4412,6 +4557,7 @@ mkd,2015,lmy
 mkd,2016,lmy
 mkd,2017,lmy
 mkd,2018,lmy
+mkd,2019,lmy
 mnp,1992,lmy
 mnp,1993,lmy
 mnp,1994,lmy
@@ -4439,6 +4585,7 @@ mnp,2015,hic
 mnp,2016,hic
 mnp,2017,hic
 mnp,2018,hic
+mnp,2019,hic
 nor,1987,hic
 nor,1988,hic
 nor,1989,hic
@@ -4471,6 +4618,7 @@ nor,2015,hic
 nor,2016,hic
 nor,2017,hic
 nor,2018,hic
+nor,2019,hic
 omn,1987,lmy
 omn,1988,lmy
 omn,1989,lmy
@@ -4503,6 +4651,7 @@ omn,2015,hic
 omn,2016,hic
 omn,2017,hic
 omn,2018,hic
+omn,2019,hic
 pak,1987,lmy
 pak,1988,lmy
 pak,1989,lmy
@@ -4535,6 +4684,7 @@ pak,2015,lmy
 pak,2016,lmy
 pak,2017,lmy
 pak,2018,lmy
+pak,2019,lmy
 plw,1996,lmy
 plw,1997,lmy
 plw,1998,lmy
@@ -4558,6 +4708,7 @@ plw,2015,lmy
 plw,2016,hic
 plw,2017,hic
 plw,2018,hic
+plw,2019,hic
 pan,1987,lmy
 pan,1988,lmy
 pan,1989,lmy
@@ -4590,6 +4741,7 @@ pan,2015,lmy
 pan,2016,lmy
 pan,2017,hic
 pan,2018,hic
+pan,2019,hic
 png,1987,lmy
 png,1988,lmy
 png,1989,lmy
@@ -4622,6 +4774,7 @@ png,2015,lmy
 png,2016,lmy
 png,2017,lmy
 png,2018,lmy
+png,2019,lmy
 pry,1987,lmy
 pry,1988,lmy
 pry,1989,lmy
@@ -4654,6 +4807,7 @@ pry,2015,lmy
 pry,2016,lmy
 pry,2017,lmy
 pry,2018,lmy
+pry,2019,lmy
 per,1987,lmy
 per,1988,lmy
 per,1989,lmy
@@ -4686,6 +4840,7 @@ per,2015,lmy
 per,2016,lmy
 per,2017,lmy
 per,2018,lmy
+per,2019,lmy
 phl,1987,lmy
 phl,1988,lmy
 phl,1989,lmy
@@ -4718,6 +4873,7 @@ phl,2015,lmy
 phl,2016,lmy
 phl,2017,lmy
 phl,2018,lmy
+phl,2019,lmy
 pol,1987,lmy
 pol,1988,lmy
 pol,1989,lmy
@@ -4750,6 +4906,7 @@ pol,2015,hic
 pol,2016,hic
 pol,2017,hic
 pol,2018,hic
+pol,2019,hic
 prt,1987,lmy
 prt,1988,lmy
 prt,1989,lmy
@@ -4782,6 +4939,7 @@ prt,2015,hic
 prt,2016,hic
 prt,2017,hic
 prt,2018,hic
+prt,2019,hic
 pri,1987,lmy
 pri,1988,lmy
 pri,1989,hic
@@ -4814,6 +4972,7 @@ pri,2015,hic
 pri,2016,hic
 pri,2017,hic
 pri,2018,hic
+pri,2019,hic
 qat,1987,hic
 qat,1988,hic
 qat,1989,hic
@@ -4846,6 +5005,7 @@ qat,2015,hic
 qat,2016,hic
 qat,2017,hic
 qat,2018,hic
+qat,2019,hic
 rou,1987,lmy
 rou,1988,lmy
 rou,1989,lmy
@@ -4878,6 +5038,7 @@ rou,2015,lmy
 rou,2016,lmy
 rou,2017,lmy
 rou,2018,lmy
+rou,2019,hic
 rus,1991,lmy
 rus,1992,lmy
 rus,1993,lmy
@@ -4906,6 +5067,7 @@ rus,2015,lmy
 rus,2016,lmy
 rus,2017,lmy
 rus,2018,lmy
+rus,2019,lmy
 rwa,1987,lmy
 rwa,1988,lmy
 rwa,1989,lmy
@@ -4938,6 +5100,7 @@ rwa,2015,lmy
 rwa,2016,lmy
 rwa,2017,lmy
 rwa,2018,lmy
+rwa,2019,lmy
 wsm,1987,lmy
 wsm,1988,lmy
 wsm,1989,lmy
@@ -4970,6 +5133,7 @@ wsm,2015,lmy
 wsm,2016,lmy
 wsm,2017,lmy
 wsm,2018,lmy
+wsm,2019,lmy
 smr,1991,hic
 smr,1992,hic
 smr,1993,hic
@@ -4992,6 +5156,7 @@ smr,2015,hic
 smr,2016,hic
 smr,2017,hic
 smr,2018,hic
+smr,2019,hic
 stp,1987,lmy
 stp,1988,lmy
 stp,1989,lmy
@@ -5024,6 +5189,7 @@ stp,2015,lmy
 stp,2016,lmy
 stp,2017,lmy
 stp,2018,lmy
+stp,2019,lmy
 sau,1987,hic
 sau,1988,hic
 sau,1989,hic
@@ -5056,6 +5222,7 @@ sau,2015,hic
 sau,2016,hic
 sau,2017,hic
 sau,2018,hic
+sau,2019,hic
 sen,1987,lmy
 sen,1988,lmy
 sen,1989,lmy
@@ -5088,6 +5255,7 @@ sen,2015,lmy
 sen,2016,lmy
 sen,2017,lmy
 sen,2018,lmy
+sen,2019,lmy
 srb,2006,lmy
 srb,2007,lmy
 srb,2008,lmy
@@ -5101,6 +5269,7 @@ srb,2015,lmy
 srb,2016,lmy
 srb,2017,lmy
 srb,2018,lmy
+srb,2019,lmy
 syc,1987,lmy
 syc,1988,lmy
 syc,1989,lmy
@@ -5133,6 +5302,7 @@ syc,2015,hic
 syc,2016,hic
 syc,2017,hic
 syc,2018,hic
+syc,2019,hic
 sle,1987,lmy
 sle,1988,lmy
 sle,1989,lmy
@@ -5165,6 +5335,7 @@ sle,2015,lmy
 sle,2016,lmy
 sle,2017,lmy
 sle,2018,lmy
+sle,2019,lmy
 sgp,1987,hic
 sgp,1988,hic
 sgp,1989,hic
@@ -5197,6 +5368,7 @@ sgp,2015,hic
 sgp,2016,hic
 sgp,2017,hic
 sgp,2018,hic
+sgp,2019,hic
 sxm,2010,hic
 sxm,2011,hic
 sxm,2012,hic
@@ -5206,6 +5378,7 @@ sxm,2015,hic
 sxm,2016,hic
 sxm,2017,hic
 sxm,2018,hic
+sxm,2019,hic
 svk,1992,lmy
 svk,1993,lmy
 svk,1994,lmy
@@ -5233,6 +5406,7 @@ svk,2015,hic
 svk,2016,hic
 svk,2017,hic
 svk,2018,hic
+svk,2019,hic
 svn,1992,lmy
 svn,1993,lmy
 svn,1994,lmy
@@ -5260,6 +5434,7 @@ svn,2015,hic
 svn,2016,hic
 svn,2017,hic
 svn,2018,hic
+svn,2019,hic
 slb,1987,lmy
 slb,1988,lmy
 slb,1989,lmy
@@ -5292,6 +5467,7 @@ slb,2015,lmy
 slb,2016,lmy
 slb,2017,lmy
 slb,2018,lmy
+slb,2019,lmy
 som,1987,lmy
 som,1988,lmy
 som,1989,lmy
@@ -5324,6 +5500,7 @@ som,2015,lmy
 som,2016,lmy
 som,2017,lmy
 som,2018,lmy
+som,2019,lmy
 zaf,1987,lmy
 zaf,1988,lmy
 zaf,1989,lmy
@@ -5356,6 +5533,7 @@ zaf,2015,lmy
 zaf,2016,lmy
 zaf,2017,lmy
 zaf,2018,lmy
+zaf,2019,lmy
 ssd,2011,lmy
 ssd,2012,lmy
 ssd,2013,lmy
@@ -5364,6 +5542,7 @@ ssd,2015,lmy
 ssd,2016,lmy
 ssd,2017,lmy
 ssd,2018,lmy
+ssd,2019,lmy
 esp,1987,hic
 esp,1988,hic
 esp,1989,hic
@@ -5396,6 +5575,7 @@ esp,2015,hic
 esp,2016,hic
 esp,2017,hic
 esp,2018,hic
+esp,2019,hic
 lka,1987,lmy
 lka,1988,lmy
 lka,1989,lmy
@@ -5428,6 +5608,7 @@ lka,2015,lmy
 lka,2016,lmy
 lka,2017,lmy
 lka,2018,lmy
+lka,2019,lmy
 kna,1987,lmy
 kna,1988,lmy
 kna,1989,lmy
@@ -5460,6 +5641,7 @@ kna,2015,hic
 kna,2016,hic
 kna,2017,hic
 kna,2018,hic
+kna,2019,hic
 lca,1987,lmy
 lca,1988,lmy
 lca,1989,lmy
@@ -5492,6 +5674,7 @@ lca,2015,lmy
 lca,2016,lmy
 lca,2017,lmy
 lca,2018,lmy
+lca,2019,lmy
 maf,2010,hic
 maf,2011,hic
 maf,2012,hic
@@ -5501,6 +5684,7 @@ maf,2015,hic
 maf,2016,hic
 maf,2017,hic
 maf,2018,hic
+maf,2019,hic
 vct,1987,lmy
 vct,1988,lmy
 vct,1989,lmy
@@ -5533,6 +5717,7 @@ vct,2015,lmy
 vct,2016,lmy
 vct,2017,lmy
 vct,2018,lmy
+vct,2019,lmy
 sdn,1987,lmy
 sdn,1988,lmy
 sdn,1989,lmy
@@ -5565,6 +5750,7 @@ sdn,2015,lmy
 sdn,2016,lmy
 sdn,2017,lmy
 sdn,2018,lmy
+sdn,2019,lmy
 sur,1987,lmy
 sur,1988,lmy
 sur,1989,lmy
@@ -5597,6 +5783,7 @@ sur,2015,lmy
 sur,2016,lmy
 sur,2017,lmy
 sur,2018,lmy
+sur,2019,lmy
 swe,1987,hic
 swe,1988,hic
 swe,1989,hic
@@ -5629,6 +5816,7 @@ swe,2015,hic
 swe,2016,hic
 swe,2017,hic
 swe,2018,hic
+swe,2019,hic
 che,1987,hic
 che,1988,hic
 che,1989,hic
@@ -5661,6 +5849,7 @@ che,2015,hic
 che,2016,hic
 che,2017,hic
 che,2018,hic
+che,2019,hic
 syr,1987,lmy
 syr,1988,lmy
 syr,1989,lmy
@@ -5693,6 +5882,7 @@ syr,2015,lmy
 syr,2016,lmy
 syr,2017,lmy
 syr,2018,lmy
+syr,2019,lmy
 twn,1987,hic
 twn,1988,hic
 twn,1989,hic
@@ -5725,6 +5915,7 @@ twn,2015,hic
 twn,2016,hic
 twn,2017,hic
 twn,2018,hic
+twn,2019,hic
 tjk,1991,lmy
 tjk,1992,lmy
 tjk,1993,lmy
@@ -5753,6 +5944,7 @@ tjk,2015,lmy
 tjk,2016,lmy
 tjk,2017,lmy
 tjk,2018,lmy
+tjk,2019,lmy
 tza,1987,lmy
 tza,1988,lmy
 tza,1989,lmy
@@ -5785,6 +5977,7 @@ tza,2015,lmy
 tza,2016,lmy
 tza,2017,lmy
 tza,2018,lmy
+tza,2019,lmy
 tha,1987,lmy
 tha,1988,lmy
 tha,1989,lmy
@@ -5817,6 +6010,7 @@ tha,2015,lmy
 tha,2016,lmy
 tha,2017,lmy
 tha,2018,lmy
+tha,2019,lmy
 tls,2001,lmy
 tls,2002,lmy
 tls,2003,lmy
@@ -5835,6 +6029,7 @@ tls,2015,lmy
 tls,2016,lmy
 tls,2017,lmy
 tls,2018,lmy
+tls,2019,lmy
 tgo,1987,lmy
 tgo,1988,lmy
 tgo,1989,lmy
@@ -5867,6 +6062,7 @@ tgo,2015,lmy
 tgo,2016,lmy
 tgo,2017,lmy
 tgo,2018,lmy
+tgo,2019,lmy
 ton,1987,lmy
 ton,1988,lmy
 ton,1989,lmy
@@ -5899,6 +6095,7 @@ ton,2015,lmy
 ton,2016,lmy
 ton,2017,lmy
 ton,2018,lmy
+ton,2019,lmy
 tto,1987,lmy
 tto,1988,lmy
 tto,1989,lmy
@@ -5931,6 +6128,7 @@ tto,2015,hic
 tto,2016,hic
 tto,2017,hic
 tto,2018,hic
+tto,2019,hic
 tun,1987,lmy
 tun,1988,lmy
 tun,1989,lmy
@@ -5963,6 +6161,7 @@ tun,2015,lmy
 tun,2016,lmy
 tun,2017,lmy
 tun,2018,lmy
+tun,2019,lmy
 tur,1987,lmy
 tur,1988,lmy
 tur,1989,lmy
@@ -5995,6 +6194,7 @@ tur,2015,lmy
 tur,2016,lmy
 tur,2017,lmy
 tur,2018,lmy
+tur,2019,lmy
 tkm,1991,lmy
 tkm,1992,lmy
 tkm,1993,lmy
@@ -6023,6 +6223,7 @@ tkm,2015,lmy
 tkm,2016,lmy
 tkm,2017,lmy
 tkm,2018,lmy
+tkm,2019,lmy
 tca,2009,hic
 tca,2010,hic
 tca,2011,hic
@@ -6033,6 +6234,7 @@ tca,2015,hic
 tca,2016,hic
 tca,2017,hic
 tca,2018,hic
+tca,2019,hic
 tuv,2009,lmy
 tuv,2010,lmy
 tuv,2011,lmy
@@ -6043,6 +6245,7 @@ tuv,2015,lmy
 tuv,2016,lmy
 tuv,2017,lmy
 tuv,2018,lmy
+tuv,2019,lmy
 uga,1987,lmy
 uga,1988,lmy
 uga,1989,lmy
@@ -6075,6 +6278,7 @@ uga,2015,lmy
 uga,2016,lmy
 uga,2017,lmy
 uga,2018,lmy
+uga,2019,lmy
 ukr,1991,lmy
 ukr,1992,lmy
 ukr,1993,lmy
@@ -6103,6 +6307,7 @@ ukr,2015,lmy
 ukr,2016,lmy
 ukr,2017,lmy
 ukr,2018,lmy
+ukr,2019,lmy
 are,1987,hic
 are,1988,hic
 are,1989,hic
@@ -6135,6 +6340,7 @@ are,2015,hic
 are,2016,hic
 are,2017,hic
 are,2018,hic
+are,2019,hic
 gbr,1987,hic
 gbr,1988,hic
 gbr,1989,hic
@@ -6167,6 +6373,7 @@ gbr,2015,hic
 gbr,2016,hic
 gbr,2017,hic
 gbr,2018,hic
+gbr,2019,hic
 usa,1987,hic
 usa,1988,hic
 usa,1989,hic
@@ -6199,6 +6406,7 @@ usa,2015,hic
 usa,2016,hic
 usa,2017,hic
 usa,2018,hic
+usa,2019,hic
 ury,1987,lmy
 ury,1988,lmy
 ury,1989,lmy
@@ -6231,6 +6439,7 @@ ury,2015,hic
 ury,2016,hic
 ury,2017,hic
 ury,2018,hic
+ury,2019,hic
 uzb,1991,lmy
 uzb,1992,lmy
 uzb,1993,lmy
@@ -6259,6 +6468,7 @@ uzb,2015,lmy
 uzb,2016,lmy
 uzb,2017,lmy
 uzb,2018,lmy
+uzb,2019,lmy
 vut,1987,lmy
 vut,1988,lmy
 vut,1989,lmy
@@ -6291,6 +6501,7 @@ vut,2015,lmy
 vut,2016,lmy
 vut,2017,lmy
 vut,2018,lmy
+vut,2019,lmy
 ven,1987,lmy
 ven,1988,lmy
 ven,1989,lmy
@@ -6323,6 +6534,7 @@ ven,2015,lmy
 ven,2016,lmy
 ven,2017,lmy
 ven,2018,lmy
+ven,2019,lmy
 vnm,1987,lmy
 vnm,1988,lmy
 vnm,1989,lmy
@@ -6355,6 +6567,7 @@ vnm,2015,lmy
 vnm,2016,lmy
 vnm,2017,lmy
 vnm,2018,lmy
+vnm,2019,lmy
 vir,1987,hic
 vir,1988,hic
 vir,1989,hic
@@ -6387,6 +6600,7 @@ vir,2015,hic
 vir,2016,hic
 vir,2017,hic
 vir,2018,hic
+vir,2019,hic
 pse,1994,lmy
 pse,1995,lmy
 pse,1996,lmy
@@ -6412,6 +6626,7 @@ pse,2015,lmy
 pse,2016,lmy
 pse,2017,lmy
 pse,2018,lmy
+pse,2019,lmy
 yem,1987,lmy
 yem,1988,lmy
 yem,1989,lmy
@@ -6444,6 +6659,7 @@ yem,2015,lmy
 yem,2016,lmy
 yem,2017,lmy
 yem,2018,lmy
+yem,2019,lmy
 zmb,1987,lmy
 zmb,1988,lmy
 zmb,1989,lmy
@@ -6476,6 +6692,7 @@ zmb,2015,lmy
 zmb,2016,lmy
 zmb,2017,lmy
 zmb,2018,lmy
+zmb,2019,lmy
 zwe,1987,lmy
 zwe,1988,lmy
 zwe,1989,lmy
@@ -6508,6 +6725,7 @@ zwe,2015,lmy
 zwe,2016,lmy
 zwe,2017,lmy
 zwe,2018,lmy
+zwe,2019,lmy
 csk,1990,lmy
 csk,1991,lmy
 myt,1990,hic
