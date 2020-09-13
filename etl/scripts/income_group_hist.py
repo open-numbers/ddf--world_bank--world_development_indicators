@@ -15,7 +15,6 @@ def flatten_table(table: pd.DataFrame):
 def load_and_pre_process(source_file):
     table = pd.read_excel(oghist_file,
                           sheet_name='Country Analytical History',
-                          encoding='latin',
                           keep_default_na=False,
                           na_values=['', '..'],
                           skiprows=5)

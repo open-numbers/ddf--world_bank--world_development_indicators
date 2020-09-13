@@ -164,19 +164,16 @@ def extract_datapoints_country_year(data):
 def main():
     print("reading source files...")
     data = pd.read_csv(data_csv,
-                       encoding='latin',
                        dtype=str,
                        na_values=[''],
                        keep_default_na=False).dropna(how='all', axis=1)
     series = pd.read_csv(series_csv,
-                         encoding='latin',
                          dtype=str,
                          na_values=[''],
                          keep_default_na=False).dropna(how='all', axis=1)
 
     groups = pd.read_excel(groups_xls,
                            sheet_name='Groups',
-                           encoding='latin',
                            na_values=[''],
                            keep_default_na=False).dropna(how='all')
 
@@ -225,7 +222,6 @@ def main():
                     datapoints_output_dir,
                     'ddf--datapoints--' + k + '--by--economy--year.csv'),
                 index=False,
-                encoding='latin',
                 # keep 10 digits. this is to avoid pandas
                 # use scientific notation in the datapoints
                 # and also keep precision. There are really
@@ -251,8 +247,7 @@ def main():
     concept_continuous_df = pd.DataFrame.from_records(concept_continuous)
     concept_continuous_df.to_csv(os.path.join(output_dir,
                                               'ddf--concepts--continuous.csv'),
-                                 index=False,
-                                 encoding='latin')
+                                 index=False)
 
     concept_discrete = [c for c in concepts if c.concept_type != 'measure']
     for c in extract_concept_entities(eco_domain):
@@ -268,8 +263,7 @@ def main():
     concept_discrete_df = concept_discrete_df.sort_values(by='concept')
     concept_discrete_df.to_csv(os.path.join(output_dir,
                                             'ddf--concepts--discrete.csv'),
-                               index=False,
-                               encoding='latin')
+                               index=False)
 
     # datapackage
     dump_json(os.path.join(output_dir, 'datapackage.json'),
