@@ -37,26 +37,21 @@ country_mask_col = ['Region',
 # and the CLASS.xls from WDI country classification
 # But CLASS.xls not always having all entities listed in WDICountry.csv
 # so we need to check both file to get all entities
-# TODO: 1. recreate current domain with latest geos
-# 2. append all info from wdicountry.csv
 def extract_economy_entities(countries: pd.DataFrame, domains: pd.DataFrame, groups: pd.DataFrame):
     """create domains/sets for economics"""
-    all_entities = list()
-    existed = list()
+    all_entities = dict()
     set_membership = dict()
 
     for _, row in domains.iterrows():
         name = row['name']
         sets = row['set membership']
         sets_list = list(map(str.strip, sets.split(',')))
-        id = to_concept_id(row['economy'])
+        eco_id = to_concept_id(row['economy'])
         set_membership[row['economy']] = sets_list
-        all_entities.append(
-            Entity(id=id,
-                   domain='economy',
-                   sets=sets_list,
-                   props={'name': name}))
-        existed.append(id)
+        all_entities[eco_id] = Entity(id=eco_id,
+                                      domain='economy',
+                                      sets=sets_list,
+                                      props={'name': name})
 
     grouped = groups.groupby(by=['CountryCode'])
     for eco, df in grouped:
@@ -82,21 +77,21 @@ def extract_economy_entities(countries: pd.DataFrame, domains: pd.DataFrame, gro
                         '({props[s]}, {group_concept}) in same entity_set {s}')
                 props[s] = group_concept
 
-        all_entities.append(
-            Entity(id=eco_id, domain='economy', sets=['country'], props=props))
-        existed.append(eco_id)
+        all_entities[eco_id] = Entity(id=eco_id, domain='economy', sets=['country'], props=props)
 
-    for _, row in countries.iterrows():
-        name = row['Country Code']
-        name_long = row['Table Name']
-        id = name.lower()
-        if id not in existed:  # in this case, it's not in any of entity sets
-            print(f"found {name_long} which is not in any of entity sets")
-            all_entities.append(
-                Entity(id=id, domain='economy', sets=[], props={})
-            )
+    for code, row in countries.iterrows():
+        name = row['name']
+        eco_id = code.lower()
+        if eco_id not in all_entities:  # in this case, it's not in any of entity sets
+            print(f"found {name} which is not in any of entity sets")
+            props = row.to_dict()
+            all_entities[eco_id] = Entity(id=eco_id, domain='economy', sets=[], props=props)
+        else:
+            props = row.to_dict()
+            ent = all_entities[eco_id]
+            all_entities[eco_id] = Entity(id=eco_id, domain='economy', sets=ent.sets, props=props)
 
-    return all_entities
+    return list(all_entities.values())
 
 
 def remove_cr(df):
@@ -205,7 +200,13 @@ def main():
     # domain
     print('creating economy domain...')
     domains = pd.read_excel(domain_xls)
-    countries = pd.read_csv(country_csv)
+    countries = (pd.read_csv(country_csv, keep_default_na=False, na_values=[''], dtype=str)
+                 .dropna(how='all', axis=1)
+                 .drop(country_mask_col, axis=1)
+                 .rename(columns={'Table Name': 'Name'})
+                 .set_index('Country Code'))
+    countries_cols = countries.columns
+    countries.columns = countries.columns.map(to_concept_id)
     all_entities = extract_economy_entities(countries, domains, groups)
 
     # domain: add more entity from income group history
