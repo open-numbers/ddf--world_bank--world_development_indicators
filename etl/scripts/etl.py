@@ -26,10 +26,23 @@ groups_xls = os.path.join(source_dir, 'CLASS.xls')
 domain_xls = os.path.join(source_dir, 'wb_economy_entity_domain.xlsx')
 oghist_file = os.path.join(source_dir, 'OGHIST.xls')
 
+country_mask_col = ['Region',
+                    'Income Group',
+                    'Lending category',
+                    'Other groups']  # we will read groupings from class.xls, so drop these cols from wdicountry.csv
 
-def extract_economy_entities(domains: pd.DataFrame, groups: pd.DataFrame):
+
+# function to generate all economy entities with entity sets properties
+# we will use WDICountry.csv from the bulk downloaded WDI data
+# and the CLASS.xls from WDI country classification
+# But CLASS.xls not always having all entities listed in WDICountry.csv
+# so we need to check both file to get all entities
+# TODO: 1. recreate current domain with latest geos
+# 2. append all info from wdicountry.csv
+def extract_economy_entities(countries: pd.DataFrame, domains: pd.DataFrame, groups: pd.DataFrame):
     """create domains/sets for economics"""
     all_entities = list()
+    existed = list()
     set_membership = dict()
 
     for _, row in domains.iterrows():
@@ -43,6 +56,7 @@ def extract_economy_entities(domains: pd.DataFrame, groups: pd.DataFrame):
                    domain='economy',
                    sets=sets_list,
                    props={'name': name}))
+        existed.append(id)
 
     grouped = groups.groupby(by=['CountryCode'])
     for eco, df in grouped:
@@ -70,6 +84,17 @@ def extract_economy_entities(domains: pd.DataFrame, groups: pd.DataFrame):
 
         all_entities.append(
             Entity(id=eco_id, domain='economy', sets=['country'], props=props))
+        existed.append(eco_id)
+
+    for _, row in countries.iterrows():
+        name = row['Country Code']
+        name_long = row['Table Name']
+        id = name.lower()
+        if id not in existed:  # in this case, it's not in any of entity sets
+            print(f"found {name_long} which is not in any of entity sets")
+            all_entities.append(
+                Entity(id=id, domain='economy', sets=[], props={})
+            )
 
     return all_entities
 
@@ -180,7 +205,8 @@ def main():
     # domain
     print('creating economy domain...')
     domains = pd.read_excel(domain_xls)
-    all_entities = extract_economy_entities(domains, groups)
+    countries = pd.read_csv(country_csv)
+    all_entities = extract_economy_entities(countries, domains, groups)
 
     # domain: add more entity from income group history
     income_hist_table = load_and_pre_process(oghist_file)
@@ -208,6 +234,8 @@ def main():
             if col.startswith('is--') and col != f'is--{eset}':
                 df = df.drop(col, axis=1)
         df.to_csv(f'../../ddf--entities--economy--{eset}.csv', index=False)
+    df_nosets = pd.DataFrame.from_records(eco_domain.to_dict(eset=[]))
+    df_nosets.to_csv('../../ddf--entities--economy.csv', index=False)
 
     # datapoints
     print('creating datapoints...')
