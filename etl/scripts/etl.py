@@ -205,7 +205,7 @@ def main():
                  .drop(country_mask_col, axis=1)
                  .rename(columns={'Table Name': 'Name'})
                  .set_index('Country Code'))
-    countries_cols = countries.columns
+    country_props_cols = countries.columns.tolist()
     countries.columns = countries.columns.map(to_concept_id)
     all_entities = extract_economy_entities(countries, domains, groups)
 
@@ -281,6 +281,10 @@ def main():
     concept_discrete = [c for c in concepts if c.concept_type != 'measure']
     for c in extract_concept_entities(eco_domain):
         concept_discrete.append(c)
+    # append concepts in country properties
+    for c in country_props_cols:
+        if c != 'Name':  # Name is already included, no need to add it twice
+            concept_discrete.append(Concept(id=to_concept_id(c), concept_type='string', props=dict(name=c)))
     # hard code the `year` and `domain` concept
     concept_discrete.append(
         Concept(id='year', concept_type='time', props=dict(name='Year')))
