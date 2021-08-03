@@ -26,23 +26,32 @@ groups_xls = os.path.join(source_dir, 'CLASS.xls')
 domain_xls = os.path.join(source_dir, 'wb_economy_entity_domain.xlsx')
 oghist_file = os.path.join(source_dir, 'OGHIST.xls')
 
+country_mask_col = ['Region',
+                    'Income Group',
+                    'Lending category',
+                    'Other groups']  # we will read groupings from class.xls, so drop these cols from wdicountry.csv
 
-def extract_economy_entities(domains: pd.DataFrame, groups: pd.DataFrame):
+
+# function to generate all economy entities with entity sets properties
+# we will use WDICountry.csv from the bulk downloaded WDI data
+# and the CLASS.xls from WDI country classification
+# But CLASS.xls not always having all entities listed in WDICountry.csv
+# so we need to check both file to get all entities
+def extract_economy_entities(countries: pd.DataFrame, domains: pd.DataFrame, groups: pd.DataFrame):
     """create domains/sets for economics"""
-    all_entities = list()
+    all_entities = dict()
     set_membership = dict()
 
     for _, row in domains.iterrows():
         name = row['name']
         sets = row['set membership']
         sets_list = list(map(str.strip, sets.split(',')))
-        id = to_concept_id(row['economy'])
+        eco_id = to_concept_id(row['economy'])
         set_membership[row['economy']] = sets_list
-        all_entities.append(
-            Entity(id=id,
-                   domain='economy',
-                   sets=sets_list,
-                   props={'name': name}))
+        all_entities[eco_id] = Entity(id=eco_id,
+                                      domain='economy',
+                                      sets=sets_list,
+                                      props={'name': name})
 
     grouped = groups.groupby(by=['CountryCode'])
     for eco, df in grouped:
@@ -68,10 +77,21 @@ def extract_economy_entities(domains: pd.DataFrame, groups: pd.DataFrame):
                         '({props[s]}, {group_concept}) in same entity_set {s}')
                 props[s] = group_concept
 
-        all_entities.append(
-            Entity(id=eco_id, domain='economy', sets=['country'], props=props))
+        all_entities[eco_id] = Entity(id=eco_id, domain='economy', sets=['country'], props=props)
 
-    return all_entities
+    for code, row in countries.iterrows():
+        name = row['name']
+        eco_id = code.lower()
+        if eco_id not in all_entities:  # in this case, it's not in any of entity sets
+            print(f"found {name} which is not in any of entity sets")
+            props = row.to_dict()
+            all_entities[eco_id] = Entity(id=eco_id, domain='economy', sets=[], props=props)
+        else:
+            props = row.to_dict()
+            ent = all_entities[eco_id]
+            all_entities[eco_id] = Entity(id=eco_id, domain='economy', sets=ent.sets, props=props)
+
+    return list(all_entities.values())
 
 
 def remove_cr(df):
@@ -180,7 +200,14 @@ def main():
     # domain
     print('creating economy domain...')
     domains = pd.read_excel(domain_xls)
-    all_entities = extract_economy_entities(domains, groups)
+    countries = (pd.read_csv(country_csv, keep_default_na=False, na_values=[''], dtype=str)
+                 .dropna(how='all', axis=1)
+                 .drop(country_mask_col, axis=1)
+                 .rename(columns={'Table Name': 'Name'})
+                 .set_index('Country Code'))
+    country_props_cols = countries.columns.tolist()
+    countries.columns = countries.columns.map(to_concept_id)
+    all_entities = extract_economy_entities(countries, domains, groups)
 
     # domain: add more entity from income group history
     income_hist_table = load_and_pre_process(oghist_file)
@@ -208,6 +235,8 @@ def main():
             if col.startswith('is--') and col != f'is--{eset}':
                 df = df.drop(col, axis=1)
         df.to_csv(f'../../ddf--entities--economy--{eset}.csv', index=False)
+    df_nosets = pd.DataFrame.from_records(eco_domain.to_dict(eset=[]))
+    df_nosets.to_csv('../../ddf--entities--economy.csv', index=False)
 
     # datapoints
     print('creating datapoints...')
@@ -252,6 +281,10 @@ def main():
     concept_discrete = [c for c in concepts if c.concept_type != 'measure']
     for c in extract_concept_entities(eco_domain):
         concept_discrete.append(c)
+    # append concepts in country properties
+    for c in country_props_cols:
+        if c != 'Name':  # Name is already included, no need to add it twice
+            concept_discrete.append(Concept(id=to_concept_id(c), concept_type='string', props=dict(name=c)))
     # hard code the `year` and `domain` concept
     concept_discrete.append(
         Concept(id='year', concept_type='time', props=dict(name='Year')))
