@@ -1,3 +1,3 @@
-lending_category_ida_total,is--lending_category_ida_total,name
-ida,TRUE,IDA total
-ibd,TRUE,IBRD only
+lending_category_ida_total,is--lending_category_ida_total,short_name,name,long_name,2_alpha_code,currency_unit,special_notes,wb_2_code,national_accounts_base_year,national_accounts_reference_year,sna_price_valuation,system_of_national_accounts,alternative_conversion_factor,balance_of_payments_manual_in_use,external_debt_reporting_status,system_of_trade,government_accounting_concept,imf_data_dissemination_standard,latest_population_census,latest_household_survey,source_of_most_recent_income_and_expenditure_data,vital_registration_complete,latest_agricultural_census,latest_industrial_data,latest_trade_data
+ida,TRUE,IDA total,IDA total,IDA total,XG,,IDA total group aggregate (includes IDA only and IDA blend).,XG,,,,,,,,,,,,,,,,,
+ibd,TRUE,IBRD only,IBRD only,IBRD only,XF,,IBRD only group aggregate.,XF,,,,,,,,,,,,,,,,,
