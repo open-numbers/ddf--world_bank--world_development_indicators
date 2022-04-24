@@ -1,7 +1,6 @@
 concept,concept_type,name,domain
 2_alpha_code,string,2-alpha code,
 aggregation_method,string,Aggregation method,
-alternative_conversion_factor,string,Alternative conversion factor,
 balance_of_payments_manual_in_use,string,Balance of Payments Manual in use,
 base_period,string,Base Period,
 country,entity_set,Country,economy
