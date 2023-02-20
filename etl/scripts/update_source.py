@@ -11,8 +11,8 @@ source_dir = '../source/'
 # classification files
 # see https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups
 zip_file = "http://databank.worldbank.org/data/download/WDI_csv.zip"
-url_class_xls = 'http://databank.worldbank.org/data/download/site-content/CLASS.xls'
-url_oghist_xls = 'http://databank.worldbank.org/data/download/site-content/OGHIST.xls'
+url_class_xls = 'http://databank.worldbank.org/data/download/site-content/CLASS.xlsx'
+url_oghist_xls = 'http://databank.worldbank.org/data/download/site-content/OGHIST.xlsx'
 
 
 def update():
@@ -24,9 +24,9 @@ def update():
     f = ZipFile(os.path.join(source_dir, 'WDI_csv.zip'))
     f.extractall(source_dir)
     print('downloading CLASS.xls...')
-    download(url_class_xls, os.path.join(source_dir, 'CLASS.xls'))
+    download(url_class_xls, os.path.join(source_dir, 'CLASS.xlsx'))
     print('downloading OGHIST.xls...')
-    download(url_oghist_xls, os.path.join(source_dir, 'OGHIST.xls'))
+    download(url_oghist_xls, os.path.join(source_dir, 'OGHIST.xlsx'))
 
 
 if __name__ == '__main__':

@@ -22,9 +22,9 @@ output_dir = '../../'
 data_csv = os.path.join(source_dir, 'WDIData.csv')
 country_csv = os.path.join(source_dir, 'WDICountry.csv')
 series_csv = os.path.join(source_dir, 'WDISeries.csv')
-groups_xls = os.path.join(source_dir, 'CLASS.xls')
+groups_xls = os.path.join(source_dir, 'CLASS.xlsx')
 domain_xls = os.path.join(source_dir, 'wb_economy_entity_domain.xlsx')
-oghist_file = os.path.join(source_dir, 'OGHIST.xls')
+oghist_file = os.path.join(source_dir, 'OGHIST.xlsx')
 
 country_mask_col = ['Region',
                     'Income Group',
@@ -71,10 +71,10 @@ def extract_economy_entities(countries: pd.DataFrame, domains: pd.DataFrame, gro
             for s in sets:
                 group_concept = to_concept_id(g)
                 # we do not allow multiple membership
-                if s in props:
+                if s in props and props[s] != group_concept:
                     raise ValueError(
                         f'{eco_name} belongs to 2 groups '
-                        '({props[s]}, {group_concept}) in same entity_set {s}')
+                        f'({props[s]}, {group_concept}) in same entity_set {s}')
                 props[s] = group_concept
 
         all_entities[eco_id] = Entity(id=eco_id, domain='economy', sets=['country'], props=props)
@@ -236,7 +236,8 @@ def main():
                 df = df.drop(col, axis=1)
         df.to_csv(f'../../ddf--entities--economy--{eset}.csv', index=False)
     df_nosets = pd.DataFrame.from_records(eco_domain.to_dict(eset=[]))
-    df_nosets.to_csv('../../ddf--entities--economy.csv', index=False)
+    if not df_nosets.empty:
+        df_nosets.to_csv('../../ddf--entities--economy.csv', index=False)
 
     # datapoints
     print('creating datapoints...')

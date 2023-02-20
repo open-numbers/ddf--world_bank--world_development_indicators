@@ -5,7 +5,7 @@ import pandas as pd
 
 source_dir = '../source'
 output_dir = '../../'
-oghist_file = join(source_dir, 'OGHIST.xls')
+oghist_file = join(source_dir, 'OGHIST.xlsx')
 
 
 def flatten_table(table: pd.DataFrame):
