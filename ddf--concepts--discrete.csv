@@ -33,6 +33,7 @@ name,string,Name,
 national_accounts_base_year,string,National accounts base year,
 national_accounts_reference_year,string,National accounts reference year,
 notes_from_original_source,string,Notes from original source,
+other_group_af,entity_set,Other Group Af,economy
 other_group_arb,entity_set,Other Group Arb,economy
 other_group_ceb,entity_set,Other Group Ceb,economy
 other_group_emu,entity_set,Other Group Emu,economy
