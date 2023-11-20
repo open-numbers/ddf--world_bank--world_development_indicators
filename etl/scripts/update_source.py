@@ -4,13 +4,19 @@ import os
 
 from zipfile import ZipFile
 # from ddf_utils.factory import WorldBankLoader
-from ddf_utils.factory.common import download
+# from ddf_utils.factory.common import download
+import requests
+
+
+def download(url, outpath):
+    response = requests.get(url, allow_redirects=True)
+    open(outpath, 'wb').write(response.content)
 
 
 source_dir = '../source/'
 # classification files
 # see https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups
-zip_file = "http://databank.worldbank.org/data/download/WDI_csv.zip"
+zip_file = "https://databank.worldbank.org/data/download/WDI_CSV.zip"
 url_class_xls = 'http://databank.worldbank.org/data/download/site-content/CLASS.xlsx'
 url_oghist_xls = 'http://databank.worldbank.org/data/download/site-content/OGHIST.xlsx'
 
