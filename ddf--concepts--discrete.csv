@@ -43,6 +43,7 @@ other_group_hpc,entity_set,Other Group Hpc,economy
 other_group_ldc,entity_set,Other Group Ldc,economy
 other_group_oed,entity_set,Other Group Oed,economy
 other_notes,string,Other notes,
+other_web_links,string,Other web links,
 periodicity,string,Periodicity,
 region,entity_set,Region,economy
 region_excluding_high_income,entity_set,Region Excluding High Income,economy
