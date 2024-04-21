@@ -19,7 +19,7 @@ from income_group_hist import load_and_pre_process, create_hist_income_group_dat
 source_dir = '../source/'
 output_dir = '../../'
 
-data_csv = os.path.join(source_dir, 'WDIData.csv')
+data_csv = os.path.join(source_dir, 'WDICSV.csv')
 country_csv = os.path.join(source_dir, 'WDICountry.csv')
 series_csv = os.path.join(source_dir, 'WDISeries.csv')
 groups_xls = os.path.join(source_dir, 'CLASS.xlsx')
