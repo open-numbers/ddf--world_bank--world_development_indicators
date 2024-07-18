@@ -53,11 +53,11 @@ def extract_economy_entities(countries: pd.DataFrame, domains: pd.DataFrame, gro
                                       sets=sets_list,
                                       props={'name': name})
 
-    grouped = groups.groupby(by='CountryCode')
+    grouped = groups.groupby(by='WB_Country_Code')
     for eco, df in grouped:
-        eco_groups = df['GroupCode'].values.tolist()
+        eco_groups = df['WB_Group_Code'].values.tolist()
         eco_id = to_concept_id(eco)
-        eco_name = df['CountryName'].unique()
+        eco_name = df['WB_Country_Name'].unique()
         if len(eco_name) > 1:
             print(f'Warning: economy {eco} has multiple names: {eco_name}')
         props = {'name': eco_name[0]}
@@ -193,7 +193,7 @@ def main():
                          keep_default_na=False).dropna(how='all', axis=1)
 
     groups = pd.read_excel(groups_xls,
-                           sheet_name='Groups',
+                           sheet_name='compositions',
                            na_values=[''],
                            keep_default_na=False).dropna(how='all')
 
