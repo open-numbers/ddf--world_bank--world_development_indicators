@@ -51,7 +51,6 @@ region_ida_and_ibrd,entity_set,Region Ida And Ibrd,economy
 related_indicators,string,Related indicators,
 related_source_links,string,Related source links,
 series_code,string,Series Code,
-short_definition,string,Short definition,
 short_name,string,Short Name,
 small_state,entity_set,Small State,economy
 small_state_total,entity_set,Small State Total,economy
