@@ -1,0 +1,4 @@
+ddf_utils>=0.1.18
+pandas
+openpyxl
+requests
