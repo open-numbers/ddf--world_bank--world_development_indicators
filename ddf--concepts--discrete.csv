@@ -45,7 +45,6 @@ region,entity_set,Region,economy
 region_excluding_high_income,entity_set,Region Excluding High Income,economy
 region_ida_and_ibrd,entity_set,Region Ida And Ibrd,economy
 series_code,string,Series Code,
-short_definition,string,Short definition,
 short_name,string,Short Name,
 small_state,entity_set,Small State,economy
 small_state_total,entity_set,Small State Total,economy
