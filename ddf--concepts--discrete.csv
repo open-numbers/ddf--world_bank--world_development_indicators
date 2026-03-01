@@ -9,6 +9,7 @@ development_relevance,string,Development relevance,
 domain,string,Domain,
 economy,entity_domain,Economy,
 external_debt_reporting_status,string,External debt Reporting status,
+general_comments,string,General comments,
 global,entity_set,Global,economy
 government_accounting_concept,string,Government Accounting concept,
 imf_data_dissemination_standard,string,IMF data dissemination standard,
