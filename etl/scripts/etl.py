@@ -65,7 +65,7 @@ def extract_economy_entities(countries: pd.DataFrame, domains: pd.DataFrame, gro
             try:
                 sets = set_membership[g]
             except KeyError:
-                print("warning: group not found: {g}, please add it to the "
+                print(f"warning: group not found: {g}, please add it to the "
                       "wb_economy_entity_domain.xlsx file.")
                 raise
             for s in sets:
@@ -87,8 +87,9 @@ def extract_economy_entities(countries: pd.DataFrame, domains: pd.DataFrame, gro
             props = row.to_dict()
             all_entities[eco_id] = Entity(id=eco_id, domain='economy', sets=[], props=props)
         else:
-            props = row.to_dict()
             ent = all_entities[eco_id]
+            # keep the group memberships from CLASS.xlsx
+            props = {**ent.props, **row.to_dict()}
             all_entities[eco_id] = Entity(id=eco_id, domain='economy', sets=ent.sets, props=props)
 
     return list(all_entities.values())
@@ -193,7 +194,7 @@ def main():
                          keep_default_na=False).dropna(how='all', axis=1)
 
     groups = pd.read_excel(groups_xls,
-                           sheet_name='compositions',
+                           sheet_name='composition',
                            na_values=[''],
                            keep_default_na=False).dropna(how='all')
 

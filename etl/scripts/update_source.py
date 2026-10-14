@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 
 import os
+import time
 
 from zipfile import ZipFile
 # from ddf_utils.factory import WorldBankLoader
@@ -8,17 +9,28 @@ from zipfile import ZipFile
 import requests
 
 
-def download(url, outpath):
-    response = requests.get(url, allow_redirects=True)
-    open(outpath, 'wb').write(response.content)
+def download(url, outpath, max_retries=10):
+    for _ in range(max_retries):
+        response = requests.get(url, allow_redirects=True)
+        if response.status_code == 429:
+            # the datacatalog api is rate limited, wait and retry
+            wait = int(response.headers.get('Retry-After', 30)) + 1
+            print(f'rate limited, retrying in {wait} seconds...')
+            time.sleep(wait)
+            continue
+        response.raise_for_status()
+        with open(outpath, 'wb') as f:
+            f.write(response.content)
+        return
+    raise RuntimeError(f'failed to download {url}: too many retries')
 
 
 source_dir = '../source/'
 # classification files
 # see https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups
 zip_file = "https://databank.worldbank.org/data/download/WDI_CSV.zip"
-url_class_xls = 'https://datacatalogapi.worldbank.org/ddhxext/ResourceDownload?resource_unique_id=DR0090755'
-url_oghist_xls = 'https://datacatalogapi.worldbank.org/ddhxext/ResourceDownload?resource_unique_id=DR0090754'
+url_class_xls = 'https://ddh-openapi.worldbank.org/resources/DR0095333/download'
+url_oghist_xls = 'https://ddh-openapi.worldbank.org/resources/DR0095334/download'
 
 
 def update():

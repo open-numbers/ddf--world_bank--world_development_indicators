@@ -24,7 +24,7 @@ def load_and_pre_process(source_file):
         table.columns[1]: 'economy_name'
     })
     table['economy'] = table['economy'].str.lower()
-    table = table.iloc[4:].dropna(subset=['economy', 'economy_name'],
+    table = table.dropna(subset=['economy', 'economy_name'],
                                   how='any').set_index('economy')
     return table
 
