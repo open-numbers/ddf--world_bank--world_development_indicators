@@ -9,6 +9,7 @@ development_relevance,string,Development relevance,
 domain,string,Domain,
 economy,entity_domain,Economy,
 external_debt_reporting_status,string,External debt Reporting status,
+general_comments,string,General comments,
 global,entity_set,Global,economy
 government_accounting_concept,string,Government Accounting concept,
 imf_data_dissemination_standard,string,IMF data dissemination standard,
@@ -30,12 +31,13 @@ long_name,string,Long Name,
 name,string,Name,
 national_accounts_base_year,string,National accounts base year,
 national_accounts_reference_year,string,National accounts reference year,
+notes_from_original_source,string,Notes from original source,
 other_group_af,entity_set,Other Group Af,economy
 other_group_arb,entity_set,Other Group Arb,economy
 other_group_ceb,entity_set,Other Group Ceb,economy
 other_group_emu,entity_set,Other Group Emu,economy
 other_group_euu,entity_set,Other Group Euu,economy
-other_group_fcs,entity_set,Other Group Fcs,economy
+other_group_fcv,entity_set,Other Group Fcv,economy
 other_group_hpc,entity_set,Other Group Hpc,economy
 other_group_ldc,entity_set,Other Group Ldc,economy
 other_group_oed,entity_set,Other Group Oed,economy
@@ -45,6 +47,7 @@ region,entity_set,Region,economy
 region_excluding_high_income,entity_set,Region Excluding High Income,economy
 region_ida_and_ibrd,entity_set,Region Ida And Ibrd,economy
 series_code,string,Series Code,
+short_definition,string,Short definition,
 short_name,string,Short Name,
 small_state,entity_set,Small State,economy
 small_state_total,entity_set,Small State Total,economy

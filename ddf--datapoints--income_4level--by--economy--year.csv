@@ -36,6 +36,8 @@ afg,2020,lic
 afg,2021,lic
 afg,2022,lic
 afg,2023,lic
+afg,2024,lic
+afg,2025,lic
 alb,1990,lmc
 alb,1991,lmc
 alb,1992,lmc
@@ -70,6 +72,8 @@ alb,2020,umc
 alb,2021,umc
 alb,2022,umc
 alb,2023,umc
+alb,2024,umc
+alb,2025,umc
 dza,1987,umc
 dza,1988,umc
 dza,1989,lmc
@@ -107,6 +111,8 @@ dza,2020,lmc
 dza,2021,lmc
 dza,2022,lmc
 dza,2023,umc
+dza,2024,umc
+dza,2025,umc
 asm,1987,hic
 asm,1988,hic
 asm,1989,hic
@@ -144,6 +150,8 @@ asm,2020,umc
 asm,2021,umc
 asm,2022,hic
 asm,2023,hic
+asm,2024,hic
+asm,2025,hic
 and,1990,hic
 and,1991,hic
 and,1992,hic
@@ -178,6 +186,8 @@ and,2020,hic
 and,2021,hic
 and,2022,hic
 and,2023,hic
+and,2024,hic
+and,2025,hic
 ago,1988,lmc
 ago,1989,lmc
 ago,1990,lmc
@@ -214,6 +224,8 @@ ago,2020,lmc
 ago,2021,lmc
 ago,2022,lmc
 ago,2023,lmc
+ago,2024,lmc
+ago,2025,lmc
 atg,1987,umc
 atg,1988,umc
 atg,1989,umc
@@ -251,6 +263,8 @@ atg,2020,hic
 atg,2021,hic
 atg,2022,hic
 atg,2023,hic
+atg,2024,hic
+atg,2025,hic
 arg,1987,umc
 arg,1988,umc
 arg,1989,lmc
@@ -288,6 +302,8 @@ arg,2020,umc
 arg,2021,umc
 arg,2022,umc
 arg,2023,umc
+arg,2024,umc
+arg,2025,umc
 arm,1991,lmc
 arm,1992,lmc
 arm,1993,lic
@@ -321,6 +337,8 @@ arm,2020,umc
 arm,2021,umc
 arm,2022,umc
 arm,2023,umc
+arm,2024,umc
+arm,2025,umc
 abw,1987,hic
 abw,1988,hic
 abw,1989,hic
@@ -358,6 +376,8 @@ abw,2020,hic
 abw,2021,hic
 abw,2022,hic
 abw,2023,hic
+abw,2024,hic
+abw,2025,hic
 aus,1987,hic
 aus,1988,hic
 aus,1989,hic
@@ -395,6 +415,8 @@ aus,2020,hic
 aus,2021,hic
 aus,2022,hic
 aus,2023,hic
+aus,2024,hic
+aus,2025,hic
 aut,1987,hic
 aut,1988,hic
 aut,1989,hic
@@ -432,6 +454,8 @@ aut,2020,hic
 aut,2021,hic
 aut,2022,hic
 aut,2023,hic
+aut,2024,hic
+aut,2025,hic
 aze,1991,lmc
 aze,1992,lmc
 aze,1993,lmc
@@ -465,6 +489,8 @@ aze,2020,umc
 aze,2021,umc
 aze,2022,umc
 aze,2023,umc
+aze,2024,umc
+aze,2025,umc
 bhs,1987,hic
 bhs,1988,hic
 bhs,1989,hic
@@ -502,6 +528,8 @@ bhs,2020,hic
 bhs,2021,hic
 bhs,2022,hic
 bhs,2023,hic
+bhs,2024,hic
+bhs,2025,hic
 bhr,1987,hic
 bhr,1988,hic
 bhr,1989,hic
@@ -539,6 +567,8 @@ bhr,2020,hic
 bhr,2021,hic
 bhr,2022,hic
 bhr,2023,hic
+bhr,2024,hic
+bhr,2025,hic
 bgd,1987,lic
 bgd,1988,lic
 bgd,1989,lic
@@ -576,6 +606,8 @@ bgd,2020,lmc
 bgd,2021,lmc
 bgd,2022,lmc
 bgd,2023,lmc
+bgd,2024,lmc
+bgd,2025,lmc
 brb,1987,umc
 brb,1988,umc
 brb,1989,hic
@@ -613,6 +645,8 @@ brb,2020,hic
 brb,2021,hic
 brb,2022,hic
 brb,2023,hic
+brb,2024,hic
+brb,2025,hic
 blr,1991,umc
 blr,1992,umc
 blr,1993,umc
@@ -646,6 +680,8 @@ blr,2020,umc
 blr,2021,umc
 blr,2022,umc
 blr,2023,umc
+blr,2024,umc
+blr,2025,umc
 bel,1987,hic
 bel,1988,hic
 bel,1989,hic
@@ -683,6 +719,8 @@ bel,2020,hic
 bel,2021,hic
 bel,2022,hic
 bel,2023,hic
+bel,2024,hic
+bel,2025,hic
 blz,1987,lmc
 blz,1988,lmc
 blz,1989,lmc
@@ -720,6 +758,8 @@ blz,2020,lmc
 blz,2021,umc
 blz,2022,umc
 blz,2023,umc
+blz,2024,umc
+blz,2025,umc
 ben,1987,lic
 ben,1988,lic
 ben,1989,lic
@@ -757,6 +797,8 @@ ben,2020,lmc
 ben,2021,lmc
 ben,2022,lmc
 ben,2023,lmc
+ben,2024,lmc
+ben,2025,lmc
 bmu,1987,hic
 bmu,1988,hic
 bmu,1989,hic
@@ -794,6 +836,8 @@ bmu,2020,hic
 bmu,2021,hic
 bmu,2022,hic
 bmu,2023,hic
+bmu,2024,hic
+bmu,2025,hic
 btn,1987,lic
 btn,1988,lic
 btn,1989,lic
@@ -831,6 +875,8 @@ btn,2020,lmc
 btn,2021,lmc
 btn,2022,lmc
 btn,2023,lmc
+btn,2024,lmc
+btn,2025,lmc
 bol,1987,lmc
 bol,1988,lmc
 bol,1989,lmc
@@ -868,6 +914,8 @@ bol,2020,lmc
 bol,2021,lmc
 bol,2022,lmc
 bol,2023,lmc
+bol,2024,lmc
+bol,2025,lmc
 bih,1992,lmc
 bih,1993,lic
 bih,1994,lic
@@ -900,6 +948,8 @@ bih,2020,umc
 bih,2021,umc
 bih,2022,umc
 bih,2023,umc
+bih,2024,umc
+bih,2025,umc
 bwa,1987,lmc
 bwa,1988,lmc
 bwa,1989,lmc
@@ -937,6 +987,8 @@ bwa,2020,umc
 bwa,2021,umc
 bwa,2022,umc
 bwa,2023,umc
+bwa,2024,umc
+bwa,2025,umc
 bra,1987,umc
 bra,1988,lmc
 bra,1989,umc
@@ -974,6 +1026,8 @@ bra,2020,umc
 bra,2021,umc
 bra,2022,umc
 bra,2023,umc
+bra,2024,umc
+bra,2025,umc
 vgb,2015,hic
 vgb,2016,hic
 vgb,2017,hic
@@ -983,6 +1037,8 @@ vgb,2020,hic
 vgb,2021,hic
 vgb,2022,hic
 vgb,2023,hic
+vgb,2024,hic
+vgb,2025,hic
 brn,1987,hic
 brn,1990,hic
 brn,1991,hic
@@ -1018,6 +1074,8 @@ brn,2020,hic
 brn,2021,hic
 brn,2022,hic
 brn,2023,hic
+brn,2024,hic
+brn,2025,hic
 bgr,1989,lmc
 bgr,1990,lmc
 bgr,1991,lmc
@@ -1053,6 +1111,8 @@ bgr,2020,umc
 bgr,2021,umc
 bgr,2022,umc
 bgr,2023,hic
+bgr,2024,hic
+bgr,2025,hic
 bfa,1987,lic
 bfa,1988,lic
 bfa,1989,lic
@@ -1090,6 +1150,8 @@ bfa,2020,lic
 bfa,2021,lic
 bfa,2022,lic
 bfa,2023,lic
+bfa,2024,lic
+bfa,2025,lic
 bdi,1987,lic
 bdi,1988,lic
 bdi,1989,lic
@@ -1127,6 +1189,8 @@ bdi,2020,lic
 bdi,2021,lic
 bdi,2022,lic
 bdi,2023,lic
+bdi,2024,lic
+bdi,2025,lic
 cpv,1988,lmc
 cpv,1989,lmc
 cpv,1990,lmc
@@ -1163,6 +1227,8 @@ cpv,2020,lmc
 cpv,2021,lmc
 cpv,2022,lmc
 cpv,2023,lmc
+cpv,2024,umc
+cpv,2025,umc
 khm,1987,lic
 khm,1988,lic
 khm,1989,lic
@@ -1200,6 +1266,8 @@ khm,2020,lmc
 khm,2021,lmc
 khm,2022,lmc
 khm,2023,lmc
+khm,2024,lmc
+khm,2025,lmc
 cmr,1987,lmc
 cmr,1988,lmc
 cmr,1989,lmc
@@ -1237,6 +1305,8 @@ cmr,2020,lmc
 cmr,2021,lmc
 cmr,2022,lmc
 cmr,2023,lmc
+cmr,2024,lmc
+cmr,2025,lmc
 can,1987,hic
 can,1988,hic
 can,1989,hic
@@ -1274,6 +1344,8 @@ can,2020,hic
 can,2021,hic
 can,2022,hic
 can,2023,hic
+can,2024,hic
+can,2025,hic
 cym,1993,hic
 cym,1994,hic
 cym,1995,hic
@@ -1305,6 +1377,8 @@ cym,2020,hic
 cym,2021,hic
 cym,2022,hic
 cym,2023,hic
+cym,2024,hic
+cym,2025,hic
 caf,1987,lic
 caf,1988,lic
 caf,1989,lic
@@ -1342,6 +1416,8 @@ caf,2020,lic
 caf,2021,lic
 caf,2022,lic
 caf,2023,lic
+caf,2024,lic
+caf,2025,lic
 tcd,1987,lic
 tcd,1988,lic
 tcd,1989,lic
@@ -1379,6 +1455,8 @@ tcd,2020,lic
 tcd,2021,lic
 tcd,2022,lic
 tcd,2023,lic
+tcd,2024,lic
+tcd,2025,lic
 chi,1987,hic
 chi,1988,hic
 chi,1989,hic
@@ -1416,6 +1494,8 @@ chi,2020,hic
 chi,2021,hic
 chi,2022,hic
 chi,2023,hic
+chi,2024,hic
+chi,2025,hic
 chl,1987,lmc
 chl,1988,lmc
 chl,1989,lmc
@@ -1453,6 +1533,8 @@ chl,2020,hic
 chl,2021,hic
 chl,2022,hic
 chl,2023,hic
+chl,2024,hic
+chl,2025,hic
 chn,1987,lic
 chn,1988,lic
 chn,1989,lic
@@ -1490,6 +1572,8 @@ chn,2020,umc
 chn,2021,umc
 chn,2022,umc
 chn,2023,umc
+chn,2024,umc
+chn,2025,umc
 col,1987,lmc
 col,1988,lmc
 col,1989,lmc
@@ -1527,6 +1611,8 @@ col,2020,umc
 col,2021,umc
 col,2022,umc
 col,2023,umc
+col,2024,umc
+col,2025,umc
 com,1987,lic
 com,1988,lic
 com,1989,lic
@@ -1564,6 +1650,8 @@ com,2020,lmc
 com,2021,lmc
 com,2022,lmc
 com,2023,lmc
+com,2024,lmc
+com,2025,lmc
 cod,1987,lic
 cod,1988,lic
 cod,1989,lic
@@ -1601,6 +1689,8 @@ cod,2020,lic
 cod,2021,lic
 cod,2022,lic
 cod,2023,lic
+cod,2024,lic
+cod,2025,lic
 cog,1987,lmc
 cog,1988,lmc
 cog,1989,lmc
@@ -1638,6 +1728,8 @@ cog,2020,lmc
 cog,2021,lmc
 cog,2022,lmc
 cog,2023,lmc
+cog,2024,lmc
+cog,2025,lmc
 cri,1987,lmc
 cri,1988,lmc
 cri,1989,lmc
@@ -1675,6 +1767,8 @@ cri,2020,umc
 cri,2021,umc
 cri,2022,umc
 cri,2023,umc
+cri,2024,hic
+cri,2025,hic
 civ,1987,lmc
 civ,1988,lmc
 civ,1989,lmc
@@ -1712,6 +1806,8 @@ civ,2020,lmc
 civ,2021,lmc
 civ,2022,lmc
 civ,2023,lmc
+civ,2024,lmc
+civ,2025,lmc
 hrv,1992,lmc
 hrv,1993,lmc
 hrv,1994,lmc
@@ -1744,6 +1840,8 @@ hrv,2020,hic
 hrv,2021,hic
 hrv,2022,hic
 hrv,2023,hic
+hrv,2024,hic
+hrv,2025,hic
 cub,1990,lmc
 cub,1991,lmc
 cub,1992,lmc
@@ -1778,6 +1876,8 @@ cub,2020,umc
 cub,2021,umc
 cub,2022,umc
 cub,2023,umc
+cub,2024,umc
+cub,2025,umc
 cuw,2010,hic
 cuw,2011,hic
 cuw,2012,hic
@@ -1792,6 +1892,8 @@ cuw,2020,hic
 cuw,2021,hic
 cuw,2022,hic
 cuw,2023,hic
+cuw,2024,hic
+cuw,2025,hic
 cyp,1987,umc
 cyp,1988,hic
 cyp,1989,hic
@@ -1829,6 +1931,8 @@ cyp,2020,hic
 cyp,2021,hic
 cyp,2022,hic
 cyp,2023,hic
+cyp,2024,hic
+cyp,2025,hic
 cze,1992,lmc
 cze,1993,lmc
 cze,1994,umc
@@ -1861,6 +1965,8 @@ cze,2020,hic
 cze,2021,hic
 cze,2022,hic
 cze,2023,hic
+cze,2024,hic
+cze,2025,hic
 dnk,1987,hic
 dnk,1988,hic
 dnk,1989,hic
@@ -1898,6 +2004,8 @@ dnk,2020,hic
 dnk,2021,hic
 dnk,2022,hic
 dnk,2023,hic
+dnk,2024,hic
+dnk,2025,hic
 dji,1990,lmc
 dji,1991,lmc
 dji,1992,lmc
@@ -1932,6 +2040,8 @@ dji,2020,lmc
 dji,2021,lmc
 dji,2022,lmc
 dji,2023,lmc
+dji,2024,lmc
+dji,2025,lmc
 dma,1987,lmc
 dma,1988,lmc
 dma,1989,lmc
@@ -1969,6 +2079,8 @@ dma,2020,umc
 dma,2021,umc
 dma,2022,umc
 dma,2023,umc
+dma,2024,umc
+dma,2025,umc
 dom,1987,lmc
 dom,1988,lmc
 dom,1989,lmc
@@ -2006,6 +2118,8 @@ dom,2020,umc
 dom,2021,umc
 dom,2022,umc
 dom,2023,umc
+dom,2024,umc
+dom,2025,umc
 ecu,1987,lmc
 ecu,1988,lmc
 ecu,1989,lmc
@@ -2043,6 +2157,8 @@ ecu,2020,umc
 ecu,2021,umc
 ecu,2022,umc
 ecu,2023,umc
+ecu,2024,umc
+ecu,2025,umc
 egy,1987,lmc
 egy,1988,lmc
 egy,1989,lmc
@@ -2080,6 +2196,8 @@ egy,2020,lmc
 egy,2021,lmc
 egy,2022,lmc
 egy,2023,lmc
+egy,2024,lmc
+egy,2025,lmc
 slv,1987,lmc
 slv,1988,lmc
 slv,1989,lmc
@@ -2117,6 +2235,8 @@ slv,2020,lmc
 slv,2021,lmc
 slv,2022,umc
 slv,2023,umc
+slv,2024,umc
+slv,2025,umc
 gnq,1987,lic
 gnq,1988,lic
 gnq,1989,lic
@@ -2154,6 +2274,8 @@ gnq,2020,umc
 gnq,2021,umc
 gnq,2022,umc
 gnq,2023,umc
+gnq,2024,umc
+gnq,2025,umc
 eri,1992,lic
 eri,1993,lic
 eri,1994,lic
@@ -2186,6 +2308,8 @@ eri,2020,lic
 eri,2021,lic
 eri,2022,lic
 eri,2023,lic
+eri,2024,lic
+eri,2025,lic
 est,1991,umc
 est,1992,umc
 est,1993,umc
@@ -2219,6 +2343,8 @@ est,2020,hic
 est,2021,hic
 est,2022,hic
 est,2023,hic
+est,2024,hic
+est,2025,hic
 swz,1987,lmc
 swz,1988,lmc
 swz,1989,lmc
@@ -2256,6 +2382,8 @@ swz,2020,lmc
 swz,2021,lmc
 swz,2022,lmc
 swz,2023,lmc
+swz,2024,lmc
+swz,2025,lmc
 eth,1987,lic
 eth,1988,lic
 eth,1989,lic
@@ -2293,6 +2421,7 @@ eth,2020,lic
 eth,2021,lic
 eth,2022,lic
 eth,2023,lic
+eth,2025,lic
 fro,1987,hic
 fro,1988,hic
 fro,1989,hic
@@ -2330,6 +2459,8 @@ fro,2020,hic
 fro,2021,hic
 fro,2022,hic
 fro,2023,hic
+fro,2024,hic
+fro,2025,hic
 fji,1987,lmc
 fji,1988,lmc
 fji,1989,lmc
@@ -2367,6 +2498,8 @@ fji,2020,umc
 fji,2021,umc
 fji,2022,umc
 fji,2023,umc
+fji,2024,umc
+fji,2025,umc
 fin,1987,hic
 fin,1988,hic
 fin,1989,hic
@@ -2404,6 +2537,8 @@ fin,2020,hic
 fin,2021,hic
 fin,2022,hic
 fin,2023,hic
+fin,2024,hic
+fin,2025,hic
 fra,1987,hic
 fra,1988,hic
 fra,1989,hic
@@ -2441,6 +2576,8 @@ fra,2020,hic
 fra,2021,hic
 fra,2022,hic
 fra,2023,hic
+fra,2024,hic
+fra,2025,hic
 pyf,1990,hic
 pyf,1991,hic
 pyf,1992,hic
@@ -2475,6 +2612,8 @@ pyf,2020,hic
 pyf,2021,hic
 pyf,2022,hic
 pyf,2023,hic
+pyf,2024,hic
+pyf,2025,hic
 gab,1987,umc
 gab,1988,umc
 gab,1989,umc
@@ -2512,6 +2651,8 @@ gab,2020,umc
 gab,2021,umc
 gab,2022,umc
 gab,2023,umc
+gab,2024,umc
+gab,2025,umc
 gmb,1987,lic
 gmb,1988,lic
 gmb,1989,lic
@@ -2549,6 +2690,8 @@ gmb,2020,lic
 gmb,2021,lic
 gmb,2022,lic
 gmb,2023,lic
+gmb,2024,lic
+gmb,2025,lic
 geo,1991,lmc
 geo,1992,lmc
 geo,1993,lic
@@ -2582,6 +2725,8 @@ geo,2020,umc
 geo,2021,umc
 geo,2022,umc
 geo,2023,umc
+geo,2024,umc
+geo,2025,umc
 deu,1987,hic
 deu,1988,hic
 deu,1989,hic
@@ -2619,6 +2764,8 @@ deu,2020,hic
 deu,2021,hic
 deu,2022,hic
 deu,2023,hic
+deu,2024,hic
+deu,2025,hic
 gha,1987,lic
 gha,1988,lic
 gha,1989,lic
@@ -2656,6 +2803,8 @@ gha,2020,lmc
 gha,2021,lmc
 gha,2022,lmc
 gha,2023,lmc
+gha,2024,lmc
+gha,2025,lmc
 gib,1987,umc
 gib,1988,umc
 gib,1989,umc
@@ -2674,6 +2823,8 @@ gib,2020,hic
 gib,2021,hic
 gib,2022,hic
 gib,2023,hic
+gib,2024,hic
+gib,2025,hic
 grc,1987,umc
 grc,1988,umc
 grc,1989,umc
@@ -2711,6 +2862,8 @@ grc,2020,hic
 grc,2021,hic
 grc,2022,hic
 grc,2023,hic
+grc,2024,hic
+grc,2025,hic
 grl,1987,hic
 grl,1988,hic
 grl,1989,hic
@@ -2748,6 +2901,8 @@ grl,2020,hic
 grl,2021,hic
 grl,2022,hic
 grl,2023,hic
+grl,2024,hic
+grl,2025,hic
 grd,1987,lmc
 grd,1988,lmc
 grd,1989,lmc
@@ -2785,6 +2940,8 @@ grd,2020,umc
 grd,2021,umc
 grd,2022,umc
 grd,2023,umc
+grd,2024,umc
+grd,2025,umc
 gum,1987,hic
 gum,1988,hic
 gum,1989,hic
@@ -2822,6 +2979,8 @@ gum,2020,hic
 gum,2021,hic
 gum,2022,hic
 gum,2023,hic
+gum,2024,hic
+gum,2025,hic
 gtm,1987,lmc
 gtm,1988,lmc
 gtm,1989,lmc
@@ -2859,6 +3018,8 @@ gtm,2020,umc
 gtm,2021,umc
 gtm,2022,umc
 gtm,2023,umc
+gtm,2024,umc
+gtm,2025,umc
 gin,1987,lic
 gin,1988,lic
 gin,1989,lic
@@ -2896,6 +3057,8 @@ gin,2020,lic
 gin,2021,lic
 gin,2022,lmc
 gin,2023,lmc
+gin,2024,lmc
+gin,2025,lmc
 gnb,1987,lic
 gnb,1988,lic
 gnb,1989,lic
@@ -2933,6 +3096,8 @@ gnb,2020,lic
 gnb,2021,lic
 gnb,2022,lic
 gnb,2023,lic
+gnb,2024,lic
+gnb,2025,lic
 guy,1987,lic
 guy,1988,lic
 guy,1989,lic
@@ -2970,6 +3135,8 @@ guy,2020,umc
 guy,2021,umc
 guy,2022,hic
 guy,2023,hic
+guy,2024,hic
+guy,2025,hic
 hti,1987,lic
 hti,1988,lic
 hti,1989,lic
@@ -3007,6 +3174,8 @@ hti,2020,lmc
 hti,2021,lmc
 hti,2022,lmc
 hti,2023,lmc
+hti,2024,lmc
+hti,2025,lmc
 hnd,1987,lmc
 hnd,1988,lmc
 hnd,1989,lmc
@@ -3044,6 +3213,8 @@ hnd,2020,lmc
 hnd,2021,lmc
 hnd,2022,lmc
 hnd,2023,lmc
+hnd,2024,lmc
+hnd,2025,lmc
 hkg,1987,hic
 hkg,1988,hic
 hkg,1989,hic
@@ -3081,6 +3252,8 @@ hkg,2020,hic
 hkg,2021,hic
 hkg,2022,hic
 hkg,2023,hic
+hkg,2024,hic
+hkg,2025,hic
 hun,1987,umc
 hun,1988,umc
 hun,1989,umc
@@ -3118,6 +3291,8 @@ hun,2020,hic
 hun,2021,hic
 hun,2022,hic
 hun,2023,hic
+hun,2024,hic
+hun,2025,hic
 isl,1987,hic
 isl,1988,hic
 isl,1989,hic
@@ -3155,6 +3330,8 @@ isl,2020,hic
 isl,2021,hic
 isl,2022,hic
 isl,2023,hic
+isl,2024,hic
+isl,2025,hic
 ind,1987,lic
 ind,1988,lic
 ind,1989,lic
@@ -3192,6 +3369,8 @@ ind,2020,lmc
 ind,2021,lmc
 ind,2022,lmc
 ind,2023,lmc
+ind,2024,lmc
+ind,2025,lmc
 idn,1987,lic
 idn,1988,lic
 idn,1989,lic
@@ -3229,6 +3408,8 @@ idn,2020,lmc
 idn,2021,lmc
 idn,2022,umc
 idn,2023,umc
+idn,2024,umc
+idn,2025,umc
 irn,1987,umc
 irn,1988,umc
 irn,1989,umc
@@ -3266,6 +3447,8 @@ irn,2020,lmc
 irn,2021,lmc
 irn,2022,lmc
 irn,2023,umc
+irn,2024,umc
+irn,2025,umc
 irq,1987,umc
 irq,1988,umc
 irq,1989,umc
@@ -3303,6 +3486,8 @@ irq,2020,umc
 irq,2021,umc
 irq,2022,umc
 irq,2023,umc
+irq,2024,umc
+irq,2025,umc
 irl,1987,hic
 irl,1988,hic
 irl,1989,hic
@@ -3340,6 +3525,8 @@ irl,2020,hic
 irl,2021,hic
 irl,2022,hic
 irl,2023,hic
+irl,2024,hic
+irl,2025,hic
 imn,1987,hic
 imn,1988,hic
 imn,1989,hic
@@ -3377,6 +3564,8 @@ imn,2020,hic
 imn,2021,hic
 imn,2022,hic
 imn,2023,hic
+imn,2024,hic
+imn,2025,hic
 isr,1987,hic
 isr,1988,hic
 isr,1989,hic
@@ -3414,6 +3603,8 @@ isr,2020,hic
 isr,2021,hic
 isr,2022,hic
 isr,2023,hic
+isr,2024,hic
+isr,2025,hic
 ita,1987,hic
 ita,1988,hic
 ita,1989,hic
@@ -3451,6 +3642,8 @@ ita,2020,hic
 ita,2021,hic
 ita,2022,hic
 ita,2023,hic
+ita,2024,hic
+ita,2025,hic
 jam,1987,lmc
 jam,1988,lmc
 jam,1989,lmc
@@ -3488,6 +3681,8 @@ jam,2020,umc
 jam,2021,umc
 jam,2022,umc
 jam,2023,umc
+jam,2024,umc
+jam,2025,umc
 jpn,1987,hic
 jpn,1988,hic
 jpn,1989,hic
@@ -3525,6 +3720,8 @@ jpn,2020,hic
 jpn,2021,hic
 jpn,2022,hic
 jpn,2023,hic
+jpn,2024,hic
+jpn,2025,hic
 jor,1987,lmc
 jor,1988,lmc
 jor,1989,lmc
@@ -3562,6 +3759,8 @@ jor,2020,umc
 jor,2021,umc
 jor,2022,lmc
 jor,2023,lmc
+jor,2024,lmc
+jor,2025,umc
 kaz,1991,lmc
 kaz,1992,lmc
 kaz,1993,lmc
@@ -3595,6 +3794,8 @@ kaz,2020,umc
 kaz,2021,umc
 kaz,2022,umc
 kaz,2023,umc
+kaz,2024,umc
+kaz,2025,umc
 ken,1987,lic
 ken,1988,lic
 ken,1989,lic
@@ -3632,6 +3833,8 @@ ken,2020,lmc
 ken,2021,lmc
 ken,2022,lmc
 ken,2023,lmc
+ken,2024,lmc
+ken,2025,lmc
 kir,1987,lmc
 kir,1988,lmc
 kir,1989,lmc
@@ -3669,6 +3872,8 @@ kir,2020,lmc
 kir,2021,lmc
 kir,2022,lmc
 kir,2023,lmc
+kir,2024,lmc
+kir,2025,lmc
 prk,1990,lmc
 prk,1991,lmc
 prk,1992,lmc
@@ -3703,6 +3908,8 @@ prk,2020,lic
 prk,2021,lic
 prk,2022,lic
 prk,2023,lic
+prk,2024,lic
+prk,2025,lic
 kor,1987,umc
 kor,1988,umc
 kor,1989,umc
@@ -3740,6 +3947,8 @@ kor,2020,hic
 kor,2021,hic
 kor,2022,hic
 kor,2023,hic
+kor,2024,hic
+kor,2025,hic
 xkx,2008,lmc
 xkx,2009,lmc
 xkx,2010,lmc
@@ -3756,6 +3965,8 @@ xkx,2020,umc
 xkx,2021,umc
 xkx,2022,umc
 xkx,2023,umc
+xkx,2024,umc
+xkx,2025,umc
 kwt,1987,hic
 kwt,1988,hic
 kwt,1989,hic
@@ -3793,6 +4004,8 @@ kwt,2020,hic
 kwt,2021,hic
 kwt,2022,hic
 kwt,2023,hic
+kwt,2024,hic
+kwt,2025,hic
 kgz,1991,lmc
 kgz,1992,lmc
 kgz,1993,lmc
@@ -3826,6 +4039,8 @@ kgz,2020,lmc
 kgz,2021,lmc
 kgz,2022,lmc
 kgz,2023,lmc
+kgz,2024,lmc
+kgz,2025,lmc
 lao,1987,lic
 lao,1988,lic
 lao,1989,lic
@@ -3863,6 +4078,8 @@ lao,2020,lmc
 lao,2021,lmc
 lao,2022,lmc
 lao,2023,lmc
+lao,2024,lmc
+lao,2025,lmc
 lva,1991,umc
 lva,1992,lmc
 lva,1993,lmc
@@ -3896,6 +4113,8 @@ lva,2020,hic
 lva,2021,hic
 lva,2022,hic
 lva,2023,hic
+lva,2024,hic
+lva,2025,hic
 lbn,1987,lmc
 lbn,1988,lmc
 lbn,1989,lmc
@@ -3933,6 +4152,8 @@ lbn,2020,umc
 lbn,2021,lmc
 lbn,2022,lmc
 lbn,2023,lmc
+lbn,2024,lmc
+lbn,2025,lmc
 lso,1987,lic
 lso,1988,lic
 lso,1989,lic
@@ -3970,6 +4191,8 @@ lso,2020,lmc
 lso,2021,lmc
 lso,2022,lmc
 lso,2023,lmc
+lso,2024,lmc
+lso,2025,lmc
 lbr,1987,lic
 lbr,1988,lic
 lbr,1989,lic
@@ -4007,6 +4230,8 @@ lbr,2020,lic
 lbr,2021,lic
 lbr,2022,lic
 lbr,2023,lic
+lbr,2024,lic
+lbr,2025,lic
 lby,1987,umc
 lby,1988,umc
 lby,1989,umc
@@ -4044,6 +4269,8 @@ lby,2020,umc
 lby,2021,umc
 lby,2022,umc
 lby,2023,umc
+lby,2024,umc
+lby,2025,umc
 lie,1994,hic
 lie,1995,hic
 lie,1996,hic
@@ -4074,6 +4301,8 @@ lie,2020,hic
 lie,2021,hic
 lie,2022,hic
 lie,2023,hic
+lie,2024,hic
+lie,2025,hic
 ltu,1991,umc
 ltu,1992,lmc
 ltu,1993,lmc
@@ -4107,6 +4336,8 @@ ltu,2020,hic
 ltu,2021,hic
 ltu,2022,hic
 ltu,2023,hic
+ltu,2024,hic
+ltu,2025,hic
 lux,1987,hic
 lux,1988,hic
 lux,1989,hic
@@ -4144,6 +4375,8 @@ lux,2020,hic
 lux,2021,hic
 lux,2022,hic
 lux,2023,hic
+lux,2024,hic
+lux,2025,hic
 mac,1987,umc
 mac,1988,umc
 mac,1989,umc
@@ -4181,6 +4414,8 @@ mac,2020,hic
 mac,2021,hic
 mac,2022,hic
 mac,2023,hic
+mac,2024,hic
+mac,2025,hic
 mdg,1987,lic
 mdg,1988,lic
 mdg,1989,lic
@@ -4218,6 +4453,8 @@ mdg,2020,lic
 mdg,2021,lic
 mdg,2022,lic
 mdg,2023,lic
+mdg,2024,lic
+mdg,2025,lic
 mwi,1987,lic
 mwi,1988,lic
 mwi,1989,lic
@@ -4255,6 +4492,8 @@ mwi,2020,lic
 mwi,2021,lic
 mwi,2022,lic
 mwi,2023,lic
+mwi,2024,lic
+mwi,2025,lic
 mys,1987,lmc
 mys,1988,lmc
 mys,1989,lmc
@@ -4292,6 +4531,8 @@ mys,2020,umc
 mys,2021,umc
 mys,2022,umc
 mys,2023,umc
+mys,2024,umc
+mys,2025,umc
 mdv,1987,lic
 mdv,1988,lic
 mdv,1989,lic
@@ -4329,6 +4570,8 @@ mdv,2020,umc
 mdv,2021,umc
 mdv,2022,umc
 mdv,2023,umc
+mdv,2024,umc
+mdv,2025,umc
 mli,1987,lic
 mli,1988,lic
 mli,1989,lic
@@ -4366,6 +4609,8 @@ mli,2020,lic
 mli,2021,lic
 mli,2022,lic
 mli,2023,lic
+mli,2024,lic
+mli,2025,lic
 mlt,1987,umc
 mlt,1988,umc
 mlt,1989,hic
@@ -4403,6 +4648,8 @@ mlt,2020,hic
 mlt,2021,hic
 mlt,2022,hic
 mlt,2023,hic
+mlt,2024,hic
+mlt,2025,hic
 mhl,1991,lmc
 mhl,1992,lmc
 mhl,1993,lmc
@@ -4436,6 +4683,8 @@ mhl,2020,umc
 mhl,2021,umc
 mhl,2022,umc
 mhl,2023,umc
+mhl,2024,umc
+mhl,2025,umc
 mrt,1987,lic
 mrt,1988,lic
 mrt,1989,lic
@@ -4473,6 +4722,8 @@ mrt,2020,lmc
 mrt,2021,lmc
 mrt,2022,lmc
 mrt,2023,lmc
+mrt,2024,lmc
+mrt,2025,lmc
 mus,1987,lmc
 mus,1988,lmc
 mus,1989,lmc
@@ -4510,6 +4761,8 @@ mus,2020,umc
 mus,2021,umc
 mus,2022,umc
 mus,2023,umc
+mus,2024,umc
+mus,2025,umc
 mex,1987,lmc
 mex,1988,lmc
 mex,1989,lmc
@@ -4547,6 +4800,8 @@ mex,2020,umc
 mex,2021,umc
 mex,2022,umc
 mex,2023,umc
+mex,2024,umc
+mex,2025,umc
 fsm,1991,lmc
 fsm,1992,lmc
 fsm,1993,lmc
@@ -4580,6 +4835,8 @@ fsm,2020,lmc
 fsm,2021,lmc
 fsm,2022,lmc
 fsm,2023,lmc
+fsm,2024,lmc
+fsm,2025,umc
 mda,1991,lmc
 mda,1992,lmc
 mda,1993,lmc
@@ -4613,6 +4870,8 @@ mda,2020,umc
 mda,2021,umc
 mda,2022,umc
 mda,2023,umc
+mda,2024,umc
+mda,2025,umc
 mco,1994,hic
 mco,1995,hic
 mco,1996,hic
@@ -4643,6 +4902,8 @@ mco,2020,hic
 mco,2021,hic
 mco,2022,hic
 mco,2023,hic
+mco,2024,hic
+mco,2025,hic
 mng,1989,lmc
 mng,1990,lmc
 mng,1991,lmc
@@ -4678,6 +4939,8 @@ mng,2020,lmc
 mng,2021,lmc
 mng,2022,lmc
 mng,2023,umc
+mng,2024,umc
+mng,2025,umc
 mne,2006,umc
 mne,2007,umc
 mne,2008,umc
@@ -4696,6 +4959,8 @@ mne,2020,umc
 mne,2021,umc
 mne,2022,umc
 mne,2023,umc
+mne,2024,umc
+mne,2025,umc
 mar,1987,lmc
 mar,1988,lmc
 mar,1989,lmc
@@ -4733,6 +4998,8 @@ mar,2020,lmc
 mar,2021,lmc
 mar,2022,lmc
 mar,2023,lmc
+mar,2024,lmc
+mar,2025,lmc
 moz,1987,lic
 moz,1988,lic
 moz,1989,lic
@@ -4770,6 +5037,8 @@ moz,2020,lic
 moz,2021,lic
 moz,2022,lic
 moz,2023,lic
+moz,2024,lic
+moz,2025,lic
 mmr,1987,lic
 mmr,1988,lic
 mmr,1989,lic
@@ -4807,6 +5076,8 @@ mmr,2020,lmc
 mmr,2021,lmc
 mmr,2022,lmc
 mmr,2023,lmc
+mmr,2024,lmc
+mmr,2025,lmc
 nam,1989,lmc
 nam,1990,lmc
 nam,1991,lmc
@@ -4842,6 +5113,8 @@ nam,2020,umc
 nam,2021,umc
 nam,2022,umc
 nam,2023,umc
+nam,2024,lmc
+nam,2025,lmc
 nru,2015,hic
 nru,2016,umc
 nru,2017,umc
@@ -4851,6 +5124,8 @@ nru,2020,hic
 nru,2021,hic
 nru,2022,hic
 nru,2023,hic
+nru,2024,hic
+nru,2025,hic
 npl,1987,lic
 npl,1988,lic
 npl,1989,lic
@@ -4888,6 +5163,8 @@ npl,2020,lmc
 npl,2021,lmc
 npl,2022,lmc
 npl,2023,lmc
+npl,2024,lmc
+npl,2025,lmc
 nld,1987,hic
 nld,1988,hic
 nld,1989,hic
@@ -4925,6 +5202,8 @@ nld,2020,hic
 nld,2021,hic
 nld,2022,hic
 nld,2023,hic
+nld,2024,hic
+nld,2025,hic
 ncl,1987,umc
 ncl,1988,umc
 ncl,1989,umc
@@ -4962,6 +5241,8 @@ ncl,2020,hic
 ncl,2021,hic
 ncl,2022,hic
 ncl,2023,hic
+ncl,2024,hic
+ncl,2025,hic
 nzl,1987,hic
 nzl,1988,hic
 nzl,1989,hic
@@ -4999,6 +5280,8 @@ nzl,2020,hic
 nzl,2021,hic
 nzl,2022,hic
 nzl,2023,hic
+nzl,2024,hic
+nzl,2025,hic
 nic,1987,lmc
 nic,1988,lmc
 nic,1989,lmc
@@ -5036,6 +5319,8 @@ nic,2020,lmc
 nic,2021,lmc
 nic,2022,lmc
 nic,2023,lmc
+nic,2024,lmc
+nic,2025,lmc
 ner,1987,lic
 ner,1988,lic
 ner,1989,lic
@@ -5073,6 +5358,8 @@ ner,2020,lic
 ner,2021,lic
 ner,2022,lic
 ner,2023,lic
+ner,2024,lic
+ner,2025,lic
 nga,1987,lic
 nga,1988,lic
 nga,1989,lic
@@ -5110,6 +5397,8 @@ nga,2020,lmc
 nga,2021,lmc
 nga,2022,lmc
 nga,2023,lmc
+nga,2024,lmc
+nga,2025,lmc
 mkd,1992,lmc
 mkd,1993,lmc
 mkd,1994,lmc
@@ -5142,6 +5431,8 @@ mkd,2020,umc
 mkd,2021,umc
 mkd,2022,umc
 mkd,2023,umc
+mkd,2024,umc
+mkd,2025,umc
 mnp,1992,lmc
 mnp,1993,lmc
 mnp,1994,lmc
@@ -5174,6 +5465,8 @@ mnp,2020,hic
 mnp,2021,hic
 mnp,2022,hic
 mnp,2023,hic
+mnp,2024,hic
+mnp,2025,hic
 nor,1987,hic
 nor,1988,hic
 nor,1989,hic
@@ -5211,6 +5504,8 @@ nor,2020,hic
 nor,2021,hic
 nor,2022,hic
 nor,2023,hic
+nor,2024,hic
+nor,2025,hic
 omn,1987,umc
 omn,1988,umc
 omn,1989,umc
@@ -5248,6 +5543,8 @@ omn,2020,hic
 omn,2021,hic
 omn,2022,hic
 omn,2023,hic
+omn,2024,hic
+omn,2025,hic
 pak,1987,lic
 pak,1988,lic
 pak,1989,lic
@@ -5285,6 +5582,8 @@ pak,2020,lmc
 pak,2021,lmc
 pak,2022,lmc
 pak,2023,lmc
+pak,2024,lmc
+pak,2025,lmc
 plw,1996,umc
 plw,1997,umc
 plw,1998,umc
@@ -5313,6 +5612,8 @@ plw,2020,hic
 plw,2021,umc
 plw,2022,umc
 plw,2023,hic
+plw,2024,hic
+plw,2025,hic
 pan,1987,umc
 pan,1988,lmc
 pan,1989,lmc
@@ -5350,6 +5651,8 @@ pan,2020,umc
 pan,2021,hic
 pan,2022,hic
 pan,2023,hic
+pan,2024,hic
+pan,2025,hic
 png,1987,lmc
 png,1988,lmc
 png,1989,lmc
@@ -5387,6 +5690,8 @@ png,2020,lmc
 png,2021,lmc
 png,2022,lmc
 png,2023,lmc
+png,2024,lmc
+png,2025,lmc
 pry,1987,lmc
 pry,1988,lmc
 pry,1989,lmc
@@ -5424,6 +5729,8 @@ pry,2020,umc
 pry,2021,umc
 pry,2022,umc
 pry,2023,umc
+pry,2024,umc
+pry,2025,umc
 per,1987,lmc
 per,1988,lmc
 per,1989,lmc
@@ -5461,6 +5768,8 @@ per,2020,umc
 per,2021,umc
 per,2022,umc
 per,2023,umc
+per,2024,umc
+per,2025,umc
 phl,1987,lmc
 phl,1988,lmc
 phl,1989,lmc
@@ -5498,6 +5807,8 @@ phl,2020,lmc
 phl,2021,lmc
 phl,2022,lmc
 phl,2023,lmc
+phl,2024,lmc
+phl,2025,umc
 pol,1987,lmc
 pol,1988,lmc
 pol,1989,lmc
@@ -5535,6 +5846,8 @@ pol,2020,hic
 pol,2021,hic
 pol,2022,hic
 pol,2023,hic
+pol,2024,hic
+pol,2025,hic
 prt,1987,umc
 prt,1988,umc
 prt,1989,umc
@@ -5572,6 +5885,8 @@ prt,2020,hic
 prt,2021,hic
 prt,2022,hic
 prt,2023,hic
+prt,2024,hic
+prt,2025,hic
 pri,1987,umc
 pri,1988,umc
 pri,1989,hic
@@ -5609,6 +5924,8 @@ pri,2020,hic
 pri,2021,hic
 pri,2022,hic
 pri,2023,hic
+pri,2024,hic
+pri,2025,hic
 qat,1987,hic
 qat,1988,hic
 qat,1989,hic
@@ -5646,6 +5963,8 @@ qat,2020,hic
 qat,2021,hic
 qat,2022,hic
 qat,2023,hic
+qat,2024,hic
+qat,2025,hic
 rou,1987,umc
 rou,1988,umc
 rou,1989,umc
@@ -5683,6 +6002,8 @@ rou,2020,umc
 rou,2021,hic
 rou,2022,hic
 rou,2023,hic
+rou,2024,hic
+rou,2025,hic
 rus,1991,umc
 rus,1992,lmc
 rus,1993,lmc
@@ -5716,6 +6037,8 @@ rus,2020,umc
 rus,2021,umc
 rus,2022,umc
 rus,2023,hic
+rus,2024,hic
+rus,2025,hic
 rwa,1987,lic
 rwa,1988,lic
 rwa,1989,lic
@@ -5753,6 +6076,8 @@ rwa,2020,lic
 rwa,2021,lic
 rwa,2022,lic
 rwa,2023,lic
+rwa,2024,lic
+rwa,2025,lic
 wsm,1987,lmc
 wsm,1988,lmc
 wsm,1989,lmc
@@ -5790,6 +6115,8 @@ wsm,2020,lmc
 wsm,2021,lmc
 wsm,2022,lmc
 wsm,2023,lmc
+wsm,2024,umc
+wsm,2025,umc
 smr,1991,hic
 smr,1992,hic
 smr,1993,hic
@@ -5817,6 +6144,8 @@ smr,2020,hic
 smr,2021,hic
 smr,2022,hic
 smr,2023,hic
+smr,2024,hic
+smr,2025,hic
 stp,1987,lic
 stp,1988,lic
 stp,1989,lic
@@ -5854,6 +6183,8 @@ stp,2020,lmc
 stp,2021,lmc
 stp,2022,lmc
 stp,2023,lmc
+stp,2024,lmc
+stp,2025,lmc
 sau,1987,hic
 sau,1988,hic
 sau,1989,hic
@@ -5891,6 +6222,8 @@ sau,2020,hic
 sau,2021,hic
 sau,2022,hic
 sau,2023,hic
+sau,2024,hic
+sau,2025,hic
 sen,1987,lmc
 sen,1988,lmc
 sen,1989,lmc
@@ -5928,6 +6261,8 @@ sen,2020,lmc
 sen,2021,lmc
 sen,2022,lmc
 sen,2023,lmc
+sen,2024,lmc
+sen,2025,lmc
 srb,2006,umc
 srb,2007,umc
 srb,2008,umc
@@ -5946,6 +6281,8 @@ srb,2020,umc
 srb,2021,umc
 srb,2022,umc
 srb,2023,umc
+srb,2024,umc
+srb,2025,umc
 syc,1987,umc
 syc,1988,umc
 syc,1989,umc
@@ -5983,6 +6320,8 @@ syc,2020,hic
 syc,2021,hic
 syc,2022,hic
 syc,2023,hic
+syc,2024,hic
+syc,2025,hic
 sle,1987,lic
 sle,1988,lic
 sle,1989,lic
@@ -6020,6 +6359,8 @@ sle,2020,lic
 sle,2021,lic
 sle,2022,lic
 sle,2023,lic
+sle,2024,lic
+sle,2025,lic
 sgp,1987,hic
 sgp,1988,hic
 sgp,1989,hic
@@ -6057,6 +6398,8 @@ sgp,2020,hic
 sgp,2021,hic
 sgp,2022,hic
 sgp,2023,hic
+sgp,2024,hic
+sgp,2025,hic
 sxm,2010,hic
 sxm,2011,hic
 sxm,2012,hic
@@ -6071,6 +6414,8 @@ sxm,2020,hic
 sxm,2021,hic
 sxm,2022,hic
 sxm,2023,hic
+sxm,2024,hic
+sxm,2025,hic
 svk,1992,lmc
 svk,1993,lmc
 svk,1994,lmc
@@ -6103,6 +6448,8 @@ svk,2020,hic
 svk,2021,hic
 svk,2022,hic
 svk,2023,hic
+svk,2024,hic
+svk,2025,hic
 svn,1992,umc
 svn,1993,umc
 svn,1994,umc
@@ -6135,6 +6482,8 @@ svn,2020,hic
 svn,2021,hic
 svn,2022,hic
 svn,2023,hic
+svn,2024,hic
+svn,2025,hic
 slb,1987,lic
 slb,1988,lmc
 slb,1989,lic
@@ -6172,6 +6521,8 @@ slb,2020,lmc
 slb,2021,lmc
 slb,2022,lmc
 slb,2023,lmc
+slb,2024,lmc
+slb,2025,lmc
 som,1987,lic
 som,1988,lic
 som,1989,lic
@@ -6209,6 +6560,8 @@ som,2020,lic
 som,2021,lic
 som,2022,lic
 som,2023,lic
+som,2024,lic
+som,2025,lic
 zaf,1987,lmc
 zaf,1988,umc
 zaf,1989,umc
@@ -6246,6 +6599,8 @@ zaf,2020,umc
 zaf,2021,umc
 zaf,2022,umc
 zaf,2023,umc
+zaf,2024,umc
+zaf,2025,umc
 ssd,2011,lmc
 ssd,2012,lic
 ssd,2013,lmc
@@ -6259,6 +6614,8 @@ ssd,2020,lic
 ssd,2021,lic
 ssd,2022,lic
 ssd,2023,lic
+ssd,2024,lic
+ssd,2025,lic
 esp,1987,hic
 esp,1988,hic
 esp,1989,hic
@@ -6296,6 +6653,8 @@ esp,2020,hic
 esp,2021,hic
 esp,2022,hic
 esp,2023,hic
+esp,2024,hic
+esp,2025,hic
 lka,1987,lic
 lka,1988,lic
 lka,1989,lic
@@ -6333,6 +6692,8 @@ lka,2020,lmc
 lka,2021,lmc
 lka,2022,lmc
 lka,2023,lmc
+lka,2024,lmc
+lka,2025,umc
 kna,1987,umc
 kna,1988,umc
 kna,1989,umc
@@ -6370,6 +6731,8 @@ kna,2020,hic
 kna,2021,hic
 kna,2022,hic
 kna,2023,hic
+kna,2024,hic
+kna,2025,hic
 lca,1987,lmc
 lca,1988,lmc
 lca,1989,lmc
@@ -6407,6 +6770,8 @@ lca,2020,umc
 lca,2021,umc
 lca,2022,umc
 lca,2023,umc
+lca,2024,umc
+lca,2025,umc
 maf,2010,hic
 maf,2011,hic
 maf,2012,hic
@@ -6421,6 +6786,8 @@ maf,2020,hic
 maf,2021,hic
 maf,2022,hic
 maf,2023,hic
+maf,2024,hic
+maf,2025,hic
 vct,1987,lmc
 vct,1988,lmc
 vct,1989,lmc
@@ -6458,6 +6825,8 @@ vct,2020,umc
 vct,2021,umc
 vct,2022,umc
 vct,2023,umc
+vct,2024,umc
+vct,2025,umc
 sdn,1987,lic
 sdn,1988,lic
 sdn,1989,lic
@@ -6495,6 +6864,8 @@ sdn,2020,lic
 sdn,2021,lic
 sdn,2022,lic
 sdn,2023,lic
+sdn,2024,lic
+sdn,2025,lic
 sur,1987,umc
 sur,1988,umc
 sur,1989,umc
@@ -6532,6 +6903,8 @@ sur,2020,umc
 sur,2021,umc
 sur,2022,umc
 sur,2023,umc
+sur,2024,umc
+sur,2025,umc
 swe,1987,hic
 swe,1988,hic
 swe,1989,hic
@@ -6569,6 +6942,8 @@ swe,2020,hic
 swe,2021,hic
 swe,2022,hic
 swe,2023,hic
+swe,2024,hic
+swe,2025,hic
 che,1987,hic
 che,1988,hic
 che,1989,hic
@@ -6606,6 +6981,8 @@ che,2020,hic
 che,2021,hic
 che,2022,hic
 che,2023,hic
+che,2024,hic
+che,2025,hic
 syr,1987,lmc
 syr,1988,lmc
 syr,1989,lmc
@@ -6643,6 +7020,8 @@ syr,2020,lic
 syr,2021,lic
 syr,2022,lic
 syr,2023,lic
+syr,2024,lic
+syr,2025,lic
 twn,1987,hic
 twn,1988,hic
 twn,1989,hic
@@ -6680,6 +7059,8 @@ twn,2020,hic
 twn,2021,hic
 twn,2022,hic
 twn,2023,hic
+twn,2024,hic
+twn,2025,hic
 tjk,1991,lmc
 tjk,1992,lic
 tjk,1993,lic
@@ -6713,6 +7094,8 @@ tjk,2020,lmc
 tjk,2021,lmc
 tjk,2022,lmc
 tjk,2023,lmc
+tjk,2024,lmc
+tjk,2025,lmc
 tza,1987,lic
 tza,1988,lic
 tza,1989,lic
@@ -6750,6 +7133,8 @@ tza,2020,lmc
 tza,2021,lmc
 tza,2022,lmc
 tza,2023,lmc
+tza,2024,lmc
+tza,2025,lmc
 tha,1987,lmc
 tha,1988,lmc
 tha,1989,lmc
@@ -6787,6 +7172,8 @@ tha,2020,umc
 tha,2021,umc
 tha,2022,umc
 tha,2023,umc
+tha,2024,umc
+tha,2025,umc
 tls,2001,lic
 tls,2002,lic
 tls,2003,lic
@@ -6810,6 +7197,8 @@ tls,2020,lmc
 tls,2021,lmc
 tls,2022,lmc
 tls,2023,lmc
+tls,2024,lmc
+tls,2025,lmc
 tgo,1987,lic
 tgo,1988,lic
 tgo,1989,lic
@@ -6847,6 +7236,8 @@ tgo,2020,lic
 tgo,2021,lic
 tgo,2022,lic
 tgo,2023,lic
+tgo,2024,lic
+tgo,2025,lmc
 ton,1987,lmc
 ton,1988,lmc
 ton,1989,lmc
@@ -6884,6 +7275,8 @@ ton,2020,umc
 ton,2021,umc
 ton,2022,umc
 ton,2023,umc
+ton,2024,umc
+ton,2025,umc
 tto,1987,umc
 tto,1988,umc
 tto,1989,umc
@@ -6921,6 +7314,8 @@ tto,2020,hic
 tto,2021,hic
 tto,2022,hic
 tto,2023,hic
+tto,2024,hic
+tto,2025,hic
 tun,1987,lmc
 tun,1988,lmc
 tun,1989,lmc
@@ -6958,6 +7353,8 @@ tun,2020,lmc
 tun,2021,lmc
 tun,2022,lmc
 tun,2023,lmc
+tun,2024,lmc
+tun,2025,lmc
 tur,1987,lmc
 tur,1988,lmc
 tur,1989,lmc
@@ -6995,6 +7392,8 @@ tur,2020,umc
 tur,2021,umc
 tur,2022,umc
 tur,2023,umc
+tur,2024,umc
+tur,2025,umc
 tkm,1991,lmc
 tkm,1992,lmc
 tkm,1993,lmc
@@ -7028,6 +7427,8 @@ tkm,2020,umc
 tkm,2021,umc
 tkm,2022,umc
 tkm,2023,umc
+tkm,2024,umc
+tkm,2025,umc
 tca,2009,hic
 tca,2010,hic
 tca,2011,hic
@@ -7043,6 +7444,8 @@ tca,2020,hic
 tca,2021,hic
 tca,2022,hic
 tca,2023,hic
+tca,2024,hic
+tca,2025,hic
 tuv,2009,lmc
 tuv,2010,lmc
 tuv,2011,umc
@@ -7058,6 +7461,8 @@ tuv,2020,umc
 tuv,2021,umc
 tuv,2022,umc
 tuv,2023,umc
+tuv,2024,umc
+tuv,2025,umc
 uga,1987,lic
 uga,1988,lic
 uga,1989,lic
@@ -7095,6 +7500,8 @@ uga,2020,lic
 uga,2021,lic
 uga,2022,lic
 uga,2023,lic
+uga,2024,lic
+uga,2025,lic
 ukr,1991,lmc
 ukr,1992,lmc
 ukr,1993,lmc
@@ -7128,6 +7535,8 @@ ukr,2020,lmc
 ukr,2021,lmc
 ukr,2022,lmc
 ukr,2023,umc
+ukr,2024,umc
+ukr,2025,umc
 are,1987,hic
 are,1988,hic
 are,1989,hic
@@ -7165,6 +7574,8 @@ are,2020,hic
 are,2021,hic
 are,2022,hic
 are,2023,hic
+are,2024,hic
+are,2025,hic
 gbr,1987,hic
 gbr,1988,hic
 gbr,1989,hic
@@ -7202,6 +7613,8 @@ gbr,2020,hic
 gbr,2021,hic
 gbr,2022,hic
 gbr,2023,hic
+gbr,2024,hic
+gbr,2025,hic
 usa,1987,hic
 usa,1988,hic
 usa,1989,hic
@@ -7239,6 +7652,8 @@ usa,2020,hic
 usa,2021,hic
 usa,2022,hic
 usa,2023,hic
+usa,2024,hic
+usa,2025,hic
 ury,1987,umc
 ury,1988,umc
 ury,1989,umc
@@ -7276,6 +7691,8 @@ ury,2020,hic
 ury,2021,hic
 ury,2022,hic
 ury,2023,hic
+ury,2024,hic
+ury,2025,hic
 uzb,1991,lmc
 uzb,1992,lmc
 uzb,1993,lmc
@@ -7309,6 +7726,8 @@ uzb,2020,lmc
 uzb,2021,lmc
 uzb,2022,lmc
 uzb,2023,lmc
+uzb,2024,lmc
+uzb,2025,lmc
 vut,1987,lmc
 vut,1988,lmc
 vut,1989,lmc
@@ -7346,6 +7765,8 @@ vut,2020,lmc
 vut,2021,lmc
 vut,2022,lmc
 vut,2023,lmc
+vut,2024,lmc
+vut,2025,lmc
 ven,1987,umc
 ven,1988,umc
 ven,1989,umc
@@ -7379,6 +7800,7 @@ ven,2016,umc
 ven,2017,umc
 ven,2018,umc
 ven,2019,umc
+ven,2025,lmc
 vnm,1987,lic
 vnm,1988,lic
 vnm,1989,lic
@@ -7416,6 +7838,8 @@ vnm,2020,lmc
 vnm,2021,lmc
 vnm,2022,lmc
 vnm,2023,lmc
+vnm,2024,lmc
+vnm,2025,umc
 vir,1987,hic
 vir,1988,hic
 vir,1989,hic
@@ -7453,6 +7877,8 @@ vir,2020,hic
 vir,2021,hic
 vir,2022,hic
 vir,2023,hic
+vir,2024,hic
+vir,2025,hic
 pse,1994,lmc
 pse,1995,lmc
 pse,1996,lmc
@@ -7483,6 +7909,8 @@ pse,2020,lmc
 pse,2021,lmc
 pse,2022,umc
 pse,2023,lmc
+pse,2024,lmc
+pse,2025,lmc
 yem,1987,lmc
 yem,1988,lmc
 yem,1989,lmc
@@ -7520,6 +7948,8 @@ yem,2020,lic
 yem,2021,lic
 yem,2022,lic
 yem,2023,lic
+yem,2024,lic
+yem,2025,lic
 zmb,1987,lic
 zmb,1988,lic
 zmb,1989,lic
@@ -7557,6 +7987,8 @@ zmb,2020,lmc
 zmb,2021,lic
 zmb,2022,lmc
 zmb,2023,lmc
+zmb,2024,lmc
+zmb,2025,lmc
 zwe,1987,lmc
 zwe,1988,lmc
 zwe,1989,lmc
@@ -7594,6 +8026,8 @@ zwe,2020,lmc
 zwe,2021,lmc
 zwe,2022,lmc
 zwe,2023,lmc
+zwe,2024,lmc
+zwe,2025,lmc
 csk,1990,umc
 csk,1991,umc
 myt,1990,hic
